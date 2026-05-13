@@ -6,9 +6,9 @@
     "build_notes": "Base + mechanics + coaching merged locally and saved under the ready-to-publish path.",
     "recommended_path": "scripts/gkd/ready-to-publish/gkd-card-definitions.json"
   },
-  "gkd_version": "2026-05-09",
-  "generated_at": "2026-05-09T20:21:17.794Z",
-  "patch_label": "2026-05-09",
+  "gkd_version": "2026-05-13",
+  "generated_at": "2026-05-13T20:16:30.152Z",
+  "patch_label": "2026-05-13",
   "game_constants": {
     "damage_scale_per_level": 10,
     "hp_scale_per_level": 10,
@@ -37,11 +37,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_cooldown_sec": 17,
+        "ability_duration_sec": 3.5,
+        "cast_delay_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -80,19 +80,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 2,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 2,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -136,10 +130,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "area_radius": 3.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 3.5
       },
       "coaching": {
         "source": "ollama",
@@ -180,19 +172,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.3,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "area_radius": 1.5,
+          "first_hit_sec": 0.3
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.5,
+        "first_hit_sec": 0.3
       },
       "coaching": {
         "source": "ollama",
@@ -242,13 +230,16 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "area_radius": 3,
+          "first_hit_sec": 0.2,
+          "ability_cooldown_sec": 12,
+          "cast_delay_sec": 1
+        }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.2,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 3,
+        "first_hit_sec": 0.2
       },
       "coaching": {
         "source": "ollama",
@@ -298,11 +289,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "dash_distance": 3.5
       },
       "coaching": {
         "source": "ollama",
@@ -338,9 +327,15 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "width": 2.6,
+          "first_hit_sec": 0.4
+        }
       },
-      "fandom_stats": null,
+      "mechanics": {
+        "width": 2.6,
+        "first_hit_sec": 0.4
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -387,11 +382,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "lifetime_sec": 30,
+      "mechanics": {
+        "spawn_count": 3,
         "spawn_speed_sec": 15,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "lifetime_sec": 30,
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -434,19 +429,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 5,
-          "first_hit_sec": 0.4,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.4
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 5,
-        "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -495,19 +484,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 5,
-          "first_hit_sec": 0.6,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.6
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 5,
-        "first_hit_sec": 0.6,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.6
       },
       "coaching": {
         "source": "ollama",
@@ -559,11 +542,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 4,
+        "first_hit_sec": 0.3
       },
       "coaching": {
         "source": "ollama",
@@ -606,17 +587,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "charge_distance": 3.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "charge_distance": 3.5
       },
       "coaching": {
         "source": "ollama",
@@ -660,11 +637,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.2,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.2
       },
       "coaching": {
         "source": "ollama",
@@ -700,11 +674,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
+        "area_radius": 1.5,
         "lifetime_sec": 30,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -745,19 +718,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.2,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "area_radius": 1.5,
+          "first_hit_sec": 0.2
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.2,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.5,
+        "first_hit_sec": 0.2
       },
       "coaching": {
         "source": "ollama",
@@ -805,11 +774,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "dash_distance": 3.5,
+        "ability_cooldown_sec": 3,
+        "cast_delay_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -849,13 +818,18 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "projectile_width": 3.6,
+          "area_radius": 2,
+          "first_hit_sec": 0.5,
+          "ability_cooldown_sec": 22,
+          "ability_duration_sec": 9,
+          "cast_delay_sec": 2.5
+        }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "projectile_width": 3.6,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -908,19 +882,16 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
+        "mechanics": {
+          "spawn_count": 9,
           "lifetime_sec": 30,
-          "first_hit_sec": 1,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "first_hit_sec": 1
         }
       },
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "lifetime_sec": 30,
-        "first_hit_sec": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -964,11 +935,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "lifetime_sec": 30,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1002,10 +971,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "area_radius": 3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 3
       },
       "coaching": {
         "source": "ollama",
@@ -1049,13 +1016,17 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "area_radius": 1.1,
+          "first_hit_sec": 0.4,
+          "charge_distance": 3,
+          "cast_delay_sec": 1
+        }
       },
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
+        "area_radius": 1.1,
         "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "charge_distance": 3
       },
       "coaching": {
         "source": "ollama",
@@ -1108,19 +1079,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.35,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.35
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.35,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.35
       },
       "coaching": {
         "source": "ollama",
@@ -1168,10 +1133,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 3.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 3
       },
       "coaching": {
         "source": "ollama",
@@ -1208,19 +1172,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
+        "mechanics": {
           "first_hit_sec": 0.7,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "stun_duration_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.7,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "stun_duration_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1272,11 +1232,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 1.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 3,
+        "first_hit_sec": 1,
+        "stun_duration_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1312,10 +1271,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "stun_duration_sec": 0.5,
+        "max_chain_targets": 9
       },
       "coaching": {
         "source": "ollama",
@@ -1351,10 +1309,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
+        "area_radius": 3,
         "first_hit_sec": 0.6,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "stun_duration_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1396,11 +1354,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 2,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1440,10 +1395,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "lifetime_sec": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "lifetime_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -1485,11 +1438,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.8,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.8
       },
       "coaching": {
         "source": "ollama",
@@ -1530,19 +1480,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "projectile_width": 2,
+          "first_hit_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "projectile_width": 2,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1592,10 +1538,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2.3
       },
       "coaching": {
         "source": "ollama",
@@ -1629,10 +1573,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "area_radius": 2.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2.5
       },
       "coaching": {
         "source": "ollama",
@@ -1669,19 +1611,16 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.65,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "projectile_width": 0.8,
+          "spawn_count": 5,
+          "first_hit_sec": 0.65
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.65,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "projectile_width": 0.8,
+        "first_hit_sec": 0.65
       },
       "coaching": {
         "source": "ollama",
@@ -1733,11 +1672,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.1
       },
       "coaching": {
         "source": "ollama",
@@ -1777,11 +1713,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1819,10 +1752,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "area_radius": 3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 3
       },
       "coaching": {
         "source": "ollama",
@@ -1859,19 +1790,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "spawn_speed_sec": 7,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "spawn_speed_sec": 7
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "spawn_speed_sec": 7,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "spawn_speed_sec": 7
       },
       "coaching": {
         "source": "ollama",
@@ -1921,18 +1846,14 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": {
-          "count": 1,
+        "mechanics": {
           "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "ability_cooldown_sec": 14,
+          "cast_delay_sec": 1
         }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -1982,11 +1903,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 3,
+        "first_hit_sec": 0.3
       },
       "coaching": {
         "source": "ollama",
@@ -2025,17 +1944,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "area_radius": 2.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "area_radius": 2.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "area_radius": 2.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2.5
       },
       "coaching": {
         "source": "ollama",
@@ -2084,17 +1999,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
+        "mechanics": {
           "area_radius": 1.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "first_hit_sec": 0.4
         }
       },
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 1.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -2141,17 +2054,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
+        "mechanics": {
           "lifetime_sec": 20,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "first_hit_sec": 0.2
         }
       },
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "lifetime_sec": 20,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.2
       },
       "coaching": {
         "source": "ollama",
@@ -2197,10 +2108,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.4,
+        "ability_duration_sec": 6
       },
       "coaching": {
         "source": "ollama",
@@ -2234,11 +2145,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
+        "area_radius": 2.5,
+        "lifetime_sec": 10,
         "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 10
       },
       "coaching": {
         "source": "ollama",
@@ -2279,19 +2190,19 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "lifetime_sec": 10,
+        "mechanics": {
+          "spawn_count": 2,
           "spawn_speed_sec": 3,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "lifetime_sec": 10,
+          "first_hit_sec": 0.4
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "lifetime_sec": 10,
+      "mechanics": {
+        "spawn_count": 2,
         "spawn_speed_sec": 3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "lifetime_sec": 10,
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -2343,7 +2254,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "first_hit_sec": 0.6
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -2385,19 +2298,14 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.8,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "spawn_speed_sec": 2.2,
+          "first_hit_sec": 0.8
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.8,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.8
       },
       "coaching": {
         "source": "ollama",
@@ -2447,13 +2355,12 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "lifetime_sec": 30,
+      "mechanics": {
+        "spawn_count": 1,
         "spawn_speed_sec": 2.2,
         "spawn_delay_sec": 0.5,
-        "spawn_range": 6,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "lifetime_sec": 30,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -2487,11 +2394,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.5,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -2535,13 +2440,13 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "spawn_count": 3,
+          "first_hit_sec": 0.6
+        }
       },
-      "fandom_stats": {
-        "count": 4,
-        "first_hit_sec": 0.6,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.6
       },
       "coaching": {
         "source": "ollama",
@@ -2587,7 +2492,14 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "area_radius": 2,
+        "first_hit_sec": 0.5,
+        "stun_duration_sec": 0.5,
+        "ability_cooldown_sec": 17,
+        "ability_duration_sec": 4,
+        "cast_delay_sec": 1
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -2626,11 +2538,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.2,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_cooldown_sec": 12,
+        "cast_delay_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -2670,11 +2581,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2,
+        "first_hit_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -2708,11 +2617,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 4,
         "spawn_speed_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.5,
+        "ability_duration_sec": 9
       },
       "coaching": {
         "source": "ollama",
@@ -2754,11 +2663,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -2798,7 +2704,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "area_radius": 1.5
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -2839,11 +2747,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.6,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.6
       },
       "coaching": {
         "source": "ollama",
@@ -2884,19 +2789,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.7,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.8
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.7,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.8
       },
       "coaching": {
         "source": "ollama",
@@ -2950,18 +2849,16 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": {
-          "count": 1,
+        "mechanics": {
+          "area_radius": 2,
           "first_hit_sec": 1.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "ability_cooldown_sec": 17,
+          "cast_delay_sec": 1
         }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2,
+        "first_hit_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -3014,10 +2911,14 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": null
+        "mechanics": {
+          "area_radius": 2
+        }
       },
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "area_radius": 1.5
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -3060,11 +2961,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.5,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -3103,17 +3002,23 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "damage_stage_1_level_11": 35,
+          "damage_stage_2_level_11": 120,
+          "damage_stage_3_level_11": 422,
+          "dps_stage_1_level_11": 87,
+          "dps_stage_2_level_11": 300,
+          "dps_stage_3_level_11": 1055
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "damage_stage_1_level_11": 35,
+        "damage_stage_2_level_11": 120,
+        "damage_stage_3_level_11": 422,
+        "dps_stage_1_level_11": 87,
+        "dps_stage_2_level_11": 300,
+        "dps_stage_3_level_11": 1055
       },
       "coaching": {
         "source": "ollama",
@@ -3161,10 +3066,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "lifetime_sec": 30,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "lifetime_sec": 30
       },
       "coaching": {
         "source": "ollama",
@@ -3207,28 +3110,22 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 3,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.5
         }
       },
       "hero": {
         "source": "official_api",
         "max_evolution_level": 3,
-        "fandom_stats": {
-          "count": 1,
+        "mechanics": {
           "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "ability_cooldown_sec": 25,
+          "ability_duration_sec": 5,
+          "cast_delay_sec": 1
         }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -3286,11 +3183,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -3328,11 +3222,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
+      "mechanics": {
         "area_radius": 3.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "stun_duration_sec": 0.5,
+        "ability_duration_sec": 1.5
       },
       "coaching": {
         "source": "ollama",
@@ -3372,11 +3265,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "dash_distance": 4,
+        "ability_cooldown_sec": 30,
+        "cast_delay_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -3417,17 +3310,17 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
+        "mechanics": {
+          "area_radius": 3,
           "first_hit_sec": 0.4,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "ability_duration_sec": 4.5
         }
       },
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
+        "area_radius": 3,
         "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 4.5
       },
       "coaching": {
         "source": "ollama",
@@ -3475,13 +3368,16 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "projectile_width": 0.5,
+          "first_hit_sec": 0.7,
+          "ability_cooldown_sec": 25,
+          "cast_delay_sec": 1
+        }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.7,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "projectile_width": 0.5,
+        "first_hit_sec": 0.7
       },
       "coaching": {
         "source": "ollama",
@@ -3532,19 +3428,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "area_radius": 1.3,
+          "first_hit_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.3,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -3596,13 +3488,13 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "first_hit_sec": 0.4,
+          "cast_delay_sec": 1
+        }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -3656,10 +3548,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "ability_cooldown_sec": 13,
+        "cast_delay_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -3703,11 +3594,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -3747,9 +3635,13 @@
       "hero": {
         "source": "official_api",
         "max_evolution_level": 2,
-        "fandom_stats": null
+        "mechanics": {
+          "first_hit_sec": 0.5
+        }
       },
-      "fandom_stats": null,
+      "mechanics": {
+        "first_hit_sec": 0.5
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -3797,14 +3689,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": null
+        "mechanics": {
+          "first_hit_sec": 0.5
+        }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 6,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -3850,11 +3741,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -3888,7 +3776,7 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": null,
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -3929,11 +3817,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.2,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_cooldown_sec": 17,
+        "cast_delay_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -3972,19 +3859,17 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
+        "mechanics": {
+          "area_radius": 2,
           "lifetime_sec": 30,
-          "first_hit_sec": 1,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "first_hit_sec": 1
         }
       },
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
+        "area_radius": 2,
         "lifetime_sec": 30,
-        "first_hit_sec": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -4034,11 +3919,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.3
       },
       "coaching": {
         "source": "ollama",
@@ -4075,28 +3957,21 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 3,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.7,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.7
         }
       },
       "hero": {
         "source": "official_api",
         "max_evolution_level": 3,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.7,
+          "ability_cooldown_sec": 22,
+          "cast_delay_sec": 1
         }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.7,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.7
       },
       "coaching": {
         "source": "ollama",
@@ -4156,12 +4031,10 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
+        "spawn_count": 2,
         "spawn_speed_sec": 5,
-        "first_hit_sec": 0.75,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.75
       },
       "coaching": {
         "source": "ollama",
@@ -4204,10 +4077,14 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": null
+        "mechanics": {
+          "first_hit_sec": 0.5
+        }
       },
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "first_hit_sec": 0.5
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -4254,12 +4131,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
+        "area_radius": 1.5,
         "spawn_speed_sec": 4.3,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "lifetime_sec": 3.8,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -4297,10 +4173,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 3.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 8
       },
       "coaching": {
         "source": "ollama",
@@ -4338,11 +4213,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "charge_distance": 2.5
       },
       "coaching": {
         "source": "ollama",
@@ -4378,11 +4251,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2,
+        "first_hit_sec": 0.3
       },
       "coaching": {
         "source": "ollama",
@@ -4420,10 +4291,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 4.5
       },
       "coaching": {
         "source": "ollama",
@@ -4461,11 +4331,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
         "first_hit_sec": 0.6,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "charge_distance": 2.5
       },
       "coaching": {
         "source": "ollama",
@@ -4507,7 +4375,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "first_hit_sec": 0.4
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -4540,10 +4410,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "area_radius": 2,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2
       },
       "coaching": {
         "source": "ollama",
@@ -4577,10 +4445,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -4623,19 +4490,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.6,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.6
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.6,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.6
       },
       "coaching": {
         "source": "ollama",
@@ -4682,19 +4543,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.9,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.9
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.9,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.9
       },
       "coaching": {
         "source": "ollama",
@@ -4743,19 +4598,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 4,
-          "first_hit_sec": 0.4,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.4
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 4,
-        "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -4808,19 +4657,14 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 6,
+        "mechanics": {
           "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "charge_distance": 2.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 6,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -4864,11 +4708,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -4907,19 +4748,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 15,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "first_hit_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 15,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -4970,14 +4805,16 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 2,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "area_radius": 2,
+          "first_hit_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "area_radius": 2,
+        "first_hit_sec": 0.5
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -5026,11 +4863,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 2,
-        "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.5,
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -5072,11 +4907,12 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
+        "area_radius": 1.3,
+        "spawn_count": 6,
         "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_cooldown_sec": 20,
+        "cast_delay_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -5117,19 +4953,14 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 3,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "spawn_count": 8,
+          "first_hit_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -5175,11 +5006,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.8,
+        "first_hit_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -5219,11 +5048,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -5261,10 +5087,19 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "air_form_elixir": 6,
+        "ground_form_elixir": 3,
+        "air_form_hit_speed_sec": 1.4,
+        "ground_form_hit_speed_sec": 1.2,
+        "air_form_range": 5,
+        "ground_form_range": 1.2,
+        "air_form_hitpoints_level_11": 1121,
+        "ground_form_hitpoints_level_11": 1121,
+        "air_form_damage_level_11": 307,
+        "ground_form_damage_level_11": 307,
+        "air_form_dps_level_11": 219,
+        "ground_form_dps_level_11": 279
       },
       "coaching": {
         "source": "ollama",
@@ -5302,10 +5137,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "spawn_count": 2
       },
       "coaching": {
         "source": "ollama",
@@ -5344,19 +5177,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
+        "mechanics": {
           "lifetime_sec": 30,
-          "first_hit_sec": 0.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "first_hit_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "lifetime_sec": 30,
-        "first_hit_sec": 0.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -5400,7 +5229,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": null,
+      "mechanics": {
+        "width": 3.9
+      },
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
@@ -5437,11 +5268,8 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
-        "first_hit_sec": 0.7,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "first_hit_sec": 0.7
       },
       "coaching": {
         "source": "ollama",
@@ -5477,11 +5305,11 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "lifetime_sec": 30,
+      "mechanics": {
+        "spawn_count": 2,
         "spawn_speed_sec": 4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "lifetime_sec": 30,
+        "first_hit_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -5519,10 +5347,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 5.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 1.05
       },
       "coaching": {
         "source": "ollama",
@@ -5565,19 +5392,16 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
+        "mechanics": {
+          "area_radius": 2,
           "first_hit_sec": 0.1,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "ability_duration_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.1,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 2,
+        "first_hit_sec": 0.1
       },
       "coaching": {
         "source": "ollama",
@@ -5625,11 +5449,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
+      "mechanics": {
         "area_radius": 2.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 2
       },
       "coaching": {
         "source": "ollama",
@@ -5663,10 +5485,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 2.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "ability_duration_sec": 4
       },
       "coaching": {
         "source": "ollama",
@@ -5707,17 +5528,13 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 2,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "area_radius": 1.5
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 2,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.5
       },
       "coaching": {
         "source": "ollama",
@@ -5768,21 +5585,17 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
-          "count": 1,
+        "mechanics": {
+          "area_radius": 1.5,
           "spawn_speed_sec": 7,
-          "first_hit_sec": 0.7,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "first_hit_sec": 0.7
         }
       },
       "hero": null,
-      "fandom_stats": {
-        "count": 1,
+      "mechanics": {
+        "area_radius": 1.5,
         "spawn_speed_sec": 7,
-        "first_hit_sec": 0.7,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.7
       },
       "coaching": {
         "source": "ollama",
@@ -5833,28 +5646,24 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 3,
-        "fandom_stats": {
-          "count": 1,
-          "first_hit_sec": 0.4,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+        "mechanics": {
+          "area_radius": 1.5,
+          "first_hit_sec": 0.4
         }
       },
       "hero": {
         "source": "official_api",
         "max_evolution_level": 3,
-        "fandom_stats": {
-          "count": 1,
+        "mechanics": {
+          "area_radius": 1.5,
           "first_hit_sec": 0.4,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "ability_cooldown_sec": 20,
+          "cast_delay_sec": 1
         }
       },
-      "fandom_stats": {
-        "count": 1,
-        "first_hit_sec": 0.4,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+      "mechanics": {
+        "area_radius": 1.5,
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -5912,11 +5721,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "lifetime_sec": 30,
-        "first_hit_sec": 0.3,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "first_hit_sec": 0.3
       },
       "coaching": {
         "source": "ollama",
@@ -5955,17 +5762,15 @@
       "evolution": {
         "source": "official_api",
         "max_evolution_level": 1,
-        "fandom_stats": {
+        "mechanics": {
           "area_radius": 2.5,
-          "scraped_at": "2026-05-09",
-          "source": "fandom_wiki"
+          "stun_duration_sec": 0.5
         }
       },
       "hero": null,
-      "fandom_stats": {
+      "mechanics": {
         "area_radius": 2.5,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "stun_duration_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -6017,11 +5822,9 @@
       },
       "evolution": null,
       "hero": null,
-      "fandom_stats": {
-        "count": 3,
+      "mechanics": {
         "first_hit_sec": 0.8,
-        "scraped_at": "2026-05-09",
-        "source": "fandom_wiki"
+        "stun_duration_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
