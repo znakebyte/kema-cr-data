@@ -1,0 +1,27 @@
+# AI and development reference documents — not part of the data deliverable,
+# including the repo instruction file under .github/.
+*-instructions.md
+.github/copilot-instructions.md
+references/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+*.code-workspace
+.idea/
+
+# Python (if any helper scripts ever land here)
+.venv/
+__pycache__/
+*.pyc
+
+# Node (if any helper scripts ever land here)
+node_modules/
+
+# Local dated backup snapshots kept beside the published data files
+cards_*.json
+meta-snapshot_*.json

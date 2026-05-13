@@ -1,0 +1,14 @@
+{
+  "file_info": {
+    "role": "thresholds",
+    "generated_by": "internal",
+    "build_notes": "non-official"
+  },
+  "thresholds": [
+    { "trophy_floor": 0, "min_level": 8, "label": "Low ladder (0–4999)" },
+    { "trophy_floor": 5000, "min_level": 9, "label": "Mid ladder (5000–7999)" },
+    { "trophy_floor": 8000, "min_level": 10, "label": "High-mid ladder (8000–9999)" },
+    { "trophy_floor": 10000, "min_level": 11, "label": "High ladder (10000–11999)" },
+    { "trophy_floor": 12000, "min_level": 12, "label": "Top ladder (12000+)" }
+  ]
+}
