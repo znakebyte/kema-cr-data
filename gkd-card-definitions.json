@@ -7,7 +7,7 @@
   "generated_at": "2026-05-14T07:30:06.875Z",
   "patch_label": "2026-05-14-scalar-audit",
   "card_count": 121,
-  "sha256": "89c1cf6361f869789dadce5a1242ec9a3e8471b78a6b050c88d3e0ded0960744",
+  "sha256": "3a209bdf29b52cf325747723411a6b16e7ebe9819b127dcb43bab10108fa4ded",
   "cards": [
     {
       "id": 26000072,
@@ -2029,7 +2029,7 @@
       "type": "troop",
       "elixir": 4,
       "hit_speed": 1800,
-      "range": 3000,
+      "range": 5000,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "both",
@@ -4669,7 +4669,7 @@
       "type": "troop",
       "elixir": 3,
       "hit_speed": 1700,
-      "range": 3000,
+      "range": 5500,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "both",
