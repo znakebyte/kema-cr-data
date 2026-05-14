@@ -1,20 +1,13 @@
 {
   "file_info": {
     "role": "cards",
-    "generated_by": "internal",
-    "description": "Merged card definitions file ready to publish.",
-    "build_notes": "Base + mechanics + coaching merged locally and saved under the ready-to-publish path.",
-    "recommended_path": "scripts/gkd/ready-to-publish/gkd-card-definitions.json"
+    "generated_by": "internal"
   },
-  "gkd_version": "2026-05-13",
-  "generated_at": "2026-05-13T20:16:30.152Z",
-  "patch_label": "2026-05-13",
-  "game_constants": {
-    "damage_scale_per_level": 10,
-    "hp_scale_per_level": 10,
-    "tournament_level": 11
-  },
+  "gkd_version": "2026-05-14-target-audit-v2",
+  "generated_at": "2026-05-14T07:13:41.544Z",
+  "patch_label": "2026-05-14-target-audit-v2",
   "card_count": 121,
+  "sha256": "6592c03fd079e91eb3ca11b5c830c8056294112943c61e9301b52d5827af0633",
   "cards": [
     {
       "id": 26000072,
@@ -56,7 +49,43 @@
           "combos": "Combining her with mini-tanks (like Knight or Valkyrie) allows the tank to draw fire while the Queen is invisible, making her exceptionally hard to kill. Pairing her with utility spells like Zap or Giant Snowball can knock her down briefly, setting up a strong follow-up assault.",
           "tips": "Do not activate her ability against the Dagger Duchess, as it could allow her to charge her daggers again. Always consider the immediate elixir trade; even if an opponent spell (like Lightning) is reliable, waiting for a follow-up unit can neutralize the negative elixir exchange for a safer play."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Knight",
+        "Valkyrie",
+        "Golden Knight",
+        "Prince",
+        "Skeleton Army",
+        "Giant",
+        "Lumberjack",
+        "P.E.K.K.A",
+        "Poison",
+        "The Log",
+        "Barbarian Barrel",
+        "Mini P.E.K.K.A",
+        "Sparky",
+        "Elite Barbarians",
+        "Guards",
+        "Goblin Gang",
+        "Electro Wizard",
+        "Zappies",
+        "Monk",
+        "Dark Prince",
+        "Furnace",
+        "Mighty Miner",
+        "Wizard",
+        "Witch",
+        "Cannon Cart",
+        "Bowler",
+        "Executioner"
+      ],
+      "synergies": [
+        "Arrows",
+        "Royal Delivery",
+        "Barbarian Barrel"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000001,
@@ -109,7 +138,79 @@
             "Placing them far from X-Bow or Mortar can allow them to assist in taking out large tanks, which the X-Bow struggles with, greatly aiding overall siege pressure."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Goblins",
+        "Spear Goblins",
+        "The Log",
+        "Skeletons",
+        "Wall Breakers",
+        "Royal Recruits",
+        "Elite Barbarians",
+        "Knight",
+        "Valkyrie",
+        "Golden Knight",
+        "Skeleton King",
+        "Balloon",
+        "Musketeer",
+        "Minions",
+        "Guards",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Graveyard",
+        "Arrows",
+        "Fireball",
+        "Poison",
+        "Barbarian Barrel",
+        "Royal Delivery",
+        "Prince",
+        "Spirit Empress",
+        "X-Bow",
+        "Ram Rider",
+        "Goblin Giant",
+        "Inferno Tower",
+        "Lava Hound",
+        "Tesla",
+        "Flying Machine",
+        "Skeleton Barrel",
+        "Furnace",
+        "Archer Queen",
+        "Little Prince"
+      ],
+      "synergies": [
+        "The Log",
+        "Wall Breakers",
+        "Fire Spirit",
+        "Ice Spirit",
+        "Royal Recruits",
+        "Royal Hogs",
+        "Elite Barbarians",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Graveyard",
+        "Berserker",
+        "Bomber",
+        "Wizard",
+        "Dark Prince",
+        "Mega Knight",
+        "Princess",
+        "Sparky",
+        "Firecracker",
+        "Ice Wizard",
+        "Royal Ghost",
+        "Goblin Demolisher",
+        "Bowler",
+        "Magic Archer",
+        "Executioner",
+        "Giant",
+        "Ice Golem",
+        "Miner",
+        "Lava Hound",
+        "Flying Machine",
+        "Rascals"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000001,
@@ -121,7 +222,7 @@
       "range": 3500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -148,7 +249,48 @@
             "Do not waste Arrows on minor buildings unless another vulnerable unit is available in the area; otherwise, save it for true swarm elimination or defensive clears."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Bats",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Minion Horde",
+        "Guards",
+        "Knight",
+        "Inferno Dragon",
+        "Bandit",
+        "Lumberjack",
+        "Goblin Machine",
+        "Golden Knight",
+        "Monk",
+        "Graveyard",
+        "Goblin Barrel",
+        "Princess",
+        "Fireball",
+        "Wizard",
+        "Witch",
+        "Poison",
+        "Ice Wizard",
+        "Executioner",
+        "Bomber",
+        "Dart Goblin",
+        "Wall Breakers",
+        "Clone",
+        "Battle Ram",
+        "Ram Rider",
+        "Sparky",
+        "Giant Snowball",
+        "Vines",
+        "Freeze",
+        "The Log",
+        "Royal Delivery"
+      ],
+      "synergies": [
+        "Golden Knight",
+        "Little Prince"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000015,
@@ -203,7 +345,37 @@
             "Due to the slow effect, use it preemptively on key lanes to delay enemy push formations such as Wall Breakers or Skeleton Barrel."
           ]
         }
-      }
+      },
+      "role": "tank for more fragile units like Skeletons spawned from a Graveyard",
+      "targets": "Air & Ground",
+      "counters": [
+        "Giant",
+        "Lava Hound",
+        "Golem",
+        "P.E.K.K.A",
+        "Mighty Miner",
+        "Royal Giant",
+        "Boss Bandit",
+        "Elixir Golem",
+        "Monk",
+        "Giant Skeleton",
+        "Hunter",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Tesla",
+        "Tombstone",
+        "Skeleton Army",
+        "Minion Horde",
+        "Electro Wizard",
+        "Three Musketeers",
+        "Rocket",
+        "Balloon",
+        "Bats"
+      ],
+      "synergies": [
+        "Graveyard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000006,
@@ -264,7 +436,9 @@
             "Save the ability until the enemy has committed their main defenses, ensuring the damage hits a valuable, engaged unit."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "knowledge_status": "partial"
     },
     {
       "id": 26000046,
@@ -304,7 +478,25 @@
           "combos": "Pairing the Bandit with the Dark Prince maintains sustained pressure and range, while the Dark Prince's splash damage handles swarms, allowing the Bandit to focus on high-value targets. For a more robust combo, combining her with the Lumberjack uses the mini-tank to weaken swarms for the Bandit to finish, and the resulting death makes the Bandit dash faster.",
           "tips": "Use the Bandit's dash to strategically cross the river to eliminate ranged troops that are placed on the opposite side. To maximize defensive value, position her far from the enemy line to ensure she executes her powerful dash attack. When considering her threat level, remember she lacks significant damage without her dash, making cheap swarm units excellent temporary bodyguards."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Dark Prince",
+        "Goblin Gang",
+        "Skeleton Army",
+        "Minion Horde",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Ice Spirit",
+        "Hog Rider",
+        "Prince"
+      ],
+      "synergies": [
+        "Skeletons",
+        "Goblins",
+        "Lumberjack"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000015,
@@ -316,7 +508,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "ground",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -359,7 +551,47 @@
             "Because the page is currently under construction, no advanced tips can be provided for the Hero version."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Goblin Barrel",
+        "Battle Ram",
+        "Wizard",
+        "Witch",
+        "Ice Wizard",
+        "Bandit",
+        "Electro Wizard",
+        "Night Witch",
+        "Berserker",
+        "Fisherman",
+        "Musketeer",
+        "Hunter",
+        "Goblin Drill",
+        "Goblin Gang",
+        "Guards",
+        "Skeleton Army",
+        "Royal Giant",
+        "Baby Dragon",
+        "Electro Dragon",
+        "Skeleton Dragons",
+        "Mega Minion",
+        "Flying Machine",
+        "Phoenix",
+        "Minions",
+        "Inferno Tower",
+        "Skeleton Barrel"
+      ],
+      "synergies": [
+        "Graveyard",
+        "Miner",
+        "Royal Giant",
+        "Arrows",
+        "Zap",
+        "Fireball",
+        "Giant Snowball",
+        "Poison"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000005,
@@ -403,7 +635,13 @@
             "Be mindful that while it offers continuous pressure, its spawn rate is predictable and can be easily nullified by specific splash damage or targeted counter-units."
           ]
         }
-      }
+      },
+      "counters": [
+        "Bowler",
+        "Mega Knight",
+        "Miner"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000008,
@@ -458,7 +696,40 @@
             "Because of its high DPS, using it near the tower and supporting it with a spell like Fireball may be beneficial, or using a spell like The Log on top of it to damage without activating its rage."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Prince",
+        "Mini P.E.K.K.A",
+        "Golden Knight",
+        "Mighty Miner",
+        "Lumberjack",
+        "Monk",
+        "Boss Bandit",
+        "Giant Skeleton",
+        "Skeleton Army",
+        "Electro Giant",
+        "Bomber",
+        "Bowler",
+        "Wizard",
+        "Witch",
+        "Goblin Demolisher",
+        "Executioner",
+        "Fireball",
+        "Zappies",
+        "Skeleton Dragons",
+        "Poison",
+        "Rage",
+        "Minions",
+        "Bats",
+        "Baby Dragon",
+        "Electro Dragon",
+        "Mega Minion",
+        "Phoenix",
+        "Goblin Barrel",
+        "Graveyard"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000049,
@@ -517,7 +788,45 @@
             "Using Evolved Bats against lone, non-air-targeting troops (like the Knight or Valkyrie) is ideal for maximizing their healing potential before counter-attacking."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Skeleton King",
+        "Barbarian Barrel",
+        "Knight",
+        "Valkyrie",
+        "Mini P.E.K.K.A",
+        "Bowler",
+        "Executioner",
+        "Musketeer",
+        "Electro Wizard",
+        "Hunter",
+        "Ice Golem",
+        "Graveyard",
+        "Freeze",
+        "Giant",
+        "Royal Giant",
+        "Golem",
+        "Lava Hound",
+        "Royal Hogs",
+        "Balloon",
+        "Spear Goblins",
+        "Ice Spirit",
+        "Fire Spirit",
+        "Miner",
+        "Sparky",
+        "Inferno Tower",
+        "Tesla",
+        "Mighty Miner",
+        "Inferno Dragon"
+      ],
+      "synergies": [
+        "Rage",
+        "Miner",
+        "Giant",
+        "Mega Knight"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000068,
@@ -561,7 +870,30 @@
             "The spawn healing effect is strong enough to negate damage from weak spells like Barbarian Barrel, acting as excellent spell bait for minor spell losses."
           ]
         }
-      }
+      },
+      "role": "direct response to spells to heal any troop damaged from them",
+      "targets": "Ground",
+      "counters": [
+        "Ice Golem",
+        "Minions",
+        "Bats",
+        "Zap",
+        "Arrows",
+        "Royal Hogs",
+        "P.E.K.K.A",
+        "Sparky",
+        "Three Musketeers",
+        "Freeze",
+        "Mega Knight"
+      ],
+      "synergies": [
+        "Graveyard",
+        "Giant",
+        "Hog Rider",
+        "Lava Hound",
+        "Golem"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000036,
@@ -616,7 +948,54 @@
             "Maximize synergy by pairing the Evolved Battle Ram with cards like Earthquake or P.E.K.K.A for increased defensive and offensive pressure."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Ice Golem",
+        "Skeletons",
+        "Bats",
+        "Valkyrie",
+        "Bowler",
+        "Electro Wizard",
+        "Zappies",
+        "Goblinstein",
+        "Electro Dragon",
+        "Barbarians",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Mini P.E.K.K.A",
+        "Prince",
+        "Lumberjack",
+        "Monk",
+        "Elite Barbarians",
+        "Elixir Collector",
+        "Tombstone",
+        "Sparky",
+        "Minion Horde",
+        "Arrows",
+        "Skeleton King",
+        "Giant Skeleton",
+        "Mega Minion",
+        "Mighty Miner"
+      ],
+      "synergies": [
+        "Ice Golem",
+        "Lightning",
+        "Musketeer",
+        "Fisherman",
+        "Electro Wizard",
+        "Wizard",
+        "Royal Hogs",
+        "Berserker",
+        "Ice Wizard",
+        "Hunter",
+        "Night Witch",
+        "Goblin Cage",
+        "Mega Minion",
+        "Bandit",
+        "Witch"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000102,
@@ -628,8 +1007,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "ground",
+      "movement_speed_tier": "fast",
       "stats": {
         "hp": null,
         "damage": null,
@@ -651,7 +1030,17 @@
           "combos": "Pairing the Berserker with a Rune Giant allows the Berserker's fast attacks to quickly clear the swarming units that usually surround the tank, maximizing the Giant's survivability. Defensively, combining her with Ice Spirit creates a powerful 3-Elixir combo: the Spirit stuns/freezes a target, allowing the Berserker to land multiple hits on the temporarily immobilized unit.",
           "tips": "Use the Berserker to draw fire from initial Goblin Drill spawns, saving her ability to manage the subsequent death spawns. Due to her high hit speed, she can quickly burn down single-target, low-HP units in a sequence of hits. Always consider her as a flexible, cheap answer for minor swarm problems across both offense and defense."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Rune Giant",
+        "Goblin Drill",
+        "Ice Spirit"
+      ],
+      "synergies": [
+        "Ice Spirit"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000004,
@@ -694,7 +1083,35 @@
             "For Unexpected Kills: In Sudden Death, the Bomb Tower’s large attack radius can be used to simultaneously attack troops and potentially damage the Crown Tower itself."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Bomber",
+        "Mighty Miner",
+        "Monk",
+        "Giant Skeleton",
+        "Goblin Giant",
+        "Royal Giant",
+        "Hog Rider",
+        "Earthquake",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Elixir Golem",
+        "Elite Barbarians",
+        "Skeletons",
+        "Goblins",
+        "Executioner",
+        "Miner",
+        "Royal Ghost",
+        "Dark Prince",
+        "Goblin Demolisher",
+        "Mega Knight",
+        "Ice Wizard"
+      ],
+      "synergies": [
+        "Royal Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000013,
@@ -753,7 +1170,44 @@
             "Be mindful of how its bouncing bomb interacts with defensive structures, as the bounce ability can hit the King Tower or Princess Towers if aligned correctly."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Barbarians",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Archers",
+        "Royal Recruits",
+        "Guards",
+        "Giant",
+        "Zap",
+        "Giant Snowball",
+        "Rage",
+        "The Log",
+        "Barbarian Barrel",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Fire Spirit",
+        "Wall Breakers",
+        "Miner",
+        "Prince",
+        "Princess",
+        "Royal Hogs",
+        "Electro Giant"
+      ],
+      "synergies": [
+        "Giant",
+        "Golem",
+        "Zap",
+        "Giant Snowball",
+        "Rage",
+        "The Log",
+        "Barbarian Barrel",
+        "Wizard",
+        "Sparky",
+        "Prince"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000103,
@@ -765,8 +1219,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "ground",
+      "movement_speed_tier": "fast",
       "stats": {
         "hp": null,
         "damage": null,
@@ -793,7 +1247,9 @@
           "combos": "Using supporting troops such as Skeleton Army or other swarms keeps her distracted, allowing her to tank damage while building up Elixir advantage. She also synergizes with Rage, which boosts her attack speed and reduces her dash time, enhancing her overall combat efficiency.",
           "tips": "Never use her ability unless you know it provides tactical value, as the 1 Elixir cost combined with the 6 Elixir base cost (a total of 7 Elixir) represents a significant overcommitment. Use the ability to ensure continuous momentum, not just to escape; for example, using it to reposition behind a defensive wall."
         }
-      }
+      },
+      "targets": "Ground",
+      "knowledge_status": "partial"
     },
     {
       "id": 26000034,
@@ -858,7 +1314,40 @@
             "If enemy units are clustered far from the tower, activating the ability guarantees that the resulting boulder clears the entire grouping before the unit can react."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Skeletons",
+        "Witch",
+        "Furnace",
+        "Fire Spirit",
+        "Skeleton Army",
+        "Royal Recruits",
+        "Hog Rider",
+        "Royal Hogs",
+        "Wall Breakers",
+        "Elite Barbarians",
+        "Royal Ghost",
+        "Lumberjack",
+        "Monk",
+        "Mini P.E.K.K.A",
+        "X-Bow",
+        "Mortar",
+        "Knight",
+        "Valkyrie",
+        "Battle Healer",
+        "Golden Knight",
+        "Little Prince",
+        "Goblinstein",
+        "Executioner"
+      ],
+      "synergies": [
+        "Ice Wizard",
+        "Electro Wizard",
+        "Goblins",
+        "Goblin Barrel"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000000,
@@ -914,7 +1403,17 @@
             "When a tower falls, placing it on the opponent's side will damage the other towers, a useful factor during Sudden Death."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "synergies": [
+        "Lumberjack",
+        "Mighty Miner",
+        "Monk",
+        "Night Witch",
+        "Hunter",
+        "Inferno Dragon"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000054,
@@ -926,8 +1425,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "ground",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -950,7 +1449,40 @@
           "combos": "Pairing the Cannon Cart with a tank like the Giant allows the tank to absorb damage while the Cart clears away attackers, protecting the push. Using the Cart with an area spell (like Fireball) to take out defensive swarms ensures the Cart's full offensive potential is realized. For maximum impact, deploying the Cart when the opponent has already destroyed one tower can lock down their remaining tower while protecting your own.",
           "tips": "Because the Cart is immune to knockback (except The Log), position it at the second tile from the river to safely target the opponent's tower while guaranteeing distance from your own King's Tower. If you anticipate opponent spell usage, deliberately forcing it into its building state early can waste spell elixir or force them to dedicate resources to its removal. When using it in a push, ensure the tank is placed to maximize the amount of damage the Cart can deal to the Crown Tower while also keeping it safe from immediate counter-spells."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Knight",
+        "Mega Knight",
+        "Giant Skeleton",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Skeletons",
+        "Goblins",
+        "Ice Golem",
+        "Skeleton Army",
+        "Barbarians",
+        "Royal Recruits",
+        "Guards",
+        "Graveyard",
+        "Goblin Barrel",
+        "Ram Rider"
+      ],
+      "synergies": [
+        "Giant",
+        "Electro Giant",
+        "Goblin Giant",
+        "Golem",
+        "Lightning",
+        "Rocket",
+        "The Log",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Skeletons",
+        "Goblins",
+        "Battle Healer"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000013,
@@ -962,7 +1494,7 @@
       "range": 3000,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "none",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -989,7 +1521,22 @@
             "Recognize that while clones maintain unique effects (e.g., death triggers), their fragility means they are ineffective against dedicated single-target damage unless they are a highly valuable distraction."
           ]
         }
-      }
+      },
+      "targets": "Friendly Troops",
+      "counters": [
+        "Skeletons",
+        "Bats",
+        "Zap",
+        "Arrows",
+        "Poison",
+        "Royal Delivery",
+        "Guards"
+      ],
+      "synergies": [
+        "Skeletons",
+        "Bats"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000027,
@@ -1055,7 +1602,62 @@
             "Timing the ability to activate as the opponent commits defensive resources to their towers ensures maximum damage efficiency."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Knight",
+        "Valkyrie",
+        "Lumberjack",
+        "Battle Healer",
+        "Cannon Cart",
+        "Golden Knight",
+        "Prince",
+        "Skeletons",
+        "Goblins",
+        "Barbarians",
+        "Rascals",
+        "Sparky",
+        "P.E.K.K.A",
+        "Electro Wizard",
+        "Elite Barbarians",
+        "Minion Horde",
+        "Mega Knight",
+        "Inferno Dragon",
+        "Arrows",
+        "Ice Golem",
+        "Goblin Barrel",
+        "Elixir Golem",
+        "Bandit",
+        "Royal Ghost",
+        "Goblin Gang",
+        "Skeleton Army",
+        "Executioner",
+        "Goblin Demolisher",
+        "Mini P.E.K.K.A"
+      ],
+      "synergies": [
+        "Musketeer",
+        "Wizard",
+        "Witch",
+        "Archer Queen",
+        "Ice Wizard",
+        "Electro Giant",
+        "Hog Rider",
+        "Minion Horde",
+        "Inferno Dragon",
+        "Ice Golem",
+        "Goblin Barrel",
+        "Bandit",
+        "Royal Ghost",
+        "Goblin Gang",
+        "Skeleton Army",
+        "Lumberjack",
+        "Executioner",
+        "Goblin Demolisher",
+        "Mini P.E.K.K.A",
+        "Golem"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000040,
@@ -1112,7 +1714,39 @@
             "Be mindful that the poison effect is weakest against Crown Towers and will not stack if multiple Evolved Dart Goblins target the same troop."
           ]
         }
-      }
+      },
+      "role": "distraction card, but at a high cost",
+      "targets": "Air & Ground",
+      "counters": [
+        "The Log",
+        "Barbarian Barrel",
+        "Arrows",
+        "Graveyard",
+        "Skeletons",
+        "Elite Barbarians",
+        "Mega Minion",
+        "Inferno Dragon",
+        "Prince",
+        "Guards",
+        "Boss Bandit",
+        "Giant Skeleton",
+        "Ice Spirit",
+        "Zap",
+        "Balloon",
+        "Furnace",
+        "Fire Spirit",
+        "Tesla",
+        "Royal Ghost"
+      ],
+      "synergies": [
+        "Knight",
+        "Valkyrie",
+        "Golden Knight",
+        "Guards",
+        "Boss Bandit",
+        "Giant Skeleton"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000014,
@@ -1124,7 +1758,7 @@
       "range": 3500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "ground",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -1148,7 +1782,26 @@
           "combos": "It synergizes well with fast-moving troops like Hog Rider and Royal Hogs, allowing them to quickly capitalize on weakened structures. Pairing it with the Miner creates an area denial effect that can clear swarms while dealing continuous tower damage. For large tanks like the Golem or Electro Giant, it assists by breaking through supporting buildings, allowing the main push to proceed.",
           "tips": "To counter Goblin Barrel, timing the spell when its shadow is 4 tiles from the river maximizes its neutral Elixir trade value. When targeting a building with a Miner, feign attacking the tower to make the opponent waste Elixir and allow Earthquake to damage their unit. When dealing with Graveyard, wait until the second wave of Skeletons has spawned to get the full benefit of its three ticks."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Tombstone",
+        "X-Bow",
+        "Mortar",
+        "Miner",
+        "Graveyard"
+      ],
+      "synergies": [
+        "Inferno Tower",
+        "Zap",
+        "Giant",
+        "Electro Giant",
+        "Goblin Giant",
+        "Elixir Golem",
+        "Golem",
+        "The Log"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000063,
@@ -1207,7 +1860,45 @@
             "The Dragon is a powerful counter to the Skeleton Barrel, as its attacks, assisted by the Crown Tower, can remove the Barrel and wipe out all spawned Skeletons."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Skeleton Army",
+        "Goblin Barrel",
+        "Prince",
+        "Battle Ram",
+        "Mighty Miner",
+        "Dark Prince",
+        "Ram Rider",
+        "Bandit",
+        "Sparky",
+        "Musketeer",
+        "Electro Wizard",
+        "Wizard",
+        "Mega Minion",
+        "Ice Golem",
+        "Zappies",
+        "Balloon",
+        "Golem",
+        "Miner",
+        "X-Bow",
+        "Mortar",
+        "Minions",
+        "Bats",
+        "Three Musketeers"
+      ],
+      "synergies": [
+        "Skeleton Army",
+        "Princess",
+        "Archers",
+        "Giant",
+        "Rascals",
+        "Ice Spirit",
+        "Electro Spirit",
+        "X-Bow",
+        "Mortar"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000085,
@@ -1248,7 +1939,26 @@
           "combos": "Pairing the Electro Giant with Tornado is highly effective, as the Tornado can pull ranged troops outside his zap radius into the damaging stun zone. The Fisherman synergizes by pulling ranged troops directly into the Electro Giant's immediate zap radius, maximizing the number of enemies afflicted by the stun.",
           "tips": "Since his damage and stun are dependent on the enemy's attack speed, consider opponents with slow, high-damage troops to maximize his disruptive potential. Always prepare for a counter-push in the opposite lane, as his 7 Elixir cost leaves you highly vulnerable if the opponent switches focus. Be wary of opponent's misplays, as the threat of an ignored Electro Giant can force them to over-commit their defenses."
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Freeze",
+        "Goblinstein",
+        "Hog Rider",
+        "Battle Ram",
+        "Inferno Dragon",
+        "Inferno Tower",
+        "Giant Snowball",
+        "Tornado",
+        "Fireball",
+        "Zap",
+        "Barbarian Hut",
+        "Barbarians",
+        "Skeleton Army",
+        "Minion Horde",
+        "Sparky"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000084,
@@ -1288,7 +1998,29 @@
             "Consider deploying it on the side of the bridge when the opponent is crossing to draw out and stun multiple units simultaneously. Use it to pull a swarm slightly off-center before activating a King's Tower, maximizing its stunning effect on valuable targets. Against Minion Hordes, predict where they will focus and deploy the Spirit slightly to the side to disrupt their marching order."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Electro Dragon",
+        "Spear Goblins",
+        "Giant Snowball",
+        "The Log",
+        "Barbarian Barrel",
+        "Princess",
+        "Minions",
+        "Archers",
+        "Bomber",
+        "Firecracker",
+        "Arrows",
+        "Guards",
+        "Royal Ghost"
+      ],
+      "synergies": [
+        "Giant Snowball",
+        "Skeleton Barrel",
+        "Balloon"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000042,
@@ -1300,8 +2032,8 @@
       "range": 3000,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "both",
+      "movement_speed_tier": "fast",
       "stats": {
         "hp": null,
         "damage": null,
@@ -1329,7 +2061,40 @@
             "If the opponent uses a Sparky and a Clone, wait until the Clone is activated on the Sparky before deploying the Electro Wizard to minimize risk."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Inferno Dragon",
+        "Mighty Miner",
+        "Inferno Tower",
+        "Prince",
+        "Dark Prince",
+        "Ram Rider",
+        "Battle Ram",
+        "Sparky",
+        "Bandit",
+        "Fisherman",
+        "Royal Hogs",
+        "Hog Rider",
+        "Balloon",
+        "Lumberjack",
+        "Tornado"
+      ],
+      "synergies": [
+        "Knight",
+        "Lumberjack",
+        "Valkyrie",
+        "Dark Prince",
+        "Ice Golem",
+        "Prince",
+        "Skeleton King",
+        "Golden Knight",
+        "Battle Healer",
+        "Miner",
+        "Graveyard",
+        "Balloon"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000043,
@@ -1372,7 +2137,40 @@
             "Be mindful that despite their strength, they are still susceptible to cheap swarms, necessitating an offensive spell ready."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Barbarians",
+        "Fireball",
+        "Royal Recruits",
+        "Mega Knight",
+        "Valkyrie",
+        "Rage",
+        "Lumberjack",
+        "Skeleton Army",
+        "Fire Spirit",
+        "Electro Spirit",
+        "Goblins",
+        "Spear Goblins",
+        "Ice Spirit",
+        "Skeletons",
+        "Bats",
+        "Skeleton Dragons",
+        "Guards",
+        "Skeleton King",
+        "Witch",
+        "Bomb Tower",
+        "Elixir Golem",
+        "Battle Healer",
+        "Ram Rider"
+      ],
+      "synergies": [
+        "Fire Spirit",
+        "Skeleton Dragons",
+        "Guards",
+        "Skeleton King"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000007,
@@ -1384,7 +2182,7 @@
       "range": null,
       "deploy_time": 1000,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "none",
       "movement_speed_tier": null,
       "stats": {
         "hp": [
@@ -1413,7 +2211,15 @@
             "If you suspect the opponent has high direct spell damage, consider playing the Elixir Collector when you have full Elixir, ensuring you have immediate, cheap follow-up troops ready to defend after deployment."
           ]
         }
-      }
+      },
+      "targets": "None",
+      "counters": [
+        "Fireball"
+      ],
+      "synergies": [
+        "Graveyard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000067,
@@ -1456,7 +2262,31 @@
             "When using spells defensively, try to save them for the final two phases of the Golem's lifespan to maximize the area damage value against all three distinct unit types."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Giant",
+        "Lava Hound",
+        "Giant Skeleton",
+        "P.E.K.K.A",
+        "Mega Knight",
+        "Goblin Giant",
+        "Electro Giant",
+        "Golem"
+      ],
+      "synergies": [
+        "Giant",
+        "Lava Hound",
+        "Giant Skeleton",
+        "P.E.K.K.A",
+        "Mega Knight",
+        "Goblin Giant",
+        "Electro Giant",
+        "Golem",
+        "Tesla",
+        "Ice Golem"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000045,
@@ -1515,7 +2345,34 @@
             "Be cautious of the King's Tower activation from sources like a Fisherman, or control units like Ice Spirit, which can manipulate the axe's position."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Lumberjack",
+        "Valkyrie",
+        "Knight",
+        "Dark Prince",
+        "Royal Ghost",
+        "Battle Healer",
+        "Prince",
+        "Musketeer",
+        "Inferno Dragon",
+        "Electro Wizard",
+        "Barbarians",
+        "Minion Horde",
+        "Bats",
+        "Skeleton Army",
+        "Royal Recruits",
+        "Goblin Gang",
+        "Goblin Drill",
+        "Balloon",
+        "Lava Hound"
+      ],
+      "synergies": [
+        "Giant",
+        "Goblin Barrel"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000031,
@@ -1552,7 +2409,28 @@
           "combos": "Pairing it with Electro Spirit is highly effective, creating a 2 Elixir combo that deals high damage and can hit air, defeating units like Minions or Princess. For high single-hit pushes, positioning the Fire Spirit behind a Mini P.E.K.K.A allows it to reduce enemy swarm health, letting cheap ranged units finish off the damage.",
           "tips": "To maximize safe usage, always deploy the Spirit from a slight distance from your target so it completes its spawn animation. When targeting Mother Witch, place it close to her specifically to ensure its attack kills the Mother Witch, preventing her from spawning a Cursed Hog.\nDespite its low health, the Spirit can deal sufficient damage to eliminate enemy units like the Guards, making it good for baiting spell usage like The Log or Barbarian Barrel."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Goblins",
+        "Spear Goblins",
+        "Bats",
+        "Minions",
+        "Mini P.E.K.K.A",
+        "Prince",
+        "P.E.K.K.A",
+        "Zap",
+        "Guards",
+        "The Log",
+        "Barbarian Barrel",
+        "Firecracker",
+        "Goblin Barrel"
+      ],
+      "synergies": [
+        "P.E.K.K.A",
+        "Zap"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000000,
@@ -1564,7 +2442,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -1587,7 +2465,24 @@
           "combos": "The Fireball and Zap/Rage combo is an effective synergistic replacement for a Rocket, handling multiple waves of small troops with less travel time. Alternatively, pairing Fireball with The Log provides higher damage and is useful against specific resilient units, provided those units are ground-based. Ensure the front-lining spell (Zap/Rage) hits first to prevent the Fireball's knockback from causing both spells to miss.",
           "tips": "Targeting the gap between tanks and their main offensive threat is ideal, using the spell to clear support units and minimize the damage they can deal to your towers. Utilize Fireball on spawner buildings like the Barbarian Hut to reduce their overall lifespan and deny multiple waves of troops. Be aware that a single Fireball on a building is generally lower damage compared to other spells, though it can reliably reduce its HP significantly."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "synergies": [
+        "Knight",
+        "Hog Rider",
+        "Ram Rider",
+        "Prince",
+        "Valkyrie",
+        "Bowler",
+        "Golden Knight",
+        "Monk",
+        "Mighty Miner",
+        "Battle Healer",
+        "Boss Bandit",
+        "Skeleton King",
+        "Goblin Machine"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000064,
@@ -1647,7 +2542,22 @@
             "Use its ongoing damage and slow to capitalize on synergy pushes, such as clearing a path for a win condition while simultaneously providing chip damage to the opposing tower."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Elite Barbarians",
+        "Ice Spirit",
+        "Skeletons",
+        "Balloon",
+        "Wall Breakers",
+        "Graveyard"
+      ],
+      "synergies": [
+        "Elixir Collector",
+        "Wall Breakers",
+        "Executioner"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000061,
@@ -1690,7 +2600,30 @@
             "When baiting buildings, pull units away from the tower to avoid activating the King's Tower and potentially suffering from a back door push."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Skeletons",
+        "Guards",
+        "Hog Rider",
+        "Mega Knight",
+        "Battle Ram",
+        "Ram Rider",
+        "Prince",
+        "Dark Prince",
+        "Goblins",
+        "Wizard",
+        "Electro Wizard",
+        "Musketeer",
+        "Archer Queen",
+        "Valkyrie",
+        "Mortar",
+        "Rocket"
+      ],
+      "synergies": [
+        "Miner"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000057,
@@ -1731,7 +2664,32 @@
             "The Machine is excellent for baiting, as its high initial hit speed makes it particularly good at getting a shot on the Crown Tower before other defensive units can react."
           ]
         }
-      }
+      },
+      "role": "tank, due to being an air troop",
+      "targets": "Air & Ground",
+      "counters": [
+        "Mega Minion",
+        "Inferno Dragon",
+        "Ice Golem",
+        "Elite Barbarians",
+        "Lumberjack",
+        "Skeletons",
+        "Goblins",
+        "Guards",
+        "Ice Spirit",
+        "Heal Spirit",
+        "Minions",
+        "Zap",
+        "Executioner",
+        "Wizard",
+        "Electro Wizard"
+      ],
+      "synergies": [
+        "Ice Golem",
+        "Giant",
+        "Royal Recruits"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000005,
@@ -1743,7 +2701,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -1766,7 +2724,30 @@
           "combos": "Combining Freeze with Balloon deals immense damage by disabling any defensive units and keeping the enemy tower defenseless. Pairing it with Graveyard is powerful because it disables splash units and swarms that typically defend the push, allowing the spawned Skeletons time to eliminate the counter-punchers. The synergy also works by protecting the slow-moving, vulnerable elements of a combo (like the Graveyard troops) while maximizing damage output against the tower.",
           "tips": "Always separate your defending troops and buildings before casting Freeze to ensure the spell's radius is not wasted on non-threat structures. Pay attention to the delay before deployment; mistiming it (when your own troops are already dead) is the most common and costly mistake. Because the spell relies on surprise, consistently switching up the composition of your overall deck prevents the opponent from predicting and building a specific counter defense."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Prince",
+        "Graveyard",
+        "Poison",
+        "Hog Rider",
+        "Inferno Dragon",
+        "Giant Skeleton",
+        "Elite Barbarians"
+      ],
+      "synergies": [
+        "Goblins",
+        "Spear Goblins",
+        "Minions",
+        "Archers",
+        "Hog Rider",
+        "Valkyrie",
+        "Ice Wizard",
+        "Electro Wizard",
+        "Witch",
+        "Bomber"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000010,
@@ -1777,9 +2758,9 @@
       "hit_speed": 6000,
       "range": null,
       "deploy_time": 1000,
-      "movement_domain": null,
+      "movement_domain": "ground",
       "attack_targets": "ground",
-      "movement_speed_tier": null,
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": [
           331
@@ -1819,7 +2800,46 @@
             "The ability to spawn more Fire Spirits is amplified by Rage, suggesting a synergy with high-damage push setups."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Tombstone",
+        "Minions",
+        "Skeleton Army",
+        "Guards",
+        "Bats",
+        "Goblins",
+        "Barbarians",
+        "Bowler",
+        "Executioner",
+        "Bomber",
+        "Hunter",
+        "Wizard",
+        "Tesla",
+        "Prince",
+        "Elite Barbarians",
+        "Lumberjack",
+        "Mega Knight",
+        "Mighty Miner",
+        "Giant Skeleton",
+        "Skeletons",
+        "Goblin Barrel",
+        "Mother Witch"
+      ],
+      "synergies": [
+        "Minions",
+        "Skeleton Army",
+        "Guards",
+        "Bats",
+        "Goblins",
+        "Fire Spirit",
+        "Prince",
+        "Elite Barbarians",
+        "Lumberjack",
+        "Goblin Barrel",
+        "Skeleton King"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000003,
@@ -1878,7 +2898,66 @@
             "Always attack the same lane as the opponent to force their offensive card into the other lane, making it unsupported and easier to defeat while dealing with their support troops."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Prince",
+        "Elite Barbarians",
+        "Hunter",
+        "Barbarians",
+        "Bats",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Minion Horde",
+        "Mega Minion",
+        "Knight",
+        "Valkyrie",
+        "Skeleton Dragons",
+        "Wizard",
+        "Lightning",
+        "Bowler",
+        "Lumberjack",
+        "Goblin Barrel",
+        "Graveyard",
+        "Arrows",
+        "Balloon",
+        "Zap",
+        "Poison",
+        "Earthquake",
+        "Skeletons",
+        "Witch",
+        "Goblin Hut",
+        "Tombstone",
+        "Barbarian Hut",
+        "Spear Goblins",
+        "Ice Golem",
+        "Giant Skeleton",
+        "Mega Knight"
+      ],
+      "synergies": [
+        "Mega Minion",
+        "Archers",
+        "Electro Wizard",
+        "Wizard",
+        "Miner",
+        "Poison",
+        "Golem",
+        "Goblin Hut",
+        "Tombstone",
+        "Barbarian Hut",
+        "Spear Goblins",
+        "Barbarians",
+        "Goblin Drill",
+        "Lava Hound",
+        "Giant Skeleton",
+        "Tornado",
+        "Bomber",
+        "Baby Dragon",
+        "Firecracker",
+        "Goblin Demolisher",
+        "Bowler"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000020,
@@ -1922,7 +3001,43 @@
             "Deploying the Giant Skeleton to bodyblock is useful, allowing it to protect a valuable friendly unit, such as a Hog Rider, from enemy structures or damage."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Giant",
+        "Elite Barbarians",
+        "Skeleton Army",
+        "Bomber",
+        "Valkyrie",
+        "Executioner",
+        "Bowler",
+        "Skeletons",
+        "Inferno Tower",
+        "Knight",
+        "Lumberjack",
+        "Battle Healer",
+        "Prince",
+        "Royal Ghost",
+        "Golden Knight",
+        "Dark Prince",
+        "Mighty Miner",
+        "Monk"
+      ],
+      "synergies": [
+        "The Log",
+        "Barbarian Barrel",
+        "Musketeer",
+        "Wizard",
+        "Electro Wizard",
+        "Tornado",
+        "Zap",
+        "Giant Snowball",
+        "Mega Knight",
+        "Elite Barbarians",
+        "Balloon",
+        "Fisherman"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000017,
@@ -1934,7 +3049,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -1977,7 +3092,18 @@
             "Deploy the Evolution to get opponent units closer to a Crown Tower, maximizing the damage output of ranged splash damage cards."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Skeleton Army",
+        "Ram Rider",
+        "Giant",
+        "P.E.K.K.A",
+        "Ice Golem",
+        "Rage",
+        "Dart Goblin"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 28000004,
@@ -1989,7 +3115,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "none",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -2030,7 +3156,41 @@
             "The combined effect with cards like Clone or Mirror on the King Tower can result in an overwhelming number of Goblins, potentially leading to an instant win."
           ]
         }
-      }
+      },
+      "targets": "None",
+      "counters": [
+        "Goblins",
+        "Arrows",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Elixir Collector",
+        "Tornado",
+        "Minion Horde",
+        "Mirror",
+        "Giant Snowball",
+        "Barbarians",
+        "Rage",
+        "Dark Prince",
+        "Golden Knight",
+        "Mighty Miner",
+        "Fire Spirit",
+        "Furnace",
+        "Bowler",
+        "Executioner",
+        "Magic Archer",
+        "Bats",
+        "Minions",
+        "Princess"
+      ],
+      "synergies": [
+        "Rage",
+        "Dark Prince",
+        "Fire Spirit",
+        "Furnace",
+        "Bowler",
+        "Freeze"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000012,
@@ -2087,7 +3247,37 @@
             "When defending the Crown Tower, deploying the Evolved Goblin Cage next to a tower can pull ranged units into the cage, preventing them from targeting the tower's HP."
           ]
         }
-      }
+      },
+      "counters": [
+        "Mega Knight",
+        "Minions",
+        "Golden Knight",
+        "Zap",
+        "The Log",
+        "Arrows",
+        "Fireball",
+        "Poison",
+        "Electro Giant"
+      ],
+      "synergies": [
+        "Hog Rider",
+        "Ram Rider",
+        "Giant Skeleton",
+        "Lightning",
+        "Musketeer",
+        "Electro Wizard",
+        "Little Prince",
+        "Ice Wizard",
+        "Wizard",
+        "Magic Archer",
+        "Goblinstein",
+        "Flying Machine",
+        "Princess",
+        "Firecracker",
+        "Bomber",
+        "Mother Witch"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 28000024,
@@ -2099,7 +3289,7 @@
       "range": 3000,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -2124,7 +3314,27 @@
           "combos": "Combining the Goblin Curse with the Goblin Giant is powerful; if light swarms try to counter the Giant, the Curse ensures those enemy units turn into Goblins, augmenting the push's offensive pressure. Using Tornado to keep multiple opposing troops within the curse's radius for a longer duration maximizes the chances of generating a large swarm of Goblins.",
           "tips": "Avoid using this spell for spell cycling on the opponent's towers, as the low damage makes it a wasteful expenditure of elixir. Use it to assist the Tower Princess in generating Goblins from Skeletons to create a decisive counterattack against cards like the Witch. For maximum impact, coordinate it with Rage to instantly boost the newly spawned Goblin swarm, creating an overwhelming immediate threat."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Bats",
+        "Spear Goblins",
+        "Skeleton Army",
+        "Goblins",
+        "The Log",
+        "Barbarian Barrel",
+        "Goblin Giant",
+        "Goblin Gang",
+        "Witch",
+        "Rage"
+      ],
+      "synergies": [
+        "Bats",
+        "Spear Goblins",
+        "Skeleton Army",
+        "Goblins"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000095,
@@ -2136,8 +3346,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "ground",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -2166,7 +3376,24 @@
             "The best defensive placement for him is near central buildings, allowing them to utilize kiting mechanics to ensure the charging phase occurs over a protective wall, maximizing the tower damage."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Skeleton Army",
+        "Goblin Gang",
+        "Fireball",
+        "Void",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Skeletons",
+        "Prince",
+        "Royal Recruits",
+        "Ice Golem",
+        "Tombstone",
+        "Goblin Hut",
+        "Barbarian Hut"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 27000013,
@@ -2229,7 +3456,46 @@
             "Because the Evolved Drill deals knockback upon resurfacing, it can stop charging units such as Battle Ram or Ram Rider, helping to secure favorable elixir trades."
           ]
         }
-      }
+      },
+      "counters": [
+        "Valkyrie",
+        "Earthquake",
+        "Battle Ram",
+        "Prince",
+        "Dark Prince",
+        "Ram Rider",
+        "The Log",
+        "Barbarian Barrel",
+        "Giant Snowball",
+        "Zap",
+        "Goblin Gang",
+        "Bomber",
+        "Bowler",
+        "Executioner",
+        "Firecracker",
+        "Princess",
+        "Goblin Demolisher",
+        "Witch",
+        "Baby Dragon",
+        "Ice Wizard",
+        "Skeleton Dragons",
+        "Wizard"
+      ],
+      "synergies": [
+        "Goblins",
+        "Giant",
+        "Goblin Giant",
+        "Royal Giant",
+        "Hog Rider",
+        "Ram Rider",
+        "Ice Golem",
+        "Elixir Golem",
+        "Golem",
+        "Giant Snowball",
+        "Zap",
+        "Goblin Gang"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000041,
@@ -2272,7 +3538,27 @@
             "Position the Gang so that the Goblins are nearest to two threats, forcing them to focus fire and increase the Gang's stalling potential."
           ]
         }
-      }
+      },
+      "counters": [
+        "Goblins",
+        "Spear Goblins",
+        "Valkyrie",
+        "Dark Prince",
+        "Royal Ghost",
+        "The Log",
+        "Electro Wizard",
+        "Mirror",
+        "Clone",
+        "Goblin Barrel",
+        "Elite Barbarians",
+        "Hog Rider",
+        "Mortar",
+        "Mega Knight"
+      ],
+      "synergies": [
+        "Hog Rider"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000060,
@@ -2332,7 +3618,44 @@
             "Due to the high swarm potential, pairing it with damage spells like Zap or Fireball maximizes efficiency by allowing the spawned Goblins to OHKO swarms and buy time for more Goblins to spawn."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Giant",
+        "Musketeer",
+        "Mega Minion",
+        "Electro Wizard",
+        "Ice Wizard",
+        "Witch",
+        "Magic Archer",
+        "Flying Machine",
+        "Night Witch",
+        "Electro Dragon",
+        "Baby Dragon",
+        "Phoenix",
+        "Wizard",
+        "Minions",
+        "Goblins",
+        "Zap",
+        "Rage",
+        "Sparky",
+        "Lava Hound",
+        "Graveyard",
+        "X-Bow",
+        "Mighty Miner",
+        "Goblin Gang",
+        "Minion Horde",
+        "Fisherman"
+      ],
+      "synergies": [
+        "Spear Goblins",
+        "Golem",
+        "Lightning",
+        "Inferno Dragon",
+        "Lumberjack",
+        "Graveyard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000001,
@@ -2373,7 +3696,33 @@
           "combos": "Combining the Goblin Hut with other spawner buildings (such as the Tombstone or Furnace) establishes an overwhelming 'Spawner strategy' that forces the opponent to spend all their Elixir on defense. Pairing it with high-HP, slow-moving tanks creates a synergistic push, ensuring the spawned Spear Goblins remain protected and can maximize their continuous damage output. Utilizing it with utility spells like Poison can maximize the damage potential, as the long duration damages both the Hut and the spawned troops.",
           "tips": "Avoid placing the Hut directly in front of your King Tower unless desperate; use a central location to spread enemy attention and draw incoming troops away from a specific tower. Be wary of high-damage spells, as even if they can't hit the tower, they generate significant Elixir profit for the opponent. Since the Spear Goblins deal low damage, use the Hut's presence to force the opponent to attack your secondary towers, allowing your primary tower time to chip damage."
         }
-      }
+      },
+      "counters": [
+        "Sparky",
+        "Rocket",
+        "Lightning",
+        "Earthquake",
+        "Freeze",
+        "Tombstone",
+        "Barbarian Hut",
+        "Wizard",
+        "Witch",
+        "Goblin Demolisher",
+        "Arrows",
+        "The Log",
+        "Bomb Tower"
+      ],
+      "synergies": [
+        "Giant",
+        "Giant Skeleton",
+        "P.E.K.K.A",
+        "Golem",
+        "Rocket",
+        "Lightning",
+        "Earthquake",
+        "Poison"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000096,
@@ -2385,8 +3734,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "both",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -2413,7 +3762,32 @@
             "If possible, allow the Goblin Machine to connect its rocket to the opponent's tower in 2v2 to activate the King Tower, maximizing disruption to their push."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "P.E.K.K.A",
+        "Mighty Miner",
+        "Elite Barbarians",
+        "Prince",
+        "Monk",
+        "Lumberjack",
+        "Giant Skeleton",
+        "Mini P.E.K.K.A",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Void",
+        "Goblin Drill",
+        "Goblin Gang",
+        "Skeleton Army",
+        "Minion Horde",
+        "Ice Golem",
+        "Goblin Giant",
+        "Hog Rider"
+      ],
+      "synergies": [
+        "Void"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000002,
@@ -2471,7 +3845,50 @@
             "Use the Hero version to bridge a major gap in unit density, ensuring immediate follow-up damage or defense."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Wizard",
+        "Executioner",
+        "Bowler",
+        "Firecracker",
+        "Magic Archer",
+        "The Log",
+        "Barbarian Barrel",
+        "Skeleton Army",
+        "Fire Spirit",
+        "Archers",
+        "Spear Goblins",
+        "Bomber",
+        "Goblin Barrel",
+        "Graveyard",
+        "Battle Healer",
+        "Miner",
+        "Fisherman",
+        "Archer Queen",
+        "Princess",
+        "Inferno Tower"
+      ],
+      "synergies": [
+        "Prince",
+        "Giant",
+        "Giant Skeleton",
+        "Golem",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Ice Golem",
+        "Valkyrie",
+        "Knight",
+        "Battle Healer",
+        "Monk",
+        "Barbarians",
+        "Barbarian Hut",
+        "Goblin Barrel",
+        "Miner",
+        "Spear Goblins",
+        "Goblin Gang"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000099,
@@ -2483,7 +3900,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -2513,7 +3930,17 @@
           "combos": "Combining Goblinstein with cards like Fisherman or Tornado allows players to quickly pull the Monster, minimizing the damage the link takes on the opponent's tower. Additionally, using the Doctor’s stun ability first can help funnel swarms into optimal proximity for maximum Lightning Link effect.",
           "tips": "Remember that the base units can stun enemy troops, giving your opponent brief moments of disengagement. When using the ability post-Monster defeat, remember the link targets a ground antenna, ensuring continued utility even if the primary threat is removed. Because the Champion units have a low attack speed, positioning them to maximize the initial shock range is crucial for maximizing damage per 2 Elixir spent."
         }
-      }
+      },
+      "targets": "Air & Ground / Buildings",
+      "counters": [
+        "Skeleton Army",
+        "Minion Horde",
+        "Goblin Gang",
+        "Three Musketeers",
+        "Zappies",
+        "Royal Hogs"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000074,
@@ -2556,7 +3983,22 @@
           "combos": "Pairing him with fast-moving, aggressive troops (like Hog Rider or Battle Ram) creates a formidable burst, with the dash maximizing damage output on initial contact. Combining him with swarm control spells ensures that his dash can focus on the most vulnerable threats, maximizing the Elixir trade.",
           "tips": "Be aware that the dash ability's movement speed boost cannot be reset by typical crowd control spells like Zap or Freeze. To minimize his threat, keep ground units positioned far from the river to prevent him from connecting to the King Tower while dashing. If you anticipate the opponent using him aggressively, placing a defensive building or using a disposable, low-value unit to draw his initial dash can effectively bait the cooldown."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Skeleton Army",
+        "Minions",
+        "Bats",
+        "Guards",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Mega Knight"
+      ],
+      "synergies": [
+        "Minions",
+        "Bats"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000009,
@@ -2596,7 +4038,29 @@
           "combos": "Supporting the Golem with high-damage, spell-resistant troops allows you to capitalize on its slow deployment time and low damage per second, ensuring the push is difficult to counter. Pairing it with a spell like Zap, Lightning, or Freeze can stun the target tower, forcing the enemy's attention onto the newly spawned, vulnerable Golemites instead of the main tank.",
           "tips": "Do not start the match with the Golem due to its high Elixir cost, which leaves you too vulnerable to early attacks.\nWait until double elixir time to deploy the Golem; this maximizes your support Elixir and forces the opponent into reactive mode.\nUse the Golemites' low-HP, area-damage explosions to clear out low-health backline units like Skeletons or Bats, allowing them to survive for chip damage."
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Fisherman",
+        "Inferno Tower",
+        "Spear Goblins",
+        "Minion Horde",
+        "Witch",
+        "Night Witch",
+        "Dark Prince",
+        "P.E.K.K.A",
+        "Skeleton Army",
+        "Elite Barbarians",
+        "Royal Recruits",
+        "Three Musketeers"
+      ],
+      "synergies": [
+        "Mega Knight",
+        "Tesla",
+        "Monk",
+        "Hog Rider"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000010,
@@ -2608,7 +4072,7 @@
       "range": 4000,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "none",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -2638,7 +4102,60 @@
             "Due to its nature, Graveyard works best against opponents who rely on a single primary counter, forcing them to commit their defensive resources to the spell itself."
           ]
         }
-      }
+      },
+      "role": "response to a spawner building like a Furnace, or an Elixir Collector",
+      "targets": "None",
+      "counters": [
+        "Skeletons",
+        "Valkyrie",
+        "Wizard",
+        "Bowler",
+        "Bomber",
+        "Goblin Demolisher",
+        "Ice Wizard",
+        "Executioner",
+        "Guards",
+        "Skeleton Army",
+        "Goblin Gang",
+        "P.E.K.K.A",
+        "Mini P.E.K.K.A",
+        "Hunter",
+        "Mighty Miner",
+        "Monk",
+        "Prince",
+        "Elite Barbarians",
+        "Sparky",
+        "Lumberjack",
+        "Poison",
+        "Fireball",
+        "Goblins",
+        "Barbarians",
+        "Minion Horde",
+        "Spear Goblins",
+        "Archers",
+        "Witch",
+        "Night Witch",
+        "Dart Goblin",
+        "Golden Knight",
+        "Berserker",
+        "Bats",
+        "Minions",
+        "Rocket",
+        "Giant Snowball",
+        "Mother Witch",
+        "Magic Archer",
+        "Goblin Curse",
+        "Freeze",
+        "Skeleton Dragons",
+        "Baby Dragon"
+      ],
+      "synergies": [
+        "Miner",
+        "Zap",
+        "Electro Giant",
+        "Inferno Tower"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000025,
@@ -2681,7 +4198,35 @@
             "If you anticipate an opponent using area damage like Poison, use the Guard's initial three-unit spawn to make it harder for the spell to fully eliminate them, forcing a longer, weaker trade."
           ]
         }
-      }
+      },
+      "role": "defensive card, then used in a counterpush with something",
+      "targets": "Ground",
+      "counters": [
+        "Minions",
+        "Sparky",
+        "Prince",
+        "P.E.K.K.A",
+        "Giant Skeleton",
+        "Boss Bandit",
+        "Mini P.E.K.K.A",
+        "Bandit",
+        "Mega Knight",
+        "Ice Spirit",
+        "Ice Wizard",
+        "Giant",
+        "Battle Ram",
+        "Ram Rider",
+        "Wall Breakers",
+        "Elixir Golem"
+      ],
+      "synergies": [
+        "Miner",
+        "Ice Golem",
+        "Hog Rider",
+        "Golem",
+        "Ice Wizard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000016,
@@ -2692,9 +4237,9 @@
       "hit_speed": 300,
       "range": 2500,
       "deploy_time": 1000,
-      "movement_domain": null,
+      "movement_domain": "ground",
       "attack_targets": "both",
-      "movement_speed_tier": null,
+      "movement_speed_tier": "very_fast",
       "stats": {
         "hp": [
           90
@@ -2722,7 +4267,26 @@
             "Use it to lure other Spirit cards. Since it survives attacks from other Spirits, it can generate positive Elixir trades for defensive value."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "The Log",
+        "Barbarian Barrel",
+        "Elite Barbarians",
+        "Royal Giant",
+        "Archers",
+        "Skeleton Barrel",
+        "Royal Ghost"
+      ],
+      "synergies": [
+        "Zap",
+        "Rage",
+        "Giant Snowball",
+        "Barbarian Barrel",
+        "Poison",
+        "Skeleton Barrel"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000021,
@@ -2765,7 +4329,39 @@
             "Use the Hog Rider's natural tendency to draw fire by deploying it to tank tower shots while supporting it with low-cost troops like Goblins or Skeletons for optimal Elixir trade."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Mega Knight",
+        "Minion Horde",
+        "Skeleton Dragons",
+        "Bats",
+        "Fireball",
+        "Lumberjack",
+        "Mini P.E.K.K.A",
+        "Skeletons",
+        "Cannon",
+        "Tesla",
+        "Barbarians",
+        "Goblin Gang",
+        "Ice Golem",
+        "Valkyrie",
+        "Freeze",
+        "P.E.K.K.A",
+        "Guards"
+      ],
+      "synergies": [
+        "Lumberjack",
+        "Goblin Barrel",
+        "Spear Goblins",
+        "Archers",
+        "Guards",
+        "Freeze",
+        "Elixir Collector",
+        "Skeleton Dragons",
+        "Hunter"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000044,
@@ -2822,7 +4418,48 @@
             "When facing multiple units, the net's ability to stun the single closest unit forces the player to constantly prioritize which high-value target to keep locked down."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Prince",
+        "Zap",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Bats",
+        "Baby Dragon",
+        "Executioner",
+        "Bowler",
+        "Inferno Dragon",
+        "Zappies",
+        "Goblin Demolisher",
+        "Electro Dragon",
+        "Wizard",
+        "Graveyard",
+        "Poison",
+        "Goblin Barrel",
+        "Goblins",
+        "Skeleton Army",
+        "Minion Horde",
+        "Sparky",
+        "Mini P.E.K.K.A",
+        "Elite Barbarians",
+        "Three Musketeers",
+        "Balloon",
+        "Lava Hound",
+        "Magic Archer",
+        "Giant Snowball"
+      ],
+      "synergies": [
+        "Prince",
+        "Zap",
+        "Ice Spirit",
+        "Electro Spirit",
+        "Goblin Barrel",
+        "Battle Ram",
+        "Ram Rider",
+        "Dark Prince"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000038,
@@ -2887,7 +4524,48 @@
             "Coordinate the ability activation with heavy enemy pushes, ensuring the frozen state helps eliminate high-value attackers or troops."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Hog Rider",
+        "Skeleton Army",
+        "Valkyrie",
+        "Skeleton King",
+        "Mega Knight",
+        "Dark Prince",
+        "Dart Goblin",
+        "Firecracker",
+        "Magic Archer",
+        "Musketeer",
+        "Ice Wizard",
+        "Archer Queen",
+        "Witch",
+        "Balloon",
+        "Prince",
+        "Mini P.E.K.K.A",
+        "Elite Barbarians",
+        "Clone",
+        "Skeleton Barrel"
+      ],
+      "synergies": [
+        "Zap",
+        "Giant Snowball",
+        "Goblins",
+        "Spear Goblins",
+        "Minions",
+        "Princess",
+        "Dart Goblin",
+        "Hog Rider",
+        "Battle Ram",
+        "Dark Prince",
+        "Ram Rider",
+        "Balloon",
+        "Prince",
+        "Mini P.E.K.K.A",
+        "Elite Barbarians",
+        "Golem"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000030,
@@ -2940,7 +4618,49 @@
             "When facing the Tower Princess, timing the Evo Ice Spirit to deal damage after the initial burst can help fully eliminate high-hitpoint or defensive structures, including those used to shield other units."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Archers",
+        "Musketeer",
+        "Bats",
+        "Dart Goblin",
+        "Bowler",
+        "Executioner",
+        "Spear Goblins",
+        "Goblin Gang",
+        "Magic Archer",
+        "Skeleton Barrel",
+        "Prince",
+        "Knight",
+        "Valkyrie",
+        "Skeleton King",
+        "Monk",
+        "Guards",
+        "The Log",
+        "Goblin Barrel",
+        "Skeletons",
+        "Goblins",
+        "Minions",
+        "Fire Spirit",
+        "Goblin Drill"
+      ],
+      "synergies": [
+        "Hog Rider",
+        "Balloon",
+        "Bats",
+        "Zap",
+        "Fire Spirit",
+        "Tornado",
+        "Executioner",
+        "Skeleton Barrel",
+        "Prince",
+        "Knight",
+        "Valkyrie",
+        "Skeleton King",
+        "Monk"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000023,
@@ -2952,8 +4672,8 @@
       "range": 3000,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "both",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -2976,7 +4696,38 @@
           "combos": "The Tornado pairs effectively with the Ice Wizard by grouping enemies, allowing the Ice Wizard's splash damage and slowdown effect to hit an entire clump of targets. Combining it with Skeletons allows the Skeletons to distract while the Ice Wizard slows down, maximizing the damage dealt by your own supporting units and towers.",
           "tips": "If you deploy the Ice Wizard defensively, consider the defensive value gained; do not support him if you haven't established an Elixir advantage. Against large pushes, deploying him near the bridge helps create maximum separation, maximizing the distance any melee enemy unit must traverse to reach you.\r\nWatch for spells used on the Ice Wizard; the lack of defensive spells might open your opponent up to placing a different, unexpected card, like a Mother Witch or Magic Archer."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Barbarians",
+        "Skeleton Army",
+        "Spear Goblins",
+        "Bats",
+        "Barbarian Barrel",
+        "Skeletons",
+        "Knight",
+        "Mini P.E.K.K.A",
+        "Battle Healer",
+        "Prince",
+        "Guards",
+        "Ram Rider",
+        "Wizard",
+        "Witch",
+        "Night Witch",
+        "Mega Knight",
+        "Zap",
+        "Giant Snowball",
+        "Minions",
+        "Royal Giant"
+      ],
+      "synergies": [
+        "Barbarian Barrel",
+        "Zap",
+        "Giant Snowball",
+        "Minions",
+        "Graveyard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000037,
@@ -3041,7 +4792,40 @@
             "Consider baiting out opponent stun spells before maximizing the Evolved Inferno Dragon's value, as these spells are crucial for tempo control."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Fireball",
+        "Tornado",
+        "Mega Knight",
+        "Mighty Miner",
+        "Golden Knight",
+        "Prince",
+        "Monk",
+        "Spear Goblins",
+        "Skeletons",
+        "Zappies",
+        "Electro Wizard",
+        "Goblinstein",
+        "Electro Dragon",
+        "Electro Giant",
+        "Tesla",
+        "Hunter",
+        "Goblins",
+        "Minions",
+        "Bats",
+        "Minion Horde",
+        "Archers",
+        "Witch",
+        "Balloon",
+        "Baby Dragon",
+        "Rune Giant"
+      ],
+      "synergies": [
+        "Mega Knight",
+        "Rune Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000003,
@@ -3084,7 +4868,61 @@
             "Position the Inferno Tower so that a critical high-value target (like the opponent's bridge) is within its optimal blast radius while limiting the chance of the opponent's spells hitting both towers."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Spear Goblins",
+        "Bats",
+        "Goblins",
+        "Skeletons",
+        "Barbarian Barrel",
+        "Graveyard",
+        "Goblin Barrel",
+        "The Log",
+        "Skeleton Army",
+        "Minion Horde",
+        "Goblin Gang",
+        "Wizard",
+        "Bomber",
+        "Princess",
+        "Executioner",
+        "Bowler",
+        "Witch",
+        "Goblin Demolisher",
+        "Magic Archer",
+        "Ice Wizard",
+        "Firecracker",
+        "Rocket",
+        "Lightning",
+        "Earthquake",
+        "P.E.K.K.A",
+        "Knight",
+        "Valkyrie",
+        "Prince",
+        "Monk",
+        "Battle Healer",
+        "Skeleton King",
+        "Goblin Machine",
+        "Mighty Miner",
+        "Golden Knight",
+        "Lava Hound",
+        "Balloon",
+        "Zap",
+        "X-Bow",
+        "Mortar",
+        "Minions",
+        "Fire Spirit",
+        "Electro Giant",
+        "Royal Hogs",
+        "Cannon",
+        "Tesla"
+      ],
+      "synergies": [
+        "Earthquake",
+        "Zap",
+        "P.E.K.K.A"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000000,
@@ -3160,7 +4998,48 @@
             "By placing the Knight at the front line, he can absorb initial tower damage, and the ability can then be used when the remaining enemy forces are focused on the central towers, maximizing strategic impact."
           ]
         }
-      }
+      },
+      "role": "cheap tank for tanking an enemy X-Bow",
+      "targets": "Ground",
+      "counters": [
+        "Skeleton Army",
+        "Goblin Barrel",
+        "Barbarian Barrel",
+        "The Log",
+        "Goblins",
+        "Ice Golem",
+        "Cannon",
+        "Tesla",
+        "Lumberjack",
+        "Mighty Miner",
+        "Giant",
+        "Golem",
+        "Princess",
+        "Furnace",
+        "Rocket",
+        "Lightning",
+        "Sparky"
+      ],
+      "synergies": [
+        "Electro Wizard",
+        "Graveyard",
+        "Battle Ram",
+        "Hog Rider",
+        "Ram Rider",
+        "Wall Breakers",
+        "Goblin Demolisher",
+        "Bowler",
+        "Executioner",
+        "Goblin Drill",
+        "Spear Goblins",
+        "Skeletons",
+        "Guards",
+        "X-Bow",
+        "Mortar",
+        "Furnace",
+        "Rascals"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000029,
@@ -3201,7 +5080,44 @@
             "If you anticipate an Inferno Tower, consider using Minions or another distraction unit to draw its damage and keep the Lava Hound's path clear."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Inferno Tower",
+        "Musketeer",
+        "Minions",
+        "Baby Dragon",
+        "Skeleton Dragons",
+        "Electro Spirit",
+        "Ice Spirit",
+        "Clone",
+        "Goblin Gang",
+        "Skeleton Army",
+        "Giant Snowball",
+        "Barbarians",
+        "Guards",
+        "Goblins",
+        "Royal Recruits",
+        "Fireball",
+        "Lightning",
+        "Archers",
+        "Spear Goblins",
+        "Rascals"
+      ],
+      "synergies": [
+        "Dark Prince",
+        "Valkyrie",
+        "Monk",
+        "Hog Rider",
+        "Baby Dragon",
+        "Skeleton Dragons",
+        "Clone",
+        "Goblin Gang",
+        "Skeleton Army",
+        "Giant Snowball",
+        "Flying Machine"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000007,
@@ -3213,7 +5129,7 @@
       "range": 3500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -3242,7 +5158,32 @@
             "Understand that due to its high Elixir cost, using Lightning on only one or two targets often results in a negative Elixir trade, making target density crucial for efficiency."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Three Musketeers",
+        "Cannon Cart",
+        "Zap"
+      ],
+      "synergies": [
+        "Lava Hound",
+        "Archer Queen",
+        "Mother Witch",
+        "Goblin Cage",
+        "Musketeer",
+        "Electro Wizard",
+        "Little Prince",
+        "Ice Wizard",
+        "Wizard",
+        "Magic Archer",
+        "Goblinstein",
+        "Flying Machine",
+        "Princess",
+        "Firecracker",
+        "Bomber",
+        "Elixir Collector"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000093,
@@ -3284,7 +5225,25 @@
           "combos": "The combination of Little Prince and Guardienne is devastating for controlling large tanks (e.g., Golem, Mega Knight) by interrupting their critical attacks. Using the knockback to push enemy Spear Goblins out of range can also protect the Little Prince from instant death.",
           "tips": "Always aim to use the knockback effect strategically to reset the attack ramp-up of major threats, which saves crucial chip damage to your towers. Be mindful that while Guardienne tanks well, the death damage from spells like the death bomb can still pose a significant threat to the Little Prince afterward. Remember that the ability costs 6 Elixir total, meaning you are spending a substantial portion of your elixir reserves for its effect."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Mega Knight",
+        "Golem",
+        "Bowler",
+        "Mini P.E.K.K.A",
+        "Goblin Barrel",
+        "Goblins",
+        "Spear Goblins",
+        "Minions",
+        "Archers",
+        "Bats",
+        "Skeletons",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Dart Goblin"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000035,
@@ -3343,7 +5302,32 @@
             "Defensively, consider playing the Evolved Lumberjack directly on top of a push to capitalize on the Ghost's ability to clear troops."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Ice Golem",
+        "Arrows",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Rocket",
+        "Minion Horde",
+        "Royal Recruits",
+        "Barbarians",
+        "Wizard",
+        "Ice Wizard",
+        "X-Bow",
+        "Zap",
+        "Sparky",
+        "Graveyard",
+        "Poison",
+        "Goblin Drill"
+      ],
+      "synergies": [
+        "Minion Horde",
+        "Wizard",
+        "Ice Wizard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000062,
@@ -3402,7 +5386,48 @@
             "Position the Magic Archer to maximize the triple shot damage potential against clustered enemy troops."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "The Log",
+        "Zap",
+        "Giant Snowball",
+        "Arrows",
+        "Giant",
+        "Mortar",
+        "Bats",
+        "Goblin Gang",
+        "Guards",
+        "Skeleton Army",
+        "Barbarian Barrel",
+        "Graveyard",
+        "Skeletons",
+        "Goblin Barrel",
+        "Ice Spirit",
+        "Fire Spirit",
+        "Electro Spirit",
+        "Ice Golem",
+        "Goblin Giant",
+        "Miner",
+        "Lava Hound",
+        "Three Musketeers",
+        "Musketeer",
+        "Mini P.E.K.K.A",
+        "Valkyrie",
+        "Giant Skeleton",
+        "Mega Minion",
+        "Night Witch",
+        "Mega Knight",
+        "Prince"
+      ],
+      "synergies": [
+        "Barbarian Barrel",
+        "Graveyard",
+        "Tornado",
+        "Three Musketeers",
+        "Musketeer"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000055,
@@ -3463,7 +5488,51 @@
             "When facing ground swarms, position the Evolved Mega Knight between two enemies to maximize the chance of it getting surrounding units, thus preventing it from jumping too often."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Elite Barbarians",
+        "Sparky",
+        "Inferno Dragon",
+        "Mighty Miner",
+        "Electro Dragon",
+        "Electro Wizard",
+        "Arrows",
+        "Ram Rider",
+        "Tesla",
+        "Royal Recruits",
+        "Giant",
+        "Goblin Barrel",
+        "Knight",
+        "Battle Healer",
+        "Golden Knight",
+        "Valkyrie",
+        "Ice Golem",
+        "Lumberjack",
+        "Royal Ghost",
+        "Night Witch",
+        "Bandit",
+        "Cannon",
+        "Zap",
+        "The Log",
+        "Tornado",
+        "Skeleton Army",
+        "Barbarians",
+        "Monk",
+        "Skeleton King"
+      ],
+      "synergies": [
+        "Elite Barbarians",
+        "Sparky",
+        "Giant Skeleton",
+        "Giant",
+        "Skeletons",
+        "Goblins",
+        "Skeleton Army",
+        "Tombstone",
+        "Fisherman"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000039,
@@ -3523,7 +5592,35 @@
             "Because the ability targets the lowest-Hitpoint enemy, use it when the opponent clusters several small, low-HP threats simultaneously."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Minions",
+        "Witch",
+        "Wizard",
+        "Baby Dragon",
+        "Skeleton Dragons",
+        "Magic Archer",
+        "Firecracker",
+        "Ice Wizard",
+        "Executioner",
+        "Balloon",
+        "Lava Hound",
+        "Archers",
+        "Dart Goblin",
+        "Spear Goblins",
+        "Skeletons",
+        "Bats",
+        "Miner",
+        "Minion Horde",
+        "Little Prince",
+        "Princess"
+      ],
+      "synergies": [
+        "Skeletons",
+        "Little Prince"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000065,
@@ -3569,7 +5666,36 @@
             "Understand that the total cost of a cycle (Miner + Ability) is 5 Elixir, which dictates how players assess Elixir trades."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Skeletons",
+        "Mega Knight",
+        "Miner",
+        "Dark Prince",
+        "Battle Healer",
+        "Golden Knight",
+        "Skeleton King",
+        "Goblin Machine",
+        "Boss Bandit",
+        "Giant Skeleton",
+        "Valkyrie",
+        "Knight",
+        "Tombstone",
+        "Inferno Dragon",
+        "Electro Wizard",
+        "Electro Dragon",
+        "Goblinstein",
+        "Electro Giant",
+        "Zappies",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Fisherman",
+        "Royal Recruits",
+        "Wall Breakers",
+        "Battle Ram"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000032,
@@ -3608,7 +5734,36 @@
           "combos": "Combining Miner with an Electro Wizard is powerful: after the Tower locks onto the Wizard, the Miner can be deployed to tank, forcing the tower to retarget the Miner and allowing the Wizard to survive and deal sustained damage. Using Miner first on a tower to bait out a defensive troop, followed by a spell, ensures the opponent's counter-units are removed while still dealing chip damage to the tower. Miner can be paired with fast, light support troops to capitalize on the distraction, allowing them to attack both lanes simultaneously.",
           "tips": "When deploying the Miner on a tower, placing it on the inner or center tile is highly effective for baiting and distraction because it forces both towers to target the unit. Always look for 'self-destructive' placements where the Miner is expected to take high initial damage, as this can be unexpected and valuable. Against specific high-threat, high-skill units (like Archer Queen or Little Prince), wait until the opponent cannot guarantee their ability use to deploy the Miner."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Elixir Collector",
+        "Skeletons",
+        "Archers",
+        "Goblins",
+        "Guards",
+        "Spear Goblins",
+        "Poison",
+        "Earthquake",
+        "Bats",
+        "Skeleton Barrel",
+        "Skeleton Army",
+        "Dart Goblin",
+        "Minions",
+        "Barbarians",
+        "Goblin Gang",
+        "Minion Horde"
+      ],
+      "synergies": [
+        "Electro Wizard",
+        "Ice Golem",
+        "Tombstone",
+        "Zap",
+        "Goblin Curse",
+        "Goblin Barrel",
+        "Ice Spirit"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000018,
@@ -3718,7 +5873,39 @@
             "Use the defensive invulnerability not just against burst damage, but also to bypass enemy spell timings or initial push setup."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Skeleton Army",
+        "Barbarians",
+        "Royal Recruits",
+        "Giant",
+        "Golem",
+        "Royal Giant",
+        "Lava Hound",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Zap",
+        "Rocket",
+        "Royal Delivery",
+        "Hunter",
+        "Princess",
+        "Electro Wizard",
+        "Archers",
+        "Spear Goblins",
+        "Dart Goblin"
+      ],
+      "synergies": [
+        "Giant Skeleton",
+        "Mega Knight",
+        "Hog Rider",
+        "Electro Dragon",
+        "Phoenix",
+        "Archer Queen",
+        "Flying Machine",
+        "Little Prince"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000005,
@@ -3755,7 +5942,79 @@
           "combos": "Pairing Minions with a reliable tanker, such as a Miner, is highly effective, as the Miner's direct path to the tower denies opponent assistance while the Minions keep attention focused. Using Minions alongside a Freeze spell forces the opponent to deal with them for a period, which is highly disruptive and punishing if they only had single-use spells prepared.",
           "tips": "Do not rely on Minions for consistent counterpushes due to their low hitpoints and vulnerability to targeted spells; conserve them purely for defensive or distraction utility. Be mindful of the opponent's spell cycle and consider when a single Minion survival, rather than the whole swarm, can force a defensive reaction. Because they bypass the river, use them to force opponent building placements into awkward defensive positions."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Giant",
+        "Royal Giant",
+        "Golem",
+        "Lava Hound",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Miner",
+        "Zap",
+        "Cannon",
+        "Tesla",
+        "Hog Rider",
+        "Valkyrie",
+        "Battle Healer",
+        "Giant Skeleton",
+        "Sparky",
+        "Bowler",
+        "Goblin Machine",
+        "Skeleton King",
+        "Mighty Miner",
+        "Arrows",
+        "Minion Horde",
+        "Royal Delivery",
+        "Barbarian Barrel",
+        "Spear Goblins",
+        "Rascals",
+        "Musketeer",
+        "Three Musketeers",
+        "Prince",
+        "Dark Prince",
+        "Electro Spirit",
+        "Ice Spirit",
+        "Goblin Giant",
+        "Royal Ghost",
+        "Baby Dragon",
+        "Skeleton Barrel",
+        "Graveyard",
+        "Poison",
+        "Hunter",
+        "Lightning",
+        "Mother Witch",
+        "Furnace",
+        "Royal Recruits",
+        "Royal Hogs",
+        "Elite Barbarians",
+        "Boss Bandit"
+      ],
+      "synergies": [
+        "Goblin Drill",
+        "Cannon",
+        "Tesla",
+        "Hog Rider",
+        "Valkyrie",
+        "Battle Healer",
+        "Giant Skeleton",
+        "Sparky",
+        "Bowler",
+        "Goblin Machine",
+        "Skeleton King",
+        "Mighty Miner",
+        "Ice Golem",
+        "Knight",
+        "Goblin Giant",
+        "Mega Knight",
+        "Electro Giant",
+        "Elixir Golem",
+        "Balloon",
+        "Lightning",
+        "Battle Ram"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000006,
@@ -3767,7 +6026,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "none",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -3792,7 +6051,17 @@
             "Be aware that the enhanced level also boosts minor units, making them surprisingly durable against spells and single-hit damage, which can completely change key micro-interactions."
           ]
         }
-      }
+      },
+      "targets": "None",
+      "counters": [
+        "Goblin Barrel",
+        "Wizard",
+        "Baby Dragon",
+        "Executioner",
+        "Bomber",
+        "The Log"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000077,
@@ -3835,7 +6104,24 @@
           "combos": "Pairing him with cheap ranged units like Firecracker ensures continuous damage and synergy, while deploying him near an Elixir Collector or Crown Tower capitalizes on reflection mechanics to turn enemy spells against the opponent.",
           "tips": "Do not rely on Pensive Protection against non-projectile attacks, as the damage reduction is significantly lower (65%). Use the threat of reflection, rather than the defense, to force the opponent into unfavorable Elixir trades. Be mindful that anything placed directly in front of the Monk will absorb the full force of reflected projectiles."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Poison",
+        "Inferno Dragon",
+        "Inferno Tower",
+        "Sparky"
+      ],
+      "synergies": [
+        "Firecracker",
+        "Freeze",
+        "Zap",
+        "Earthquake",
+        "Tornado",
+        "Royal Delivery",
+        "Sparky"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000002,
@@ -3896,7 +6182,20 @@
             "Be aware of the King Tower's activation, as the spawned Goblins will take damage from both the King and Crown Towers, which reduces the overall effective damage output compared to the Tower Princess."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Balloon"
+      ],
+      "synergies": [
+        "Balloon",
+        "Lava Hound",
+        "Magic Archer",
+        "Heal Spirit",
+        "Battle Healer",
+        "Rune Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000083,
@@ -3933,7 +6232,33 @@
           "combos": "Pairing her with synergy units like the Electro Giant can boost her effectiveness, as the Electro Giant's reflected damage helps trigger her curse mechanic more reliably. Using her in conjunction with support troops such as the King Tower or an initial tank (e.g., Golem) is excellent, as she pressures the opponent's defenses and forces them to spread their elixir usage, adding a sustained damage threat alongside the primary push.",
           "tips": "When playing against heavy swarm decks, wait for Mother Witch to engage the Crown Tower first, rather than deploying the swarm immediately, to prevent her from cursing those high-value defensive troops. Remember that the cursed effect does not stack from multiple Mother Witches attacking the same unit, so maintaining single-source damage application is key. While she is good against swarms, she is less effective against high-HP troops that can survive the initial burst of Cursed Hogs."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Ram Rider",
+        "Minions",
+        "Goblins",
+        "Knight",
+        "Mighty Miner",
+        "Lumberjack",
+        "Mini P.E.K.K.A",
+        "Monk",
+        "Royal Ghost",
+        "Dark Prince",
+        "Prince",
+        "Golden Knight",
+        "Skeleton King",
+        "Valkyrie",
+        "Skeleton Army",
+        "Minion Horde",
+        "Graveyard",
+        "Bomb Tower"
+      ],
+      "synergies": [
+        "Zap",
+        "Giant Snowball"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000014,
@@ -4006,7 +6331,42 @@
             "Due to the high combined Elixir cost (4 + 3 = 7), save the ability for critical moments where the turret's zone control is necessary."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Goblins",
+        "Spear Goblins",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Skeletons",
+        "Balloon",
+        "Goblin Machine",
+        "Monk",
+        "Guards",
+        "Valkyrie",
+        "Lightning",
+        "Barbarian Barrel",
+        "Royal Delivery",
+        "Ice Golem",
+        "Wall Breakers",
+        "Wizard",
+        "Flying Machine"
+      ],
+      "synergies": [
+        "Knight",
+        "Dark Prince",
+        "Prince",
+        "Giant Skeleton",
+        "Mega Knight",
+        "Sparky",
+        "Bandit",
+        "Giant",
+        "Balloon",
+        "Goblin Hut",
+        "The Log",
+        "Poison"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000048,
@@ -4051,7 +6411,44 @@
             "When placing her in the back, be aware that the opponent can easily isolate her and eliminate her before the Golem/Giant can effectively use the distraction."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Witch",
+        "Bats",
+        "Inferno Tower",
+        "Lava Hound",
+        "Goblin Giant",
+        "Golem",
+        "Valkyrie",
+        "Archers",
+        "Musketeer",
+        "Hunter",
+        "Mother Witch",
+        "Archer Queen",
+        "Electro Wizard",
+        "Dart Goblin",
+        "Zappies",
+        "Little Prince",
+        "Spear Goblins",
+        "Graveyard",
+        "Skeletons",
+        "Miner",
+        "Ice Golem",
+        "Mega Knight"
+      ],
+      "synergies": [
+        "Inferno Tower",
+        "Golem",
+        "Elixir Golem",
+        "Zap",
+        "Giant Snowball",
+        "Graveyard",
+        "Skeletons",
+        "Miner",
+        "Goblin Barrel"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000004,
@@ -4152,7 +6549,29 @@
             "If the Phoenix is targeted by Crown Towers, spells like Zap or Giant Snowball can be used strategically to stall for time, buying the necessary seconds for the egg to revive."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Minion Horde",
+        "Musketeer",
+        "Witch",
+        "Wizard",
+        "Firecracker",
+        "Executioner",
+        "Electro Wizard",
+        "Hunter",
+        "Bats",
+        "Electro Giant",
+        "Cannon",
+        "Tesla",
+        "Minions",
+        "Mega Minion",
+        "Goblin Giant"
+      ],
+      "synergies": [
+        "Electro Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000009,
@@ -4164,7 +6583,7 @@
       "range": 3500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -4188,7 +6607,17 @@
           "combos": "It works exceptionally well with the Graveyard to manage enemy counter-pushes and deal consistent damage in a wide area. Pairing it with the Miner allows the prolonged chip damage to occur without interruption, forcing the defender to commit single tanks to manage the threat. Consider using it with other building-damage focused units to eliminate unexpected spawned spawns.",
           "tips": "Because Poison's damage is not instantaneous, don't rely on it to immediately eliminate swarms; it's better at chipping down their HP while simultaneously slowing them. When deploying, use its slow effect (especially with fast troops) to ensure the target lingers inside the radius for maximum uptime. Be mindful of the timing of its effect; placing it with a slow-spawn unit requires precise deployment to maximize the zone of effect."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Clone",
+        "Graveyard",
+        "Miner"
+      ],
+      "synergies": [
+        "Graveyard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000016,
@@ -4228,7 +6657,61 @@
           "combos": "Pairing the Prince with high hitpoint troops like the Giant or Golem allows the tank to soak damage while the Prince inflicts lethal damage. An even stronger combination is pairing him with the Mega Knight, which provides both splash damage (to clear swarms) and tanking support. The Mega Knight and Prince complement each other by allowing them to easily catch up to each other, preventing separation.",
           "tips": "To preserve frail supporting units against the charging Prince, it is highly recommended to distract him with a durable tank instead. For defensive purposes, placing the Prince closer to your Tower can maximize the damage dealt to slow, ground-based threats. Use the Miner proactively to draw the opponent's attention away from your Crown Tower, allowing the Prince to connect to the Tower unhindered."
         }
-      }
+      },
+      "role": "counterattacking troop",
+      "targets": "Ground",
+      "counters": [
+        "Mega Knight",
+        "Goblin Gang",
+        "Skeleton Army",
+        "Guards",
+        "Knight",
+        "Giant",
+        "Valkyrie",
+        "Monk",
+        "Giant Skeleton",
+        "Boss Bandit",
+        "Mighty Miner",
+        "Miner",
+        "Freeze",
+        "Electro Wizard",
+        "Minion Horde",
+        "Inferno Dragon",
+        "Arrows",
+        "Ice Golem",
+        "Barbarians",
+        "Witch",
+        "Skeletons",
+        "Tombstone",
+        "Goblin Hut",
+        "Barbarian Hut",
+        "Skeleton King",
+        "Royal Recruits",
+        "Bats",
+        "Spear Goblins",
+        "Executioner",
+        "Lumberjack",
+        "Electro Spirit",
+        "Elixir Golem",
+        "Battle Healer",
+        "Battle Ram",
+        "Archer Queen",
+        "Goblin Barrel",
+        "Skeleton Barrel"
+      ],
+      "synergies": [
+        "Giant",
+        "Golem",
+        "Mega Knight",
+        "Knight",
+        "Miner",
+        "Bandit",
+        "Minion Horde",
+        "Inferno Dragon",
+        "Ice Golem",
+        "Executioner"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000026,
@@ -4270,7 +6753,26 @@
             "Consider deploying her defensively to force the opponent's spell response, even if it means temporarily giving up some tower health, to gain significant Elixir advantage."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Skeletons",
+        "Miner",
+        "Mini P.E.K.K.A",
+        "Prince",
+        "The Log",
+        "Arrows",
+        "Fireball",
+        "Goblin Barrel",
+        "Barbarian Barrel",
+        "Dart Goblin"
+      ],
+      "synergies": [
+        "The Log",
+        "Arrows",
+        "Skeleton Barrel"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000002,
@@ -4282,7 +6784,7 @@
       "range": null,
       "deploy_time": 500,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "buildings",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -4306,7 +6808,17 @@
           "combos": "Pairing Rage with Goblin Curse is highly synergistic: Rage boosts the newly spawned Goblins from the Curse, allowing them to overwhelm the enemy tower quickly. Using it with Goblin Barrel allows the enhanced attack speed to accelerate the Goblins' assault on the tower, making it a potent offensive combo.",
           "tips": "Time Rage so that its buff overlaps with the critical damage phase of an enemy's counter-spell to maximize tempo. Since the buff lasts only up to 2 seconds, focus its use on short-range units or engagements where speed is the single most needed factor. Do not waste Rage on low-priority, easily replaceable threats; save it for the commitment push that dictates the outcome."
         }
-      }
+      },
+      "targets": "Friendly Troops & Buildings",
+      "counters": [
+        "Goblin Barrel",
+        "Goblin Gang"
+      ],
+      "synergies": [
+        "Giant Snowball",
+        "Zap"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000051,
@@ -4350,7 +6862,58 @@
             "Due to her relatively short sight range, do not deploy her with the specific intention of targeting Elixir Collectors placed near the King's Tower."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Electro Wizard",
+        "Ice Wizard",
+        "Hunter",
+        "Prince",
+        "Lumberjack",
+        "Mini P.E.K.K.A",
+        "Berserker",
+        "Fire Spirit",
+        "Elite Barbarians",
+        "P.E.K.K.A",
+        "Mighty Miner",
+        "Valkyrie",
+        "Skeleton King",
+        "Giant Skeleton",
+        "Balloon",
+        "Elixir Collector",
+        "Giant Snowball",
+        "Fireball",
+        "Lightning",
+        "Zap",
+        "Battle Healer",
+        "Skeleton Army",
+        "Minion Horde",
+        "Mega Knight",
+        "Bowler",
+        "Zappies",
+        "Goblins",
+        "Skeletons",
+        "Guards",
+        "Archers",
+        "Spear Goblins",
+        "Goblin Gang",
+        "Rage",
+        "Freeze",
+        "Cannon Cart",
+        "Princess",
+        "Monk",
+        "Fisherman",
+        "Graveyard"
+      ],
+      "synergies": [
+        "Tombstone",
+        "Goblin Cage",
+        "Elixir Collector",
+        "Valkyrie",
+        "Battle Healer",
+        "Freeze"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000053,
@@ -4389,7 +6952,33 @@
           "combos": "Pairing Rascals with buildings or splash damage (like the Wall Breakers or Inferno Tower) forces the opponent to commit spells/troops to the Boy, allowing the ranged Girls to continue uninterrupted damage. Placing Rascals near a structure or behind a temporary distraction unit allows the Girls to remain safe while still contributing damage, maximizing their uptime. Using them against unit spawns like Graveyard is effective, as the girls' dual targeting helps to chip damage to multiple spawned units.",
           "tips": "When using the Girls defensively, placing them far from the expected threat path ensures they do not take death damage from siege units. To maximize counterplay, use the Girls to target a low-HP troop on the opponent's side, drawing out defensive spells and commitments.\nBe cautious when the opponent has a specific defensive spell (like Poison) which will shred the Girls quickly, negating the Rascals' main damage potential.\nUse the Boy as a sacrificial tank at the front to absorb initial damage, ensuring the Girls can operate freely from a slightly safer distance."
         }
-      }
+      },
+      "counters": [
+        "The Log",
+        "Arrows",
+        "Royal Delivery",
+        "Barbarian Barrel",
+        "Valkyrie",
+        "Executioner",
+        "Bowler",
+        "Mega Knight",
+        "P.E.K.K.A",
+        "Giant Skeleton",
+        "Boss Bandit",
+        "Mighty Miner",
+        "Graveyard",
+        "Three Musketeers",
+        "Dark Prince"
+      ],
+      "synergies": [
+        "Ice Golem",
+        "Elixir Golem",
+        "Knight",
+        "Miner",
+        "Goblin Barrel",
+        "Goblins"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 28000003,
@@ -4401,7 +6990,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -4424,7 +7013,36 @@
           "combos": "Pairing it with cheap, low-HP distractors (like Skeletons or Goblins) allows the Rocket to hit the intended target while the support units keep the opponent's attention. Combining it with other defensive spells (like Arrows) allows for greater coverage against multiple medium-health threats. It is excellent when used to eliminate support troops accompanying a threat, maximizing the Elixir gain.",
           "tips": "When targeting structures, aim for critical weak points (like the bottom corner of the tower) to minimize travel time and maximize damage efficiency. For dealing with medium-health threats, wait until the unit is near a tower or supported by another card to turn a potential negative Elixir trade into a positive one. Always consider the opponent's plan before using a high-cost Rocket on a threat in the back; prioritize counter-pushing high-value decks."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Witch",
+        "Lumberjack",
+        "Balloon",
+        "Elite Barbarians",
+        "Arrows",
+        "The Log",
+        "Giant Snowball",
+        "Zap",
+        "Minion Horde",
+        "Rascals",
+        "Goblinstein",
+        "X-Bow",
+        "Tesla",
+        "Mortar",
+        "Cannon Cart",
+        "Ram Rider",
+        "Goblin Barrel",
+        "Goblins"
+      ],
+      "synergies": [
+        "Inferno Tower",
+        "Elixir Collector",
+        "X-Bow",
+        "Clone",
+        "Goblin Barrel"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000018,
@@ -4436,7 +7054,7 @@
       "range": 3000,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -4464,7 +7082,27 @@
             "Against ranged glass cannons crossing the bridge, use the spell to hit them right at the crossing point; this helps avoid wasting damage if the opponent targets the tower first, and also applies the push-back effect of the spell."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Arrows",
+        "Guards",
+        "Miner",
+        "Witch",
+        "X-Bow",
+        "Mortar",
+        "Skeleton Barrel",
+        "Sparky"
+      ],
+      "synergies": [
+        "Tornado",
+        "Miner",
+        "X-Bow",
+        "Mortar",
+        "Giant Snowball",
+        "Poison"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000050,
@@ -4519,7 +7157,34 @@
             "Position the Royal Ghost with a tank like the Giant or Golem to allow the Souldiers to protect the tank and maintain continuous pressure after the initial engagement."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Goblin Gang",
+        "Giant",
+        "Golem",
+        "Skeleton Army",
+        "P.E.K.K.A",
+        "Three Musketeers",
+        "Sparky",
+        "Tornado",
+        "Knight",
+        "Valkyrie",
+        "Mini P.E.K.K.A",
+        "Lumberjack",
+        "Prince",
+        "Goblins",
+        "Guards",
+        "Electro Giant",
+        "Electro Wizard"
+      ],
+      "synergies": [
+        "Hunter",
+        "Ice Golem",
+        "Electro Giant",
+        "Electro Wizard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000024,
@@ -4572,7 +7237,64 @@
             "Since the recoil damage forces unit displacement, consider paired support spells that benefit from enemies congregating around the Evolved Royal Giant."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Dark Prince",
+        "Minion Horde",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Royal Recruits",
+        "Barbarians",
+        "Bomber",
+        "Bowler",
+        "Executioner",
+        "Firecracker",
+        "Goblin Demolisher",
+        "Arrows",
+        "Prince",
+        "Fisherman",
+        "Lightning",
+        "Zap",
+        "Barbarian Barrel",
+        "Inferno Tower",
+        "Electro Dragon",
+        "Zappies",
+        "Electro Spirit",
+        "Electro Wizard",
+        "Mega Minion",
+        "Minions",
+        "Bats",
+        "Cannon",
+        "Witch",
+        "Valkyrie",
+        "Mega Knight",
+        "Royal Ghost",
+        "Skeleton King",
+        "Furnace",
+        "Goblin Hut",
+        "X-Bow",
+        "Mortar",
+        "Giant Skeleton"
+      ],
+      "synergies": [
+        "Princess",
+        "Magic Archer",
+        "Dart Goblin",
+        "Firecracker",
+        "Wizard",
+        "Musketeer",
+        "Cannon Cart",
+        "Witch",
+        "Flying Machine",
+        "Dark Prince",
+        "Minions",
+        "Bats",
+        "Cannon",
+        "Giant Skeleton",
+        "Inferno Tower"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000059,
@@ -4631,7 +7353,43 @@
             "The flying ability can be leveraged to cancel out the journey to the tower if a structure is placed in their path, forcing them to land early."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Hog Rider",
+        "Mini P.E.K.K.A",
+        "Mighty Miner",
+        "Inferno Dragon",
+        "Prince",
+        "Skeleton Dragons",
+        "Goblins",
+        "Spear Goblins",
+        "Bats",
+        "Goblin Gang",
+        "Fireball",
+        "Mother Witch",
+        "Magic Archer",
+        "Ice Wizard",
+        "Wizard",
+        "Arrows",
+        "Poison",
+        "Barbarians",
+        "Rage",
+        "Freeze",
+        "Bomb Tower",
+        "Tombstone",
+        "Barbarian Hut",
+        "Inferno Tower",
+        "Elixir Collector",
+        "Heal Spirit"
+      ],
+      "synergies": [
+        "Skeleton Dragons",
+        "Royal Recruits",
+        "Freeze",
+        "Elixir Collector"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000047,
@@ -4687,7 +7445,29 @@
             "Due to their formation, they can be split into uneven groups (like 4 in one lane and 2 in the other) to create favorable targets for opponents while still maintaining defensive cohesion."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Guards",
+        "P.E.K.K.A",
+        "Prince",
+        "Elite Barbarians",
+        "Hunter",
+        "Giant Skeleton",
+        "Royal Ghost",
+        "Sparky",
+        "Wizard",
+        "Firecracker",
+        "Witch",
+        "Ice Wizard",
+        "Goblin Demolisher",
+        "Bomber",
+        "Bats",
+        "Minion Horde",
+        "Skeleton Dragons",
+        "Valkyrie"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000101,
@@ -4699,8 +7479,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "buildings",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -4722,7 +7502,12 @@
           "combos": "Pairing Rune Giant with Lightning or Rage is extremely powerful, as these spells maximize the damage cycle of the enhanced units. She also works well with cards that place multiple, persistent attackers, such as a strong cycle unit (e.g., Dart Goblin), ensuring all projectiles benefit from the enhanced damage.",
           "tips": "Do not use her in building-focused decks (like X-Bow) as her buff specifically ignores structures. Due to her reliance on the 'third attack' cycle, prioritize pairing her with fast-hitting, low-cost units (like Lumberjack or Bandit) rather than slow, tanky units (like Golem). Use her defensively to buff support units from a safe distance, maximizing their longevity."
         }
-      }
+      },
+      "targets": "Buildings",
+      "synergies": [
+        "Lava Hound"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000012,
@@ -4781,7 +7566,35 @@
             "Be aware that while the shadows cannot be targeted, they can be affected by spells, adding a secondary damage vector to the enemy's spell arsenal."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Wizard",
+        "Witch",
+        "Princess",
+        "Ice Wizard",
+        "Bomber",
+        "Goblin Gang",
+        "Barbarians",
+        "Royal Recruits",
+        "Minion Horde",
+        "Fireball",
+        "Poison",
+        "Barbarian Barrel",
+        "Archers",
+        "Spear Goblins",
+        "Minions",
+        "Bats",
+        "Baby Dragon",
+        "Skeleton Dragons",
+        "Goblin Drill",
+        "Electro Giant"
+      ],
+      "synergies": [
+        "Witch",
+        "Skeletons"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000056,
@@ -4840,7 +7653,47 @@
             "When facing clumps of units, deploying this Evolution can let both barrels drop their damage, and the combined death damage can defeat powerful units like Elixir Blobs."
           ]
         }
-      }
+      },
+      "role": "bait for counters so",
+      "targets": "Buildings",
+      "counters": [
+        "The Log",
+        "Zap",
+        "Barbarian Barrel",
+        "Giant Snowball",
+        "Rage",
+        "Skeletons",
+        "Goblin Gang",
+        "Bats",
+        "Electro Spirit",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Balloon",
+        "Cannon",
+        "Tombstone",
+        "Bomb Tower",
+        "Goblin Hut",
+        "Tesla",
+        "Furnace",
+        "Electro Giant",
+        "Freeze",
+        "Bomber",
+        "Dark Prince",
+        "Ice Wizard",
+        "Goblin Demolisher",
+        "Skeleton King"
+      ],
+      "synergies": [
+        "Ice Spirit",
+        "Zap",
+        "Archers",
+        "Miner",
+        "Ice Golem",
+        "Elixir Golem",
+        "Knight",
+        "Balloon"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000080,
@@ -4882,7 +7735,37 @@
             "If you have a Crown Tower support, remember that even air-targeting tanks can be countered by simply having the tower unit soak their hits and take them down."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Ice Golem",
+        "Tesla",
+        "Tombstone",
+        "Royal Hogs",
+        "Elite Barbarians",
+        "Wall Breakers",
+        "Hunter",
+        "Balloon",
+        "Bats",
+        "Minion Horde",
+        "Inferno Tower",
+        "Electro Wizard",
+        "Miner"
+      ],
+      "synergies": [
+        "Baby Dragon",
+        "Golem",
+        "Giant",
+        "Lava Hound",
+        "Elixir Golem",
+        "Graveyard",
+        "Miner",
+        "Goblin Barrel",
+        "Royal Hogs",
+        "Wall Breakers",
+        "Electro Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000069,
@@ -4927,7 +7810,44 @@
           "combos": "He works exceptionally well with Graveyard, allowing the Skeletons from his ability to quickly deal damage to the opponent's defenses after your Graveyard has been cleared. Furthermore, placing him near a swarm unit, such as a Skeleton Army, allows him to accumulate souls and then punish the opponent with a sudden wave of Skeletons.",
           "tips": "Remember that friendly troops dying also count as souls, so use him deliberately in swarm combat to pump up his soul count before the opponent can react. Since he and his Skeletons are weak to air, always be mindful of anti-air spells or air support troops. Using him to push away buildings, such as the Royal Giant, can be a subtle strategic way to control lane positioning."
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Skeleton Army",
+        "Firecracker",
+        "Princess",
+        "Ice Wizard",
+        "Bomber",
+        "Knight",
+        "Berserker",
+        "Fisherman",
+        "Bandit",
+        "Miner",
+        "Mega Minion",
+        "Bowler",
+        "Mother Witch",
+        "Graveyard",
+        "Prince",
+        "Elite Barbarians",
+        "Mighty Miner",
+        "Giant Skeleton",
+        "Boss Bandit",
+        "Mega Knight"
+      ],
+      "synergies": [
+        "Firecracker",
+        "Princess",
+        "Ice Wizard",
+        "Bomber",
+        "Knight",
+        "Berserker",
+        "Fisherman",
+        "Bandit",
+        "Miner",
+        "Mega Minion",
+        "Graveyard"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000010,
@@ -4983,7 +7903,36 @@
             "Use the swarm mechanics to bait out opponent spells, saving those spells for other high-value units to maximize the positive Elixir trade potential."
           ]
         }
-      }
+      },
+      "role": "cheap way to kite air troops placed at the center of the Arena",
+      "targets": "Ground",
+      "counters": [
+        "Prince",
+        "Inferno Dragon",
+        "Mighty Miner",
+        "Sparky",
+        "Wizard",
+        "Bowler",
+        "Witch",
+        "Bomber",
+        "Princess",
+        "Musketeer",
+        "Night Witch",
+        "Hunter",
+        "Executioner",
+        "Inferno Tower",
+        "Elite Barbarians",
+        "Bandit",
+        "Ice Golem",
+        "Flying Machine"
+      ],
+      "synergies": [
+        "Goblin Barrel",
+        "Mortar",
+        "Ice Golem",
+        "Flying Machine"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000033,
@@ -5025,7 +7974,35 @@
             "Use support splash units (like Bomber or Wizard) to clear low-HP units in front of Sparky, clearing the path for her main area damage blasts."
           ]
         }
-      }
+      },
+      "role": "support troop, ideally behind a high hitpoint tank",
+      "targets": "Ground",
+      "counters": [
+        "Golem",
+        "Mega Knight",
+        "Electro Wizard",
+        "Electro Dragon",
+        "Zappies",
+        "Tombstone",
+        "Skeletons",
+        "Graveyard",
+        "Skeleton King",
+        "Battle Ram",
+        "Barbarians",
+        "Skeleton Army",
+        "Goblins",
+        "Royal Recruits",
+        "Goblin Gang",
+        "Rocket",
+        "Miner"
+      ],
+      "synergies": [
+        "Golem",
+        "Ice Golem",
+        "Royal Giant",
+        "Rocket"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000019,
@@ -5066,7 +8043,37 @@
             "When making counter-pushes, understand that their effectiveness drops sharply if the opponent has instant, cheap spell removal ready."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Goblins",
+        "Bats",
+        "Minions",
+        "Archers",
+        "Guards",
+        "Skeletons",
+        "Graveyard",
+        "Giant Snowball",
+        "Poison",
+        "Minion Horde",
+        "Goblin Barrel"
+      ],
+      "synergies": [
+        "Giant",
+        "Lava Hound",
+        "Giant Skeleton",
+        "Royal Giant",
+        "P.E.K.K.A",
+        "Mega Knight",
+        "Electro Giant",
+        "Golem",
+        "Balloon",
+        "Graveyard",
+        "Giant Snowball",
+        "Poison",
+        "Goblin Gang"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000025,
@@ -5078,8 +8085,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "both",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -5116,7 +8123,9 @@
             "If you anticipate a counter, deploy the cheap Ground Form first, and then save your 6-Elixir elixir advantage for the more potent Air Form when the lane is open."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground (form-dependent)",
+      "knowledge_status": "partial"
     },
     {
       "id": 26000097,
@@ -5128,8 +8137,8 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "buildings",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -5151,7 +8160,17 @@
           "combos": "Pairing the Bush with Goblin Barrel or Skeleton Barrel is effective for baiting out enemy small spells, allowing you to secure a larger Elixir advantage for a subsequent push. Similarly, using a Miner near the Bush allows the Miner to tank damage from the Goblins while dealing lethal damage to the tower, creating a high-value offensive threat. Using Skeletons directly on the Bush when it reaches the tower provides an Elixir positive trade and helps clear the Goblins.",
           "tips": "Recognize that placing a structure like Tesla next to a Bush, if the Bush is the only incoming troop, is unreliable because the Bush's invisibility prevents the tower from detecting it. Instead, use the Bush as a distraction on a secondary lane to force an opponent's spell, guaranteeing a better value trade for your actual defensive spell. Against heavy pushes, deploying the Bush slightly away from your main tank allows you to bait out small spells on the Bush, keeping your defensive spells preserved for the high-HP threat."
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Ice Wizard",
+        "Electro Wizard",
+        "Goblin Drill"
+      ],
+      "synergies": [
+        "Miner"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000006,
@@ -5208,7 +8227,23 @@
             "Leverage the fact that the Evolved Tesla cannot be targeted while underground, allowing low-risk plays like directing a Hog Rider straight to the tower."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Graveyard",
+        "Freeze",
+        "Giant",
+        "Golem",
+        "Balloon",
+        "Inferno Tower",
+        "Mighty Miner",
+        "Sparky"
+      ],
+      "synergies": [
+        "Giant",
+        "Golem"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000011,
@@ -5220,7 +8255,7 @@
       "range": null,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "ground",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -5247,7 +8282,26 @@
             "Because it is a predictable spell, be mindful of its blind spots; any air troops or those positioned outside its path are completely safe from its effects."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Goblin Barrel",
+        "Magic Archer",
+        "Mother Witch",
+        "Ice Wizard",
+        "Little Prince",
+        "Three Musketeers",
+        "Musketeer"
+      ],
+      "synergies": [
+        "Magic Archer",
+        "Mother Witch",
+        "Ice Wizard",
+        "Little Prince",
+        "Three Musketeers",
+        "Musketeer"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000028,
@@ -5259,8 +8313,8 @@
       "range": null,
       "deploy_time": 1000,
       "movement_domain": "ground",
-      "attack_targets": null,
-      "movement_speed_tier": null,
+      "attack_targets": "both",
+      "movement_speed_tier": "medium",
       "stats": {
         "hp": null,
         "damage": null,
@@ -5282,7 +8336,52 @@
           "combos": "Pairing them with bait cards like Elixir Collector or Goblin Barrel maximizes their defensive value, forcing the opponent to waste spells on the bait while the Musketeers remain safe. Combining them with Royal Hogs allows the Hogs to act as a durable distraction and bait, potentially drawing multiple spell hits like Lightning, thus saving the Musketeers from the blast.",
           "tips": "When splitting the Musketeers, utilize your support cards to strengthen the weaker lane's overall push rather than just deploying the Musketeers there. Be mindful that if the opponent anticipates the split, they may save a specific spell (like a Rocket) to counter the entire combination in one go. Because they are vulnerable to instant spells, keeping them slightly back in the arena minimizes the chance of being rushed by immediate, precise counter-spells."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Fireball",
+        "Royal Delivery",
+        "Zap",
+        "Giant Snowball",
+        "The Log",
+        "Poison",
+        "Lightning",
+        "Skeleton Dragons",
+        "Princess",
+        "Bats",
+        "Archers",
+        "Battle Ram",
+        "Firecracker",
+        "Minion Horde",
+        "Zappies",
+        "Little Prince",
+        "Goblinstein",
+        "Barbarians",
+        "Goblin Barrel",
+        "Dart Goblin",
+        "Magic Archer",
+        "Elixir Collector",
+        "Earthquake",
+        "Mirror",
+        "Rocket",
+        "Tornado",
+        "Sparky",
+        "Lava Hound",
+        "Balloon",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Spear Goblins",
+        "Goblins",
+        "Royal Recruits"
+      ],
+      "synergies": [
+        "Rocket",
+        "Tornado",
+        "Ice Spirit",
+        "Guards",
+        "Magic Archer"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000009,
@@ -5326,7 +8425,34 @@
             "Due to its low Elixir cost, it is effective for soaking up minor damage from self-destruction mechanics (like Wall Breakers) to protect more vital targets."
           ]
         }
-      }
+      },
+      "counters": [
+        "Skeletons",
+        "Giant Skeleton",
+        "Giant",
+        "Prince",
+        "Bandit",
+        "Boss Bandit",
+        "Miner",
+        "Graveyard",
+        "Princess",
+        "Mortar",
+        "Baby Dragon",
+        "Skeleton Dragons",
+        "Sparky",
+        "The Log",
+        "Arrows",
+        "Earthquake",
+        "Mighty Miner",
+        "Goblinstein",
+        "Guards",
+        "Skeleton Army"
+      ],
+      "synergies": [
+        "Ram Rider",
+        "Mega Knight"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 28000012,
@@ -5338,7 +8464,7 @@
       "range": 5500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -5366,7 +8492,27 @@
             "The ability to clump units is more useful than the spell's direct, low damage output; save the spell for maximum positional utility."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Knight",
+        "P.E.K.K.A",
+        "X-Bow",
+        "Mortar"
+      ],
+      "synergies": [
+        "Knight",
+        "Electro Dragon",
+        "Electro Spirit",
+        "Golden Knight",
+        "Mortar",
+        "Poison",
+        "Giant Snowball",
+        "Goblins",
+        "Spear Goblins",
+        "Minions"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000011,
@@ -5428,7 +8574,52 @@
             "Positioning the Evolved Valkyrie strategically can allow her to fully counter cards like Evolved Royal Giant or Goblin Giant, enabling positive Elixir trades."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Royal Recruits",
+        "Guards",
+        "Barbarians",
+        "Giant",
+        "Golem",
+        "Mini P.E.K.K.A",
+        "Goblins",
+        "Ram Rider",
+        "Wall Breakers",
+        "P.E.K.K.A",
+        "Giant Skeleton",
+        "Boss Bandit",
+        "Mighty Miner",
+        "Bats",
+        "Minions",
+        "Elixir Golem",
+        "Goblin Giant",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Graveyard",
+        "Freeze",
+        "X-Bow",
+        "Sparky"
+      ],
+      "synergies": [
+        "Mini P.E.K.K.A",
+        "Hog Rider",
+        "Ram Rider",
+        "Battle Ram",
+        "Wall Breakers",
+        "Freeze",
+        "Ice Wizard",
+        "Little Prince",
+        "Bomber",
+        "Archers",
+        "Bats",
+        "Minions",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Balloon",
+        "X-Bow"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000026,
@@ -5440,7 +8631,7 @@
       "range": 2500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -5464,7 +8655,12 @@
           "combos": "Pairing Vines with ground-targeting tanks, such as the Giant or Golem, allows the tank to deal consistent damage to previously untargetable air units. Using it with low-anti-air support cards enables the ground unit to deal damage to both air and ground threats simultaneously. The combination also guarantees high value by making multiple clustered targets vulnerable to ground unit splash damage.",
           "tips": "Always check the general radius size when predicting its placement, as a slightly larger placement can dramatically increase the number of targets and the spell's overall value. Since it targets the three highest HP, placing it specifically on the enemy's defensive clump (e.g., Wizard + Musketeer) will deny them critical support units. As it is effective against shielded units, anticipate these shields and place Vines to ensure its multiple damage ticks hit the shield multiple times."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Arrows"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 28000023,
@@ -5476,7 +8672,7 @@
       "range": 2500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -5504,7 +8700,22 @@
             "Be cautious when hitting the King Tower with Void and other troops nearby, as this drastically reduces damage to the supporting units, leading to wasted spell output."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Barbarian Hut",
+        "Goblin Hut",
+        "Elixir Collector",
+        "Rocket",
+        "X-Bow",
+        "Knight",
+        "Spear Goblins",
+        "Ice Golem",
+        "Guards",
+        "Goblin Barrel",
+        "Minions"
+      ],
+      "knowledge_status": "partial"
     },
     {
       "id": 26000058,
@@ -5561,7 +8772,20 @@
             "Synergize them with troops like the Miner or Skeleton Barrel; the latter can act as spell bait and a tank, allowing the Evolved Wall Breakers to safely connect and deal their full damage."
           ]
         }
-      }
+      },
+      "targets": "Buildings",
+      "counters": [
+        "Ice Spirit",
+        "Rage",
+        "Miner"
+      ],
+      "synergies": [
+        "Ice Spirit",
+        "Giant",
+        "Golem",
+        "Rune Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000007,
@@ -5622,7 +8846,33 @@
             "Using her to support high-cost utility cards like Balloon or Lava Hound can bait powerful spell removal (Rocket or Lightning), creating opportunities for follow-up damage."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Wizard",
+        "Prince",
+        "Elite Barbarians",
+        "Mother Witch",
+        "Barbarian Barrel",
+        "P.E.K.K.A",
+        "Sparky",
+        "Tornado"
+      ],
+      "synergies": [
+        "Golem",
+        "Giant Skeleton",
+        "Giant",
+        "Skeletons",
+        "Skeleton Army",
+        "Barbarian Barrel",
+        "Ice Golem",
+        "Knight",
+        "Fireball",
+        "Poison",
+        "Miner",
+        "Tornado"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000017,
@@ -5698,7 +8948,30 @@
             "Be aware that certain cards can prevent the ability from working, such as those that drag the Wizard to the ground or negate air attacks."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Barbarians",
+        "Prince",
+        "Minion Horde",
+        "Goblin Gang",
+        "Bats",
+        "Barbarian Barrel",
+        "Mini P.E.K.K.A",
+        "Knight",
+        "Cannon Cart",
+        "Valkyrie",
+        "Musketeer",
+        "Archers",
+        "Bandit",
+        "Lava Hound"
+      ],
+      "synergies": [
+        "Prince",
+        "Barbarian Barrel",
+        "Three Musketeers"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 27000008,
@@ -5740,7 +9013,38 @@
             "Avoid predictable placements; moving the X-Bow slightly every match can bait out specific opponent cards, allowing you to better read their threat depth."
           ]
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Rocket",
+        "Battle Ram",
+        "Balloon",
+        "Knight",
+        "Lumberjack",
+        "Miner",
+        "Golden Knight",
+        "Monk",
+        "Skeleton King",
+        "Mini P.E.K.K.A",
+        "Dark Prince",
+        "Prince",
+        "Earthquake",
+        "Tesla",
+        "Royal Hogs",
+        "Tornado"
+      ],
+      "synergies": [
+        "Archers",
+        "Balloon",
+        "Lava Hound",
+        "Magic Archer",
+        "Barbarian Barrel",
+        "Royal Delivery",
+        "Heal Spirit",
+        "Battle Healer",
+        "Rune Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 28000008,
@@ -5752,7 +9056,7 @@
       "range": 2500,
       "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": null,
+      "attack_targets": "both",
       "movement_speed_tier": null,
       "stats": {
         "hp": null,
@@ -5797,7 +9101,24 @@
             "To maximize damage and counter high-health units, it can be paired with a second small spell, like Fireball, making it a cost-effective alternative to stronger spells like Lightning."
           ]
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Arrows",
+        "Skeleton Army",
+        "Minions",
+        "Ice Spirit",
+        "Ice Golem",
+        "Archers",
+        "Fire Spirit",
+        "Wall Breakers",
+        "Hog Rider"
+      ],
+      "synergies": [
+        "Fire Spirit",
+        "Wall Breakers"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000052,
@@ -5837,7 +9158,43 @@
           "combos": "Pairing Zappies with Graveyard is potent, as the Zappies can bait out Poison and survive enough attacks to stun the tower, allowing the Skeletons to spawn and damage the enemy tower repeatedly. Utilizing them with other spell-vulnerable troops can bait out enemy spells, ensuring the follow-up units survive the spell targeting the Zappies. They also support tanks by crippling buildings like the Inferno Tower, preventing them from dealing continuous damage.",
           "tips": "When positioning Zappies, place them behind the Crown Tower rather than on top of a unit to maximize their charging time and ensure sustained stuns. Use them to specifically bait out opponent spells, protecting other valuable, spell-vulnerable assets on your side of the arena. If you anticipate a Sparky threat, wait for the card to cross the bridge and surround the Zappies to keep them permanently stunned until the Sparky dies."
         }
-      }
+      },
+      "targets": "Air & Ground",
+      "counters": [
+        "Fisherman",
+        "Ram Rider",
+        "Mighty Miner",
+        "Prince",
+        "Dark Prince",
+        "Battle Ram",
+        "Inferno Tower",
+        "Inferno Dragon",
+        "Fireball",
+        "Poison",
+        "Barbarian Barrel",
+        "Royal Delivery",
+        "Skeletons",
+        "Archers",
+        "Minions",
+        "Spear Goblins",
+        "Bats",
+        "Guards",
+        "Goblins",
+        "Skeleton Army",
+        "Minion Horde",
+        "Goblin Gang",
+        "Balloon",
+        "Zap",
+        "Graveyard",
+        "Sparky"
+      ],
+      "synergies": [
+        "Inferno Tower",
+        "Barbarian Barrel",
+        "Royal Delivery",
+        "Mega Knight"
+      ],
+      "knowledge_status": "full"
     }
   ]
 }
