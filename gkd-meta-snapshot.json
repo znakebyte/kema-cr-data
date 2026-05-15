@@ -6845,10 +6845,6 @@
           "evolutionLevel": 0
         },
         {
-          "id": 26000041,
-          "evolutionLevel": 0
-        },
-        {
           "id": 27000003,
           "evolutionLevel": 0
         }
@@ -8727,10 +8723,6 @@
         {
           "id": 26000080,
           "evolutionLevel": 0
-        },
-        {
-          "id": 26000039,
-          "evolutionLevel": 0
         }
       ],
       "popular_decks": [
@@ -9215,6 +9207,10 @@
         {
           "id": 26000054,
           "evolutionLevel": 0
+        },
+        {
+          "id": 28000004,
+          "evolutionLevel": 0
         }
       ],
       "popular_decks": [],
@@ -9357,6 +9353,10 @@
         },
         {
           "id": 26000080,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000025,
           "evolutionLevel": 0
         }
       ],
