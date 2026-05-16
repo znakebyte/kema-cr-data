@@ -1,16 +1,13 @@
 {
   "file_info": {
     "role": "cards",
-    "generated_by": "internal",
-    "description": "Merged card definitions file ready to publish.",
-    "build_notes": "Base + mechanics + coaching merged locally and saved under the ready-to-publish path.",
-    "recommended_path": "scripts/gkd/ready-to-publish/gkd-card-definitions.json"
+    "generated_by": "internal"
   },
-  "gkd_version": "2026-05-14-scalar-audit",
-  "generated_at": "2026-05-15T18:59:29.274Z",
-  "patch_label": "2026-05-14-scalar-audit",
+  "gkd_version": "2026-05-16",
+  "generated_at": "2026-05-16T20:50:41.494Z",
+  "patch_label": "2026-05-16",
   "card_count": 121,
-  "sha256": "19bb5cf1e5755f4b3c76b3c75f035eff5c6546d5fb2f80780ff70e224e7dab4e",
+  "sha256": "5905ca23abee9a26ae8cebb92d5bb83096795fb5b0db54ee86b0ed7b8fcc58fa",
   "cards": [
     {
       "id": 26000072,
@@ -89,8 +86,7 @@
         "Royal Delivery",
         "Barbarian Barrel"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000001,
@@ -215,8 +211,7 @@
         "Flying Machine",
         "Rascals"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000001,
@@ -296,8 +291,7 @@
         "Golden Knight",
         "Little Prince"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000015,
@@ -382,8 +376,7 @@
       "synergies": [
         "Graveyard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000006,
@@ -448,8 +441,6 @@
           ]
         }
       },
-      "targets": "Buildings",
-      "knowledge_status": "partial",
       "coaching_meta": {
         "hero": {
           "source_page_name": "Balloon/Hero",
@@ -458,7 +449,9 @@
           "wiki_text_chars": 415,
           "generated_at": "2026-05-15"
         }
-      }
+      },
+      "targets": "Buildings",
+      "knowledge_status": "partial"
     },
     {
       "id": 26000046,
@@ -516,8 +509,7 @@
         "Goblins",
         "Lumberjack"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000015,
@@ -526,7 +518,7 @@
       "type": "spell",
       "elixir": 2,
       "hit_speed": null,
-      "range": 4500,
+      "range": null,
       "deploy_time": null,
       "movement_domain": null,
       "attack_targets": "ground",
@@ -575,6 +567,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Barbarian Barrel/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "manual_review",
+          "wiki_text_chars": 587,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Ground",
       "counters": [
         "Goblin Barrel",
@@ -614,16 +615,7 @@
         "Giant Snowball",
         "Poison"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Barbarian Barrel/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "manual_review",
-          "wiki_text_chars": 587,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 27000005,
@@ -673,8 +665,7 @@
         "Mega Knight",
         "Miner"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000008,
@@ -762,8 +753,7 @@
         "Goblin Barrel",
         "Graveyard"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000049,
@@ -860,8 +850,7 @@
         "Giant",
         "Mega Knight"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000068,
@@ -928,8 +917,7 @@
         "Lava Hound",
         "Golem"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000036,
@@ -1033,8 +1021,7 @@
         "Bandit",
         "Witch"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000102,
@@ -1042,9 +1029,9 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 2,
-      "hit_speed": 600,
-      "range": 800,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
       "attack_targets": "ground",
       "movement_speed_tier": "fast",
@@ -1079,8 +1066,7 @@
       "synergies": [
         "Ice Spirit"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000004,
@@ -1151,8 +1137,7 @@
       "synergies": [
         "Royal Giant"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000013,
@@ -1248,8 +1233,7 @@
         "Sparky",
         "Prince"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000103,
@@ -1281,20 +1265,51 @@
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
-        "generated_at": "2026-05-09",
+        "generated_at": "2026-05-16",
         "base": {
-          "how_it_works": "The Boss Bandit is a ground troop that dashes to her target and is invulnerable during the dash. If there are ground units 3.5 to 6 tiles away, she will stop moving and charge a dash attack, dealing double damage.",
-          "champion_ability": "The Getaway Grenade ability costs 1 Elixir. It causes the Boss Bandit to become invisible for one second, then teleports 6 tiles behind her original spot. This ability has a 3-second cooldown after its duration ends, and she can activate it up to two times.",
-          "ability_timing": "The ability is best used reactively to escape immediate damage or to reposition quickly after an engagement. Activating it poorly, such as in an open field, wastes its defensive utility, and the subsequent 3-second cooldown leaves her vulnerable to incoming damage.",
-          "how_to_use": "Deploy her as a primary threat to force high Elixir investments from the opponent. Her dual threat—initial tanking and follow-up burst damage—makes her powerful both offensively and defensively.",
-          "counters": "Due to her high deployment cost, the opponent should counter her with significant swarms or fast, reliable anti-tank units. Mini P.E.K.K.A. or Lumberjack can cripple her hitpoints quickly, especially when played on her back after a teleport.",
-          "combos": "Using supporting troops such as Skeleton Army or other swarms keeps her distracted, allowing her to tank damage while building up Elixir advantage. She also synergizes with Rage, which boosts her attack speed and reduces her dash time, enhancing her overall combat efficiency.",
-          "tips": "Never use her ability unless you know it provides tactical value, as the 1 Elixir cost combined with the 6 Elixir base cost (a total of 7 Elixir) represents a significant overcommitment. Use the ability to ensure continuous momentum, not just to escape; for example, using it to reposition behind a defensive wall."
+          "how_it_works": "The Boss Bandit is a melee ground Champion unit that spawns and moves towards targets. If positioned 3.5 to 6 tiles away from ground units, she will halt her movement to charge a powerful, double-damage dash attack that takes 0.8 seconds to execute.",
+          "champion_ability": "Using her Getaway Grenade ability costs 1 Elixir. It first makes the Bandit invisible for one second, then teleports her exactly 6 tiles directly behind her previous position. This ability has a 3-second cooldown after its duration ends, but she can activate it up to two times.",
+          "ability_timing": "Activate the ability when facing predicted damage or needing to re-establish a dash position far from the enemy. Using it poorly can result in unnecessary Elixir expenditure, as the opponent can punish the heavy initial cost of 7 Elixir (6+1).",
+          "how_to_use": "Deploying her primarily offensively allows her to secure critical high-value targets and force massive Elixir trades from the opponent. She is also a strong defensive tool, using her dashes and teleports to nullify charge or initial enemy attacks.",
+          "counters": "The best counters include fast, high-damage anti-air or anti-ground troops, or anti-tank units like Mini P.E.K.K.A. and Lumberjack. These counters are effective when played immediately upon her ability use, taking advantage of her momentary vulnerability or repositioning.",
+          "combos": "Pairing her with tank support units allows her to survive and deal massive damage in one-on-one engagements. Furthermore, adding units that generate swarm pressure, such as Skeleton Army, makes her tankier and helps distract the opponent, ensuring she can utilize both abilities.",
+          "tips": "Be wary of her high Elixir cost (up to 8) combined with her opponent's punish potential. Use her ability not just to escape, but strategically to reposition into a better attacking angle or to maximize the distance for a second dash. Consider using crowd control or Ice Spirit preemptively to stall her initial dash and force a more controlled ability activation."
+        }
+      },
+      "coaching_meta": {
+        "base": {
+          "source_page_name": "Boss Bandit",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 6012,
+          "generated_at": "2026-05-16"
         }
       },
       "targets": "Ground",
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "full",
+      "counters": [
+        "Ice Spirit",
+        "Mini P.E.K.K.A",
+        "P.E.K.K.A",
+        "Skeleton Army",
+        "Skeletons",
+        "Bomber",
+        "Firecracker",
+        "Ice Wizard",
+        "Wizard",
+        "Rage",
+        "Guards",
+        "Mighty Miner"
+      ],
+      "synergies": [
+        "Knight",
+        "Battle Healer",
+        "Golden Knight",
+        "Monk",
+        "Goblins",
+        "Guards"
+      ],
+      "role": "great tank"
     },
     {
       "id": 26000034,
@@ -1364,6 +1379,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Bowler/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 408,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Ground",
       "counters": [
         "Skeletons",
@@ -1396,16 +1420,7 @@
         "Goblins",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Bowler/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 408,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 27000000,
@@ -1471,8 +1486,7 @@
         "Hunter",
         "Inferno Dragon"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000054,
@@ -1480,9 +1494,9 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 900,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
       "attack_targets": "ground",
       "movement_speed_tier": "medium",
@@ -1541,8 +1555,7 @@
         "Goblins",
         "Battle Healer"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000013,
@@ -1596,8 +1609,7 @@
         "Skeletons",
         "Bats"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000027,
@@ -1666,6 +1678,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Dark Prince/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 383,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Ground",
       "counters": [
         "Knight",
@@ -1720,16 +1741,7 @@
         "Mini P.E.K.K.A",
         "Golem"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Dark Prince/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 383,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000040,
@@ -1818,8 +1830,7 @@
         "Boss Bandit",
         "Giant Skeleton"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000014,
@@ -1874,8 +1885,7 @@
         "Golem",
         "The Log"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000063,
@@ -1972,8 +1982,7 @@
         "X-Bow",
         "Mortar"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000085,
@@ -2033,8 +2042,7 @@
         "Minion Horde",
         "Sparky"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000084,
@@ -2096,8 +2104,7 @@
         "Skeleton Barrel",
         "Balloon"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000042,
@@ -2106,14 +2113,18 @@
       "type": "troop",
       "elixir": 4,
       "hit_speed": 1800,
-      "range": 3000,
+      "range": 5000,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "both",
       "movement_speed_tier": "fast",
       "stats": {
-        "hp": null,
-        "damage": null,
+        "hp": [
+          279
+        ],
+        "damage": [
+          46
+        ],
         "dps": null
       },
       "evolution": null,
@@ -2171,8 +2182,7 @@
         "Graveyard",
         "Balloon"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000043,
@@ -2248,8 +2258,7 @@
         "Guards",
         "Skeleton King"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000007,
@@ -2298,8 +2307,7 @@
       "synergies": [
         "Graveyard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000067,
@@ -2366,8 +2374,7 @@
         "Tesla",
         "Ice Golem"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000045,
@@ -2453,8 +2460,7 @@
         "Giant",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000031,
@@ -2512,8 +2518,7 @@
         "P.E.K.K.A",
         "Zap"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000000,
@@ -2565,8 +2570,7 @@
         "Skeleton King",
         "Goblin Machine"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000064,
@@ -2641,8 +2645,7 @@
         "Wall Breakers",
         "Executioner"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000061,
@@ -2708,8 +2711,7 @@
       "synergies": [
         "Miner"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000057,
@@ -2775,8 +2777,7 @@
         "Giant",
         "Royal Recruits"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000005,
@@ -2834,8 +2835,7 @@
         "Witch",
         "Bomber"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000010,
@@ -2844,7 +2844,7 @@
       "type": "building",
       "elixir": 4,
       "hit_speed": 6000,
-      "range": 6000,
+      "range": null,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "ground",
@@ -2928,8 +2928,7 @@
         "Goblin Barrel",
         "Skeleton King"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000003,
@@ -2991,6 +2990,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Giant/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 3545,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Buildings",
       "counters": [
         "Prince",
@@ -3049,16 +3057,7 @@
         "Goblin Demolisher",
         "Bowler"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Giant/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 3545,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000020,
@@ -3138,8 +3137,7 @@
         "Balloon",
         "Fisherman"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000017,
@@ -3205,8 +3203,7 @@
         "Rage",
         "Dart Goblin"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 28000004,
@@ -3293,8 +3290,7 @@
         "Bowler",
         "Freeze"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000012,
@@ -3381,8 +3377,7 @@
         "Bomber",
         "Mother Witch"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 28000024,
@@ -3438,8 +3433,7 @@
         "Skeleton Army",
         "Goblins"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000095,
@@ -3447,9 +3441,9 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1200,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
       "attack_targets": "ground",
       "movement_speed_tier": "medium",
@@ -3496,8 +3490,7 @@
         "Goblin Hut",
         "Barbarian Hut"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 27000013,
@@ -3599,8 +3592,7 @@
         "Zap",
         "Goblin Gang"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000041,
@@ -3663,8 +3655,7 @@
       "synergies": [
         "Hog Rider"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000060,
@@ -3761,8 +3752,7 @@
         "Lumberjack",
         "Graveyard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000001,
@@ -3829,8 +3819,7 @@
         "Earthquake",
         "Poison"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000096,
@@ -3838,9 +3827,9 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1200,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
       "attack_targets": "both",
       "movement_speed_tier": "medium",
@@ -3895,8 +3884,7 @@
       "synergies": [
         "Void"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000002,
@@ -3959,6 +3947,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Goblins/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 423,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Ground",
       "counters": [
         "Wizard",
@@ -4001,16 +3998,7 @@
         "Spear Goblins",
         "Goblin Gang"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Goblins/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 423,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000099,
@@ -4020,7 +4008,7 @@
       "elixir": 5,
       "hit_speed": null,
       "range": null,
-      "deploy_time": 1000,
+      "deploy_time": null,
       "movement_domain": "ground",
       "attack_targets": "both",
       "movement_speed_tier": null,
@@ -4063,8 +4051,7 @@
         "Zappies",
         "Royal Hogs"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000074,
@@ -4124,8 +4111,7 @@
         "Minions",
         "Bats"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000009,
@@ -4187,8 +4173,7 @@
         "Monk",
         "Hog Rider"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000010,
@@ -4283,8 +4268,7 @@
         "Electro Giant",
         "Inferno Tower"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000025,
@@ -4355,8 +4339,7 @@
         "Golem",
         "Ice Wizard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000016,
@@ -4416,8 +4399,7 @@
         "Poison",
         "Skeleton Barrel"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000021,
@@ -4492,8 +4474,7 @@
         "Skeleton Dragons",
         "Hunter"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000044,
@@ -4591,8 +4572,7 @@
         "Ram Rider",
         "Dark Prince"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000038,
@@ -4658,6 +4638,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Ice Golem/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 1964,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Buildings",
       "counters": [
         "Hog Rider",
@@ -4698,16 +4687,7 @@
         "Elite Barbarians",
         "Golem"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Ice Golem/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 1964,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000030,
@@ -4802,8 +4782,7 @@
         "Skeleton King",
         "Monk"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000023,
@@ -4812,13 +4791,15 @@
       "type": "troop",
       "elixir": 3,
       "hit_speed": 1700,
-      "range": 3000,
+      "range": 5500,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "both",
       "movement_speed_tier": "medium",
       "stats": {
-        "hp": null,
+        "hp": [
+          269
+        ],
         "damage": null,
         "dps": null
       },
@@ -4869,8 +4850,7 @@
         "Minions",
         "Graveyard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000037,
@@ -4968,8 +4948,7 @@
         "Mega Knight",
         "Rune Giant"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000003,
@@ -5066,8 +5045,7 @@
         "Zap",
         "P.E.K.K.A"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000000,
@@ -5145,6 +5123,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Knight/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 4746,
+          "generated_at": "2026-05-15"
+        }
+      },
       "role": "cheap tank for tanking an enemy X-Bow",
       "targets": "Ground",
       "counters": [
@@ -5185,16 +5172,7 @@
         "Furnace",
         "Rascals"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Knight/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 4746,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000029,
@@ -5272,8 +5250,7 @@
         "Giant Snowball",
         "Flying Machine"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000007,
@@ -5338,8 +5315,7 @@
         "Bomber",
         "Elixir Collector"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000093,
@@ -5372,15 +5348,24 @@
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
-        "generated_at": "2026-05-09",
+        "generated_at": "2026-05-16",
         "base": {
-          "how_it_works": "Little Prince is a ground-based Champion troop that deploys as a 3 Elixir card. While stationary, he gains Hit Speed when firing, making him a consistent threat to the tower.",
-          "champion_ability": "By spending an additional 3 Elixir to activate 'Royal Rescue', the Little Prince summons Guardienne, a Knight-stat tank. Guardienne charges in front of the Little Prince, dealing damage, and pushing opposing ground troops away by a short distance. The ability has a 30-second cooldown after its duration ends.",
-          "ability_timing": "It is best activated when a large tank or threat is actively engaging your tower or troops, as the knockback can completely interrupt major attack patterns. Using it too early wastes the cooldown and fails to counter a specific threat, severely diminishing its defensive value.",
-          "how_to_use": "The Prince serves as both a persistent, high-value defensive unit and a strategic attacker. Because of Guardienne's tanking capability, the deck should heavily rely on the combination to neutralize high-threat enemies, making both offensive and defensive plays viable.",
-          "counters": "Because of the knockback effect, units like the Bowler are exceptionally good at countering the duo, as they can hit both Little Prince and Guardienne. Strong spells like Fireball are also threats, as while not enough alone, they can defeat the Prince if leveled higher than him or paired with additional damage.",
-          "combos": "The combination of Little Prince and Guardienne is devastating for controlling large tanks (e.g., Golem, Mega Knight) by interrupting their critical attacks. Using the knockback to push enemy Spear Goblins out of range can also protect the Little Prince from instant death.",
-          "tips": "Always aim to use the knockback effect strategically to reset the attack ramp-up of major threats, which saves crucial chip damage to your towers. Be mindful that while Guardienne tanks well, the death damage from spells like the death bomb can still pose a significant threat to the Little Prince afterward. Remember that the ability costs 6 Elixir total, meaning you are spending a substantial portion of your elixir reserves for its effect."
+          "how_it_works": "The Little Prince is a ranged, air-targeting Champion that reliably fires upon ground units while standing still. He is a moderate-hitpoint troop that provides consistent, low-damage pressure to Princess Towers.",
+          "champion_ability": "Activating the 'Royal Rescue' costs an additional 3 Elixir and initiates a 1-second delay before an allied unit, Guardienne, appears. Guardienne charges directly in front of the Little Prince, dealing damage and knocking opposing ground troops away by a small area, then remains in the arena until defeated. The ability has a 30-second cooldown after the charge ends.",
+          "ability_timing": "Optimal use is to activate Royal Rescue when facing large tanks or siege threats to disrupt their advance. Activating it too early, or when the threat is already dealt with, wastes the cooldown and the full value of the 6-Elixir commitment.",
+          "how_to_use": "Deploying him early allows him to pressure the opponent's towers continuously, while using the ability provides crucial temporary tanking and defensive zone control. He is versatile, serving as both consistent offensive pressure and an invaluable defensive countermeasure.",
+          "counters": "The Bowler is effective because it can be aligned to hit both Little Prince and Guardienne, and its knockback also resets the Prince's ramp-up attacks. Strong spells (like Fireball) can also defeat him, especially if the spell is higher leveled, although additional damage is usually required.",
+          "combos": "The ability excels against large tanks like Golems or Mega Knight, whose charging patterns can be interrupted by the knockback. Furthermore, it can successfully push dedicated attackers, such as the Giant Skeleton, out of range, allowing the Little Prince and Guardienne to retaliate.",
+          "tips": "Always account for the full 6 Elixir cost (3 for the card, 3 for the ability) when determining its value in an Elixir trade. Use the knockback to disrupt unit positioning, even if it seems the threat is distant. If the Little Prince is under-leveled, ensure the ability is used to compensate for his reduced raw damage output."
+        }
+      },
+      "coaching_meta": {
+        "base": {
+          "source_page_name": "Little Prince",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 6012,
+          "generated_at": "2026-05-16"
         }
       },
       "targets": "Air & Ground",
@@ -5400,8 +5385,8 @@
         "Goblin Gang",
         "Dart Goblin"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "full",
+      "role": "situation counter"
     },
     {
       "id": 26000035,
@@ -5485,8 +5470,7 @@
         "Wizard",
         "Ice Wizard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000062,
@@ -5551,6 +5535,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Magic Archer/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 430,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Air & Ground",
       "counters": [
         "The Log",
@@ -5591,16 +5584,7 @@
         "Three Musketeers",
         "Musketeer"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Magic Archer/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 430,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000055,
@@ -5705,8 +5689,7 @@
         "Tombstone",
         "Fisherman"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000039,
@@ -5769,6 +5752,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Mega Minion/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 416,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Air & Ground",
       "counters": [
         "Minions",
@@ -5796,16 +5788,7 @@
         "Skeletons",
         "Little Prince"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Mega Minion/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 416,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000065,
@@ -5882,8 +5865,7 @@
         "Wall Breakers",
         "Battle Ram"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000032,
@@ -5951,8 +5933,7 @@
         "Goblin Barrel",
         "Ice Spirit"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000018,
@@ -5995,24 +5976,28 @@
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
-        "generated_at": "2026-05-09",
+        "generated_at": "2026-05-16",
         "base": {
-          "how_it_works": "The Mini P.E.K.K.A. is a single-target, ground-targeting melee troop with moderately high hitpoints and extremely high damage. It moves quickly and attacks slowly, making it excellent for quick, high-burst damage output.",
-          "how_to_use": "Offensively, use it to quickly eliminate high-HP single-target threats like the Golem or Royal Giant before they can deal damage. Defensively, deploy it against substantial support troops or tank push support units. Always look for opportunities to use its survivability and burst damage to transition into a powerful counterpush.",
-          "counters": "Swarms of low-HP troops (like skeletons) can efficiently defeat it with minimal losses, making positive Elixir trades. Indirect damage or spells (like Arrows) that target multiple units are effective because it requires a high amount of time to deal damage. Because it is slow to attack, fast-moving support cards can overwhelm it before it can deal maximum damage.",
-          "combos": "Pair it with support units like Skeletons or Ice Spirits to easily survive high-damage hits from tanks, letting it reach the main threat. Against massive pushes, deploy it on the support troops first; eliminating these units allows it to save HP for the much more valuable, high-HP tank behind them. This maximizes the trade and conserves its combat longevity.",
-          "tips": "Do not focus it solely on the main tank; prioritizing the support troops (like Wizards or Bowlers) is key to winning the Elixir trade. Because of its speed, position it slightly ahead of your main troop to engage the enemy push immediately and maintain initiative. Be wary of abilities that can knock it back, as it can be vulnerable when recovering from being pushed away."
+          "how_it_works": "The Mini P.E.K.K.A is a high-damage, ground-targeting, melee troop with high hitpoints. It moves quickly and attacks a single target with moderate speed, making it effective against durable units.",
+          "how_to_use": "Offensively, deploy him as a counter-pusher, ideally after clearing out a key support unit first. Defensively, use him against single, high-health threats like the Golem or Electro Giant to minimize damage to your towers. Always aim to target support troops first, allowing him to weaken the main tank and secure elixir advantages.",
+          "counters": "Lava Hound and swarms (like Skeleton Army/Skeletons) are effective because they can overwhelm his durability with multiple small units, making positive elixir trades. Buildings like the Princess Towers or traps can also deal sustained damage, mitigating his high initial health. High-damage area spells are useful for clearing multiple support units quickly and forcing him to re-target.",
+          "combos": "Paired with support troops like Skeleton Army, Mini P.E.K.K.A can engage the backline support units of an opponent's push first, weakening them for the main tank. Against structures, deploying him with a draw ability (like Ice Spirit) can guarantee multiple hits, dealing massive damage and minimizing the chance of him being blocked by initial damage.",
+          "tips": [
+            "Remember that unlike some units, he cannot target air troops, so don't rely on him to defend air lanes.",
+            "Always prioritize hitting the support troops of a push over the main tank; this preserves his health and ensures a powerful counter-push.",
+            "Due to his high damage, using him right after a defensive structure is destroyed can make him difficult to counter while you are still building up your next push."
+          ]
         },
         "hero": {
           "what_changes": "The Hero Mini P.E.K.K.A has the same stats as the base card.",
-          "hero_ability": "The ability costs an additional 1 Elixir to activate. After a 1-second delay, the hero immediately consumes stored pancakes, granting extra Levels (ranging from 1 to 5) and healing the card for 30%.",
-          "ability_timing": "Optimal timing is generally used to take out anti-tank cards, providing a better counterattack after healing. Activating the ability when predicting an opponent's spell may waste the healing effect.",
-          "hero_slot_value": "Its ability allows it to significantly boost its survivability and damage output, making it valuable when needing substantial resilience. However, placing it in the Hero slot might be suboptimal if the immediate threat requires quick, unenhanced burst damage.",
-          "how_to_use": "Use Hero Mini P.E.K.K.A like the base tank killer, but save Breakfast Boost until he is in a high-value fight and has enough stored pancakes to make the heal and level spike matter. The Hero version is strongest when the one-time boost flips a key tower or tank interaction instead of being spent on cleanup.",
-          "counters": "The general counterplay remains the same, but timing your attack before the hero activates its ability is crucial.",
+          "hero_ability": "The Breakfast Boost ability costs 1 Elixir to activate. After a 1-second delay, the troop consumes accumulated pancakes, granting it extra Levels and healing itself for 30%. The levels gained vary from 1 to 5, depending on the number of progress meters filled.",
+          "ability_timing": "The ability should be used when a tank is protecting the unit, as the immediate counterattack provides more damage and healing. Using it when the opponent anticipates the ability can waste the healing effect.",
+          "hero_slot_value": "The Hero version excels in prolonged engagements where it can safely accumulate ability meters through enemy pressure. However, placing it in the Hero slot is suboptimal if the player anticipates high burst damage that could prevent meter accumulation.",
+          "how_to_use": "",
+          "counters": "The counters remain focused on stopping the troop before it activates its ability, such as using a spell to eliminate it. The ability also grants enhanced survivability after the initial threat.",
           "tips": [
-            "Pairing it with low damage units, such as the Royal Chef, can force more attacks and help accumulate the ability meters safely.",
-            "Consider activating the ability immediately after a powerful opposing hit to maximize survivability and counterdamage."
+            "The synergy with the Royal Chef can force the troop to attack multiple times, which helps accumulate ability progress more safely.",
+            "Consider using Mirror on the Heroic Mini P.E.K.K.A to multiply the extra Levels gained, significantly increasing its combat resilience."
           ]
         }
       },
@@ -6022,9 +6007,78 @@
           "grounding_status": "grounded",
           "coaching_source": "ollama",
           "wiki_text_chars": 4911,
-          "generated_at": "2026-05-15"
+          "generated_at": "2026-05-16"
+        },
+        "base": {
+          "source_page_name": "Mini_P.E.K.K.A.",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 6012,
+          "generated_at": "2026-05-16"
         }
-      }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Giant",
+        "Royal Giant",
+        "Goblin Giant",
+        "Spear Goblins",
+        "Goblins",
+        "Electro Giant",
+        "Golem",
+        "Elixir Golem",
+        "Skeleton Army",
+        "Goblin Gang",
+        "Barbarians",
+        "Royal Recruits",
+        "Minion Horde",
+        "Rascals",
+        "Skeleton King",
+        "Minions",
+        "Witch",
+        "Bats",
+        "Dart Goblin",
+        "Magic Archer",
+        "Goblinstein",
+        "Balloon",
+        "P.E.K.K.A",
+        "Elite Barbarians",
+        "Goblin Machine",
+        "Battle Ram",
+        "Knight",
+        "Dark Prince",
+        "Royal Ghost",
+        "Cannon Cart",
+        "Golden Knight",
+        "Monk",
+        "Prince",
+        "Electro Spirit",
+        "Giant Skeleton",
+        "Mega Knight",
+        "Miner",
+        "Berserker",
+        "Royal Hogs",
+        "Three Musketeers",
+        "Mortar",
+        "X-Bow",
+        "Boss Bandit",
+        "Mighty Miner"
+      ],
+      "synergies": [
+        "Giant",
+        "Goblin Giant",
+        "Spear Goblins",
+        "Goblins",
+        "Lava Hound",
+        "Balloon",
+        "Bats",
+        "Vines",
+        "Battle Ram",
+        "Giant Skeleton",
+        "Miner",
+        "Lumberjack"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000022,
@@ -6059,23 +6113,39 @@
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
-        "generated_at": "2026-05-09",
+        "generated_at": "2026-05-16",
         "base": {
-          "how_it_works": "The Minion Horde costs 5 Elixir and spawns six standard Minions in a hexagon formation. These units are reliable air and ground attackers that deal damage to both troops and towers. Their core mechanic is swarm presence and high, immediate threat.",
-          "how_to_use": "Offensively, use it to support high-hitpoint tanks like the Giant or Golem, or to distract air-targeting buildings like the Inferno Tower. Defensively, it is highly effective as a powerful counterpush after surviving initial defensive damage. Always prioritize placing it where its six units can maximize damage and minimize exposure to area spells.",
-          "counters": "Area damage cards are the most reliable counter; specifically, Arrows, Wizard, and Lightning (or other effective splash damage) can destroy the swarm efficiently for a positive Elixir trade. For troops, the Cannoneer is excellent as he can eliminate all units in a single attack, while the Hunter's spread-out bullets provide devastating area coverage.",
-          "combos": "Combining Minion Horde with a Miner is highly synergistic, as even single surviving Minions force the opponent to deal with multiple threats (towers and units). Additionally, following a successful defense, pairing it with a fast push (like a tank) maintains momentum and exploits the opponent's reduced resources.",
-          "tips": "Wait to play Minion Horde until the immediate threat has passed, allowing you to leverage its high surprise factor. Because it is so vulnerable to splash damage, be prepared to defend it with inexpensive spells or units rather than letting it be easily eliminated. Always aim for tactical placement to ensure the Minions target support troops first, saving the bulk of the swarm for the primary tank."
+          "how_it_works": "Minion Horde deploys six Minions in a hexagonal formation, making it a troop with high unit count. It targets ground and air units and structures, and all Minions attack together, making it difficult for single-target spells or troops to deal with efficiently.",
+          "how_to_use": "Offensively, deploy Minion Horde when you have an Elixir advantage or when you want a surprise push, using it to support high-hitpoint tanks like the Golem or Royal Giant. Defensively, use it to distract or absorb damage meant for a core threat, such as counter-pushing an opponent's advance. A key situational tip is to play it when the opponent's best counter is not in hand to maximize its surprise factor and disruptive potential.",
+          "counters": "Area-damage spells like Arrows, Fireball, and Poison are the most reliable counters due to their large, immediate blast radius and low cost. The Wizard and Executioner are effective as their area splash damage easily shreds the group without much investment. Additionally, the Cannoneer tower troop can one-shot all Minions, making it a powerful defensive counter.",
+          "combos": "Combining Minion Horde with a Miner forces the opponent to defend two separate threats: the Minion wave and the digging threat. Another powerful combo is pairing it with a follow-up tank; if the Minions survive a defense, the combined pressure overwhelms the opponent. Using it to support slow, high-HP units like the Golem makes the entire push extremely difficult to deal with.",
+          "tips": "Wait to deploy Minion Horde until the opponent commits their defensive spells or ground units, maximizing the shock value. If using it offensively, ensure your push includes another unit so that even if the Minions are removed, the primary threat remains active. Leveling Minion Horde is highly recommended as its offensive attempts are less effective if under-leveled."
         },
         "evolution": {
-          "what_changes": "Each Evolved Minion gets a brief invincibility window (untargetable/invisible to enemy units during the window) after taking its first hit, so the Horde can survive one initial strike per unit before normal damage starts landing.",
-          "evo_slot_value": "That first-hit protection makes the Horde much harder to erase with a single immediate answer, giving the swarm more chances to stay on the board and punish bad timing. It is less valuable when the opponent has repeated splash or sustained area control that can keep damaging the Horde after the invincibility has already been spent.",
-          "how_to_use": "Use it like the base Minion Horde for punish pressure, tank support, or counterpushes, but try to make the opponent's first answer only burn the invincibility instead of deleting the swarm outright. The Evolution is strongest when the Horde can keep attacking after that first protected contact instead of staying inside the same damage zone.",
-          "counters": "The same splash counters still apply, but a single opening hit is less reliable because each Minion can ignore its first strike briefly. Repeated splash, fast follow-up damage, or area control that keeps covering the Horde remain the cleanest answers.",
+          "what_changes": "The Evolution grants a temporary state of invincibility to Minion Horde after its first strike against any member of the horde.",
+          "evo_slot_value": "This Evolution provides a significant defensive spike by granting temporary invincibility, making Minion Horde extremely difficult to eliminate with early pressure. However, dedicating the evo slot might be less impactful if the current meta heavily favors proactive, high-burst damage rather than protective durability.",
+          "how_to_use": "",
+          "counters": "The wiki text does not provide information on how the Evolution changes the card's defense, so the general counters remain applicable.",
           "tips": [
-            "Try to force the opponent's first answer to only trigger the invincibility, then punish while the Horde is still intact.",
-            "Do not deploy it where the first protected hit is immediately followed by the same splash source finishing the whole swarm."
+            "The temporary invincibility mechanic can be used strategically to absorb critical opening damage.",
+            "Because the Invincibility is triggered by the 'first strike,' ensure the minions engage the threat first to activate the effect."
           ]
+        }
+      },
+      "coaching_meta": {
+        "base": {
+          "source_page_name": "Minion Horde",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 6012,
+          "generated_at": "2026-05-16"
+        },
+        "evolution": {
+          "source_page_name": "Minion Horde/Evolution",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 363,
+          "generated_at": "2026-05-16"
         }
       },
       "targets": "Air & Ground",
@@ -6109,8 +6179,7 @@
         "Flying Machine",
         "Little Prince"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000005,
@@ -6219,8 +6288,7 @@
         "Lightning",
         "Battle Ram"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000006,
@@ -6267,8 +6335,7 @@
         "Bomber",
         "The Log"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000077,
@@ -6329,8 +6396,7 @@
         "Royal Delivery",
         "Sparky"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000002,
@@ -6404,8 +6470,7 @@
         "Battle Healer",
         "Rune Giant"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000083,
@@ -6468,8 +6533,7 @@
         "Zap",
         "Giant Snowball"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000014,
@@ -6548,6 +6612,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Musketeer/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 2762,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Air & Ground",
       "counters": [
         "Goblins",
@@ -6582,16 +6655,7 @@
         "The Log",
         "Poison"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Musketeer/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 2762,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 26000048,
@@ -6673,8 +6737,7 @@
         "Miner",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000004,
@@ -6711,26 +6774,94 @@
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
-        "generated_at": "2026-05-09",
+        "generated_at": "2026-05-16",
         "base": {
-          "how_it_works": "P.E.K.K.A is a slow, ground-targeting, melee troop with extremely high hitpoints and massive damage, costing 7 Elixir to deploy. She attacks all enemy units, making her a versatile defensive wall.",
-          "how_to_use": "Offensively, deploy her at the bridge to create immediate pressure and force a large elixir commitment from the opponent. Defensively, wait until a massive ground push is visible, using her high health pool to absorb damage and eliminate multiple high-threat units sequentially. Situationally, deploying her against another high-cost tank can use her to secure a strong counterpush or win a prolonged duel.",
-          "counters": "The Hunter works best when P.E.K.K.A is accompanied by a tank or swarm troops, allowing the Hunter to remain protected while dealing damage. Royal Recruits are an effective counter to a lone P.E.K.K.A because their shields and hitpoints make them difficult to defeat with low-cost spells. Additionally, ranged area damage troops like the Wizard or Bomber can capitalize on her slow speed and lack of inherent anti-air capability.",
-          "combos": "Pairing P.E.K.K.A with the Executioner allows the P.E.K.K.A to handle tank units while the Executioner's area damage controls enemy swarms. The Tornado is excellent support, as it pulls ranged units that P.E.K.K.A struggles to reach, enabling her to finish them off. These combos create balanced defense and offense, maximizing P.E.K.K.A's tanking role.",
-          "tips": "Use P.E.K.K.A proactively on defense to eliminate high-threat units, leaving her with significant health remaining to instantly start a counterattack. Do not commit her alone to the bridge; always ensure supporting cards are ready for the expected immediate response. Be aware of her major vulnerability to unhindered air troops, which can bypass her entirely."
+          "how_it_works": "P.E.K.K.A is a high-hitpoint, ground-targeting melee troop that deals extremely high single-target damage. It is slow, appearing as a heavily armored robot, and excels at destroying large enemy units.",
+          "how_to_use": "Defensively, deploy P.E.K.K.A to soak up heavy damage and eliminate high-threat, tanky enemy units like other tanks, Mega Knight, or Elite Barbarians. Offensively, use her to initiate counterpushes after successfully eliminating the enemy's frontline threats. Be cautious when sending her across the bridge alone, as she is highly susceptible to coordinated counterplay.",
+          "counters": "Ranged area damage troops like Wizard, Bowler, or Firecracker are highly effective because they can safely damage P.E.K.K.A from a distance, chipping away at her health. Swarm units like Skeleton Army are useful for distracting her and forcing negative Elixir trades. Royal Recruits are a potent counter, as their shields and high health make them difficult to deal with, especially if they can take down your P.E.K.K.A while the opposing side is busy.",
+          "combos": "Pairing P.E.K.K.A with the Executioner creates synergy, as the Executioner's area damage can help clear swarms while P.E.K.K.A focuses on tanky threats. Combining her with spells like Tornado allows P.E.K.K.A to focus on high-priority targets after the Tornado groups them together. Using Electro Dragon or Electro Wizard alongside her provides chain lightning that denies swarms and eliminates Inferno threats P.E.K.K.A struggles with.",
+          "tips": [
+            "Always plan for the enemy to counter a lone P.E.K.K.A, and keep a spell ready to mitigate common swarm or bridge pushes.",
+            "Utilize her ability to attack all units—a defining characteristic—to maximize defensive value and keep high health for a counterattack.",
+            "When dealing with aerial threats, remember that while she cannot attack them, her high HP makes her an excellent distraction to tank multiple shots from air units."
+          ]
         },
         "evolution": {
-          "what_changes": "Upon defeating a troop or building, the Evolved P.E.K.K.A spawns a butterfly around its sword, healing 3.5%-15% of its original hitpoints, with the magnitude determined by the defeated unit's hitpoints. This healing can overheal, potentially granting her up to 50% more hitpoints at maximum capacity.",
-          "evo_slot_value": "The Evolution provides massive self-healing upon eliminating units, giving it unparalleled longevity and turning it into an extremely powerful defensive wall that can quickly secure a positive Elixir trade. However, dedicating the slot is less valuable if the current deck needs the slot for a different card's unique Hero or Champion ability.",
-          "how_to_use": "The Evolved P.E.K.K.A should be deployed aggressively on defense, using its ability to heal from enemy pushes to keep it healthy enough to counterattack.",
-          "counters": "The basic counters and vulnerabilities largely remain the same, but the healing mechanism makes it particularly hard to counter with small ground swarms, requiring high DPS units to finish it off quickly.",
+          "what_changes": "The Evolved P.E.K.K.A gains a significant health regeneration ability: upon destroying a unit or building, a butterfly spawns around her sword, healing 3.5%-15% of her original hitpoints. This healing can overheal, granting her up to 50% more hitpoints at maximum capacity.",
+          "evo_slot_value": "The combination of massive damage and sustained regeneration makes her an incredibly powerful wall, allowing her to shut down massive ground pushes for a positive Elixir trade. However, the Evo slot might be better used on a card whose secondary benefits—like area denial or spell interaction—create a more reliable source of consistent value across diverse match-ups.",
+          "how_to_use": "",
+          "counters": "The Evolved P.E.K.K.A is still countered by high DPS, long-range troops (like Musketeer or Dart Goblin), and strong spells, but these counters must be carefully paired with mini-tanks to prevent her from healing while the ranged unit attacks.",
           "tips": [
-            "The healing mechanic is unique: it only triggers if the Evolved P.E.K.K.A deals the finishing blow to a unit, meaning opponents can stall by using high DPS units to keep it occupied without allowing it to heal.",
-            "Due to its slow attack rate, use supportive long-range troops (like Musketeer or Dart Goblin) to distract it, preventing it from healing while the main threat is removed."
+            "Due to her healing mechanism, the Evolved P.E.K.K.A must be kept busy using troops with high DPS and high hitpoints to prevent her from regenerating, which prevents the opponent from easily finishing her off.",
+            "Because her healing is contingent on defeating an enemy unit, ranged troops that maintain distance while dealing damage are preferred, as they can prevent her from healing while the supporting mini-tank distracts her."
           ]
         }
       },
-      "coaching_meta": null
+      "coaching_meta": {
+        "base": {
+          "source_page_name": "P.E.K.K.A.",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 6012,
+          "generated_at": "2026-05-16"
+        },
+        "evolution": {
+          "source_page_name": "P.E.K.K.A./Evolution",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 6012,
+          "generated_at": "2026-05-16"
+        }
+      },
+      "targets": "Ground",
+      "counters": [
+        "Skeleton Army",
+        "The Log",
+        "Zap",
+        "Barbarians",
+        "Hunter",
+        "Knight",
+        "Giant",
+        "Ice Golem",
+        "Valkyrie",
+        "Prince",
+        "Guards",
+        "Skeletons",
+        "Goblins",
+        "Royal Recruits",
+        "Poison",
+        "Witch",
+        "Skeleton King",
+        "Tornado",
+        "Minion Horde",
+        "Inferno Dragon",
+        "Electro Dragon",
+        "Elite Barbarians",
+        "Mighty Miner",
+        "Giant Skeleton",
+        "Sparky",
+        "Golem",
+        "Monk",
+        "Boss Bandit",
+        "Electro Giant",
+        "Goblin Giant",
+        "Bats",
+        "Minions",
+        "Inferno Tower",
+        "Tombstone",
+        "Fisherman"
+      ],
+      "synergies": [
+        "Ice Golem",
+        "Fisherman",
+        "Skeletons",
+        "Goblins",
+        "Valkyrie",
+        "Wizard",
+        "Baby Dragon",
+        "Goblin Giant"
+      ],
+      "knowledge_status": "full"
     },
     {
       "id": 26000087,
@@ -6797,8 +6928,7 @@
       "synergies": [
         "Electro Giant"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000009,
@@ -6844,8 +6974,7 @@
       "synergies": [
         "Graveyard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000016,
@@ -6938,8 +7067,7 @@
         "Ice Golem",
         "Executioner"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000026,
@@ -7000,8 +7128,7 @@
         "Arrows",
         "Skeleton Barrel"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000002,
@@ -7047,8 +7174,7 @@
         "Giant Snowball",
         "Zap"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000051,
@@ -7143,8 +7269,7 @@
         "Battle Healer",
         "Freeze"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000053,
@@ -7209,8 +7334,7 @@
         "Goblin Barrel",
         "Goblins"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 28000003,
@@ -7274,8 +7398,7 @@
         "Clone",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000018,
@@ -7285,7 +7408,7 @@
       "elixir": 3,
       "hit_speed": null,
       "range": 3000,
-      "deploy_time": 3000,
+      "deploy_time": null,
       "movement_domain": null,
       "attack_targets": "both",
       "movement_speed_tier": null,
@@ -7335,8 +7458,7 @@
         "Giant Snowball",
         "Poison"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000050,
@@ -7418,8 +7540,7 @@
         "Electro Giant",
         "Electro Wizard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000024,
@@ -7529,8 +7650,7 @@
         "Giant Skeleton",
         "Inferno Tower"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000059,
@@ -7625,8 +7745,7 @@
         "Freeze",
         "Elixir Collector"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000047,
@@ -7704,8 +7823,7 @@
         "Skeleton Dragons",
         "Valkyrie"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000101,
@@ -7713,9 +7831,9 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1500,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
       "attack_targets": "buildings",
       "movement_speed_tier": "medium",
@@ -7745,8 +7863,7 @@
       "synergies": [
         "Lava Hound"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000012,
@@ -7833,8 +7950,7 @@
         "Witch",
         "Skeletons"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000056,
@@ -7933,8 +8049,7 @@
         "Knight",
         "Balloon"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000080,
@@ -8006,8 +8121,7 @@
         "Wall Breakers",
         "Electro Giant"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000069,
@@ -8090,8 +8204,7 @@
         "Mega Minion",
         "Graveyard"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000010,
@@ -8176,8 +8289,7 @@
         "Ice Golem",
         "Flying Machine"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000033,
@@ -8247,8 +8359,7 @@
         "Royal Giant",
         "Rocket"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000019,
@@ -8319,8 +8430,7 @@
         "Poison",
         "Goblin Gang"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000025,
@@ -8359,22 +8469,47 @@
       "coaching": {
         "source": "ollama",
         "model": "gemma4:e4b",
-        "generated_at": "2026-05-09",
+        "generated_at": "2026-05-16",
         "base": {
-          "how_it_works": "The Spirit Empress is a versatile troop that can be summoned in one of two forms: a high-damage, air-targeting air troop (when 6+ Elixir is available) or a high-damage, ground-targeting melee ground troop (when 6- Elixir is available). Both forms are single-target attackers with high hitpoints, making them challenging to deal with.",
-          "how_to_use": "Offensively, use the Air Form for pressure and tower chip damage, capitalizing on its reach and high damage. Defensively, deploy the Ground Form for emergency defense against ground pushes, utilizing its melee combat style and durability. A key timing tip is to use the cheap Ground Form for immediate defense, saving the more expensive Air Form for a calculated counter-push push later in the game.",
-          "counters": "Swarms are excellent counters to the ground form, such as Goblins or Barbarians, because the Spirit Empress only targets one unit at a time. For the air form, swarms like Spear Goblins, Minions, or Bats are effective. Furthermore, a concentrated spell like a Rocket is highly effective as it can One-Shot Kill (OHKO) the Empress in both of her forms, making it a reliable counter.",
-          "combos": "For maximizing damage, the Spirit Empress works well with heavy push cards like the Golem, Giant, or Royal Giant, allowing it to establish initial threats. Use the Air Form for offensive pressure behind a push, making it hard for the opponent to address both air and ground threats simultaneously. Another effective synergy is pairing it with Lava Hound to create a massive, multi-pronged air threat.",
+          "how_it_works": "Spirit Empress is a versatile Legendary troop that can be summoned as a single-target, air-targeting, medium-ranged, air troop for 6 Elixir (if available), or as a single-target, ground-targeting, melee, ground troop for 3 Elixir. In both forms, she possesses high damage and high hitpoints, making her an adaptable threat.",
+          "how_to_use": "Offensively, utilize the 6-Elixir air form to pressure the opponent's towers from range, setting up damage trades. Defensively, the cheaper 3-Elixir ground form is excellent for emergency defense against ground threats when you are behind on Elixir. Situationaly, be prepared to use the 3-Elixir form as a flexible tempo card to save Elixir for a more devastating offensive push.",
+          "counters": "For the ground form, swarms such as Barbarians or Royal Recruits are effective because they target multiple units, circumventing her single-target focus. For the air form, swarms like Minions or Bats work well, providing a high volume of cheap damage that can overwhelm her high HP. Additionally, a Rocket can provide a reliable 'one-shot kill' (OHKO) regardless of which form she takes.",
+          "combos": "Pairing Spirit Empress with heavy push units like Golem or Royal Giant maximizes her value by allowing her to clean up surrounding troops and provide consistent damage to the towers. Using the air form for initial pressure and then following up with a ground-based beatdown push (like a Giant) forces the opponent to address both air and ground threats simultaneously. The inherent value of her high hitpoints allows her to safely absorb damage from other expensive combo pieces.",
           "tips": [
-            "Since she can survive combinations of two-Elixir spells like Fireball or Poison, do not rely on them for reliable damage.",
-            "Be mindful that the 3-Elixir Ground Form is best reserved for tactical emergency defense rather than offensive plays.",
-            "If you anticipate a counter, deploy the cheap Ground Form first, and then save your 6-Elixir elixir advantage for the more potent Air Form when the lane is open."
+            "Be careful with high-damage, low-cost spells like Fireball or Poison, as her high hitpoints allow her to survive combinations of any two-Elixir spells.",
+            "The 'Mirror' mechanic offers significant replayability; plan to use the cheaper form first to ensure the upgraded, mirrored version has optimal attributes for a late-game push.",
+            "Understand that while she has great general matchups, her single-target focus means swarms are consistently the best defensive counter, regardless of form."
           ]
         }
       },
+      "coaching_meta": {
+        "base": {
+          "source_page_name": "Spirit Empress",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 3133,
+          "generated_at": "2026-05-16"
+        }
+      },
       "targets": "Air & Ground (form-dependent)",
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "full",
+      "counters": [
+        "Goblins",
+        "Barbarians",
+        "Royal Recruits",
+        "Guards",
+        "Spear Goblins",
+        "Minions",
+        "Bats",
+        "Archers",
+        "Rocket"
+      ],
+      "synergies": [
+        "Golem",
+        "Giant",
+        "Royal Giant",
+        "Lava Hound"
+      ]
     },
     {
       "id": 26000097,
@@ -8383,8 +8518,8 @@
       "type": "troop",
       "elixir": 2,
       "hit_speed": null,
-      "range": 500,
-      "deploy_time": 1000,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
       "attack_targets": "buildings",
       "movement_speed_tier": "medium",
@@ -8419,8 +8554,7 @@
       "synergies": [
         "Miner"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000006,
@@ -8493,8 +8627,7 @@
         "Giant",
         "Golem"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000011,
@@ -8503,7 +8636,7 @@
       "type": "spell",
       "elixir": 2,
       "hit_speed": null,
-      "range": 10100,
+      "range": null,
       "deploy_time": null,
       "movement_domain": null,
       "attack_targets": "ground",
@@ -8552,8 +8685,7 @@
         "Three Musketeers",
         "Musketeer"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000028,
@@ -8561,8 +8693,8 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 9,
-      "hit_speed": 1000,
-      "range": 6000,
+      "hit_speed": null,
+      "range": null,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "both",
@@ -8633,8 +8765,7 @@
         "Guards",
         "Magic Archer"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 27000009,
@@ -8705,8 +8836,7 @@
         "Ram Rider",
         "Mega Knight"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 28000012,
@@ -8766,8 +8896,7 @@
         "Spear Goblins",
         "Minions"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000011,
@@ -8874,8 +9003,7 @@
         "Balloon",
         "X-Bow"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000026,
@@ -8916,8 +9044,7 @@
       "counters": [
         "Arrows"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 28000023,
@@ -8973,8 +9100,7 @@
         "Goblin Barrel",
         "Minions"
       ],
-      "knowledge_status": "partial",
-      "coaching_meta": null
+      "knowledge_status": "partial"
     },
     {
       "id": 26000058,
@@ -9045,8 +9171,7 @@
         "Golem",
         "Rune Giant"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000007,
@@ -9133,8 +9258,7 @@
         "Miner",
         "Tornado"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000017,
@@ -9213,6 +9337,15 @@
           ]
         }
       },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Wizard/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 2644,
+          "generated_at": "2026-05-15"
+        }
+      },
       "targets": "Air & Ground",
       "counters": [
         "Barbarians",
@@ -9235,16 +9368,7 @@
         "Barbarian Barrel",
         "Three Musketeers"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": {
-        "hero": {
-          "source_page_name": "Wizard/Hero",
-          "grounding_status": "grounded",
-          "coaching_source": "ollama",
-          "wiki_text_chars": 2644,
-          "generated_at": "2026-05-15"
-        }
-      }
+      "knowledge_status": "full"
     },
     {
       "id": 27000008,
@@ -9317,8 +9441,7 @@
         "Battle Healer",
         "Rune Giant"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 28000008,
@@ -9392,8 +9515,7 @@
         "Fire Spirit",
         "Wall Breakers"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     },
     {
       "id": 26000052,
@@ -9469,8 +9591,7 @@
         "Royal Delivery",
         "Mega Knight"
       ],
-      "knowledge_status": "full",
-      "coaching_meta": null
+      "knowledge_status": "full"
     }
   ]
 }
