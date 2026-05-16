@@ -1,13 +1,16 @@
 {
   "file_info": {
     "role": "cards",
-    "generated_by": "internal"
+    "generated_by": "internal",
+    "description": "Merged card definitions file ready to publish.",
+    "build_notes": "Base + mechanics + coaching merged locally and saved under the ready-to-publish path.",
+    "recommended_path": "scripts/gkd/ready-to-publish/gkd-card-definitions.json"
   },
   "gkd_version": "2026-05-14-scalar-audit",
-  "generated_at": "2026-05-14T07:30:06.875Z",
+  "generated_at": "2026-05-15T18:59:29.274Z",
   "patch_label": "2026-05-14-scalar-audit",
   "card_count": 121,
-  "sha256": "3a209bdf29b52cf325747723411a6b16e7ebe9819b127dcb43bab10108fa4ded",
+  "sha256": "19bb5cf1e5755f4b3c76b3c75f035eff5c6546d5fb2f80780ff70e224e7dab4e",
   "cards": [
     {
       "id": 26000072,
@@ -32,9 +35,10 @@
       "hero": null,
       "mechanics": {
         "first_hit_sec": 0.3,
+        "ability_cost_elixir": 1,
         "ability_cooldown_sec": 17,
         "ability_duration_sec": 3.5,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.933
       },
       "coaching": {
         "source": "ollama",
@@ -85,7 +89,8 @@
         "Royal Delivery",
         "Barbarian Barrel"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000001,
@@ -210,7 +215,8 @@
         "Flying Machine",
         "Rascals"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000001,
@@ -290,7 +296,8 @@
         "Golden Knight",
         "Little Prince"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000015,
@@ -375,7 +382,8 @@
       "synergies": [
         "Graveyard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000006,
@@ -405,8 +413,11 @@
         "mechanics": {
           "area_radius": 3,
           "first_hit_sec": 0.2,
+          "ability_cost_elixir": 2,
           "ability_cooldown_sec": 12,
-          "cast_delay_sec": 1
+          "cast_delay_sec": 1,
+          "dive_search_radius_tiles": 6.5,
+          "landing_damage_radius_tiles": 2
         }
       },
       "mechanics": {
@@ -426,19 +437,28 @@
         },
         "hero": {
           "what_changes": "The Hero Balloon has the same stats as the base card.",
-          "hero_ability": "The Hero ability, Coffin Cadets, costs 2 Elixir and allows the Balloon to soar to the nearest enemy on the ground, dealing landing damage.",
-          "ability_timing": "It is best used when the Balloon is nearing a clustered ground defense, ensuring the added landing damage hits high-value units. Activating it early might waste the damage if the nearest target is disposable.",
-          "hero_slot_value": "The Hero version adds a targeted damage burst capability, making it excellent for surprise plays against clumped defenses. However, relying solely on this ability might be predictable if the opponent can predict the target.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The Hero Balloon retains the same vulnerabilities, primarily to high-damage area spells and focused anti-air damage.",
+          "hero_ability": "The Hero ability, Coffin Cadets, costs 2 Elixir. It allows the Balloon to soar to the nearest enemy on the ground, dealing landing damage.",
+          "ability_timing": "Activate this ability when the enemy is setting up defenses or when you need to force them to deal with the Balloon's immediate attention. Using it prematurely may allow the enemy to predict and eliminate the landing damage easily.",
+          "hero_slot_value": "It excels in situations where immediate map pressure or disrupting enemy defensive positioning is critical. However, it may be less impactful if the opponent has high defensive cooldowns or can easily intercept its path.",
+          "how_to_use": "Use Hero Balloon like the base win condition for tower pressure, but save Coffin Cadets for the moment a grounded defender or target gives you a high-value dive path. The Hero version is strongest when the sudden ground dash and landing damage force an awkward anti-air response before the opponent is set.",
+          "counters": "The Hero version does not change how it is countered; standard spells and anti-air troops remain effective.",
           "tips": [
-            "Use Coffin Cadets proactively when grouping key ground units near the target tower to maximize the effectiveness of the landing damage.",
-            "Save the ability until the enemy has committed their main defenses, ensuring the damage hits a valuable, engaged unit."
+            "Use Coffin Cadets to secure a quick hit on high-priority ground units before they can support a tower defense.",
+            "If the enemy knows the Hero ability, use it when they are positioned poorly to maximize the landing damage on multiple adjacent targets."
           ]
         }
       },
       "targets": "Buildings",
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Balloon/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 415,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000046,
@@ -496,7 +516,8 @@
         "Goblins",
         "Lumberjack"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000015,
@@ -521,7 +542,9 @@
         "max_evolution_level": 2,
         "mechanics": {
           "width": 2.6,
-          "first_hit_sec": 0.4
+          "first_hit_sec": 0.4,
+          "ability_cost_elixir": 1,
+          "ability_max_uses": 1
         }
       },
       "mechanics": {
@@ -541,14 +564,14 @@
         },
         "hero": {
           "what_changes": "The Hero Barbarian Barrel has the same stats as the base card.",
-          "hero_ability": "The Hero ability, 'Rowdy Reroll,' costs 1 Elixir. When activated, it causes the Barrel to 'down the lane a second time for maximum impact.'",
-          "ability_timing": "Timing is critical to maximize the 'second roll' effect. Activating it too late or when the opponent has already responded to the initial Barrel placement will waste the ability.",
-          "hero_slot_value": "This card is highly valuable for generating unexpected secondary offensive pressure. However, relying on its unique ability makes it vulnerable if the opponent can easily predict or nullify its activation.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The counters are not detailed on the wiki page, so it is assumed that the mechanics of the base card apply.",
+          "hero_ability": "The Hero ability, Rowdy Reroll, costs 1 Elixir and makes the Barrel roll down the lane a second time (a bit shorter) for maximum impact. It does not change the base spell's core job; it adds one more pass through the lane. The Rowdy Reroll also heals the Barbarian a bit.",
+          "ability_timing": "Use the ability only when the second roll will hit defenders or reopen the lane for your follow-up push. Spending the extra Elixir after the first roll has already done its job wastes the Hero version's main value.",
+          "hero_slot_value": "The Hero version adds one extra lane-clear pass to a cheap spell, which can help a push force one more answer or punish defenders that step in after the first roll. It is less valuable when your deck needs the Hero slot for a more flexible defensive tool or a higher-swing activated ability.",
+          "how_to_use": "Use Hero Barbarian Barrel like the base spell for swarm control and lane clearing, but hold Rowdy Reroll for the moment the first roll draws defenders into the lane. The Hero version is strongest when the second pass immediately punishes the opponent's follow-up response instead of being spent for minor chip.",
+          "counters": "The same counters as the base card still apply; defenders that can absorb the roll or clean up the spawned Barbarian remain the main answers. The Hero version mainly punishes opponents who commit their answer too early and let the reroll catch them on the same lane.",
           "tips": [
-            "Since the detailed strategy is under construction, wait for the full release notes to understand the optimal timing of the second roll.",
-            "Because the page is currently under construction, no advanced tips can be provided for the Hero version."
+            "Hold Rowdy Reroll until the second pass will actually clip defenders or extend pressure on the lane. It can also be used to chip away some health on a Tower.",
+            "Do not spend the extra Elixir just for chip if the first roll already cleared the path you needed."
           ]
         }
       },
@@ -591,7 +614,16 @@
         "Giant Snowball",
         "Poison"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Barbarian Barrel/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "manual_review",
+          "wiki_text_chars": 587,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 27000005,
@@ -641,7 +673,8 @@
         "Mega Knight",
         "Miner"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000008,
@@ -729,7 +762,8 @@
         "Goblin Barrel",
         "Graveyard"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000049,
@@ -781,7 +815,7 @@
         "evolution": {
           "what_changes": "Evolved Bats spawn 5 units with 50% higher hitpoints than the original. They gain a healing mechanic on every attack, generating two healing pulses every 0.5 seconds, which can cause them to overheal.",
           "evo_slot_value": "Evolved Bats are excellent for capitalizing on large tank pushes (like the Golem or P.E.K.K.A.) by staying alive and dealing damage, allowing the main threat to connect easily. However, the slot might be better used by an Evolution that provides consistent, unhindered crowd control or battlefield zone denial.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use Evolved Bats like the base swarm, but look for longer fights where repeated attacks can trigger healing and overheal instead of dropping them into instant splash. The Evolution is strongest when the first few hits let the swarm snowball its survivability rather than dying before the healing matters.",
           "counters": "While still susceptible to weak spells like Zap, the overheal mechanic makes them resistant to spells that are nullified when they have fully healed, requiring stronger alternatives like Arrows or Evolved Zap.",
           "tips": [
             "Pairing Evolved Bats with large tanks helps keep the opposing defensive units occupied, maximizing the tank's DPS to the tower.",
@@ -826,7 +860,8 @@
         "Giant",
         "Mega Knight"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000068,
@@ -853,7 +888,7 @@
       "hero": null,
       "mechanics": {
         "area_radius": 4,
-        "first_hit_sec": 0.3
+        "first_hit_sec": 0.25
       },
       "coaching": {
         "source": "ollama",
@@ -893,7 +928,8 @@
         "Lava Hound",
         "Golem"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000036,
@@ -920,11 +956,13 @@
         "source": "official_api",
         "max_evolution_level": 1,
         "mechanics": {
+          "first_hit_sec": 1,
           "charge_distance": 3.5
         }
       },
       "hero": null,
       "mechanics": {
+        "first_hit_sec": 1,
         "charge_distance": 3.5
       },
       "coaching": {
@@ -941,7 +979,7 @@
         "evolution": {
           "what_changes": "The Evolved Battle Ram now deals damage and inflicts knockback to any troop it passes, and once it connects to a building, it will bounce back repeatedly dealing damage until it dies. When destroyed, it reveals 2 Evolved Barbarians.",
           "evo_slot_value": "The Evolved Battle Ram is an extremely potent offensive force, especially effective at clearing structures and taking out a Crown Tower if opponents ignore it. However, using the evo slot might be less optimal if the player's deck requires unique defensive or utility Evolutions more critically.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base bridge threat, but value lanes where the Ram can clip defenders on the way in or survive a connection long enough to bounce for repeated damage. The Evolution is strongest when one contact turns into extended building pressure instead of a single stopped charge.",
           "counters": "The general counter strategies remain, but the Evolved Battle Ram's knockback effect activates for all pushback units, such as Hog Rider and Valkyrie, making those counters more reliable.",
           "tips": [
             "The Evolved Battle Ram should be placed strategically to avoid light ground swarms and spawner buildings, as its enhanced charge will instantly destroy these threats.",
@@ -995,7 +1033,8 @@
         "Bandit",
         "Witch"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000102,
@@ -1040,7 +1079,8 @@
       "synergies": [
         "Ice Spirit"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000004,
@@ -1064,7 +1104,7 @@
       "evolution": null,
       "hero": null,
       "mechanics": {
-        "area_radius": 1.5,
+        "area_radius": 3,
         "lifetime_sec": 30,
         "first_hit_sec": 0.5
       },
@@ -1111,7 +1151,8 @@
       "synergies": [
         "Royal Giant"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000013,
@@ -1163,7 +1204,7 @@
         "evolution": {
           "what_changes": "After the initial throw, the bomb will bounce twice, 2.5 tiles apart in a straight line, dealing the same damage as the initial hit and hitting troops in an area as large as that of the initial hit.",
           "evo_slot_value": "The Evolved Bomber's ability to connect with the Crown Tower and its cost efficiency make it excellent for forcing positive Elixir trades. However, due to its somewhat slow hit speed, dedicated defensive Evolutions that can absorb burst damage or control enemy positioning might be a more reliable use of the Evo slot.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base Bomber, but line up throws so the bounce path reaches enemy support troops or tower-adjacent defenders behind the first target. The Evolution is strongest in straight, crowded lanes where all three hits can chain through the same fight.",
           "counters": "The counters remain similar, relying on stuns like Zap or Giant Snowball, or high-value spells like Barbarian Barrel, though the bouncing ability makes it especially threatening against siege buildings near the tower.",
           "tips": [
             "Position the Bomber near high-HP troops or aligned with the Crown Tower to maximize the potential for massive, multi-target damage.",
@@ -1207,7 +1248,8 @@
         "Sparky",
         "Prince"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000103,
@@ -1231,8 +1273,10 @@
       "mechanics": {
         "first_hit_sec": 0.4,
         "dash_distance": 3.5,
+        "ability_cost_elixir": 1,
+        "ability_max_uses": 2,
         "ability_cooldown_sec": 3,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.933
       },
       "coaching": {
         "source": "ollama",
@@ -1249,7 +1293,8 @@
         }
       },
       "targets": "Ground",
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000034,
@@ -1278,9 +1323,13 @@
           "projectile_width": 3.6,
           "area_radius": 2,
           "first_hit_sec": 0.5,
+          "ability_cost_elixir": 2,
           "ability_cooldown_sec": 22,
           "ability_duration_sec": 9,
-          "cast_delay_sec": 2.5
+          "cast_delay_sec": 2.5,
+          "stone_swish_range_tiles": 11.5,
+          "stone_swish_damage_radius_tiles": 2,
+          "stone_swish_hit_speed_sec": 1.9
         }
       },
       "mechanics": {
@@ -1303,15 +1352,15 @@
           ]
         },
         "hero": {
-          "what_changes": "The Hero Bowler has increased range.",
-          "hero_ability": "The ability, Stone Swish, costs 2 Elixir and allows the player to plant his feet and throw boulders with increased range.",
-          "ability_timing": "It should be used to maximize the effective distance of his damage when normal range is insufficient. Activating it too early or too late may result in wasting valuable resources or failing to achieve the required positional advantage.",
-          "hero_slot_value": "It is valuable when reliable, increased range is required to bridge gaps between friendly troops and enemy structures. However, its power might be limited if the battlefield is already confined or if the player has superior strategic positioning already established.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The counters for the Hero Bowler are consistent with the base card, being susceptible to air units and high-damage sustained assault.",
+          "what_changes": "The Hero Bowler has the same stats as the base card.",
+          "hero_ability": "The Hero Bowler has an ability called Stone Swish, which costs 2 Elixir. When activated, Bowler stands still and throw boulders in the air, with increased range, that deal damage on impact. Can also damage buildings and towers.",
+          "ability_timing": "This ability is best used when enemies are either far away, maximizing the benefit of the increased range, or approaching a key area (or many enemies at the same location) to hit them all at once. However, relying on it costs 2 Elixir, so timing must be precise to maintain Elixir advantage.",
+          "hero_slot_value": "The slot is valuable for providing massive area denial and reach against entrenched enemy pushes. However, it might not be the best choice if the deck already has strong area control or if the game state requires immediate, high-burst damage.",
+          "how_to_use": "Can take out troops and buildings far away when ability is activated. Active on bridge to safely hit the tower without taking damage.",
+          "counters": "The Hero Bowler is still vulnerable to specialized troop types or large enemy pushes that can absorb its damage while dealing substantial counter-damage.",
           "tips": [
-            "Use Stone Swish to reposition your damage source, forcing enemy troops to adapt to a sudden shift in the optimal attack line.",
-            "If enemy units are clustered far from the tower, activating the ability guarantees that the resulting boulder clears the entire grouping before the unit can react."
+            "Use Stone Swish to hit targets at the edges of the map or across defensive structures where normal range would fall short.",
+            "When defending against multi-lane pushes, activating the ability can hit multiple groups of enemies with its increased range."
           ]
         }
       },
@@ -1347,7 +1396,16 @@
         "Goblins",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Bowler/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 408,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 27000000,
@@ -1413,7 +1471,8 @@
         "Hunter",
         "Inferno Dragon"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000054,
@@ -1482,7 +1541,8 @@
         "Goblins",
         "Battle Healer"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000013,
@@ -1536,7 +1596,8 @@
         "Skeletons",
         "Bats"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000027,
@@ -1567,6 +1628,8 @@
           "area_radius": 1.1,
           "first_hit_sec": 0.4,
           "charge_distance": 3,
+          "ability_cost_elixir": 3,
+          "ability_max_uses": 1,
           "cast_delay_sec": 1
         }
       },
@@ -1592,14 +1655,14 @@
         },
         "hero": {
           "what_changes": "The Hero Dark Prince has the same stats as the base card.",
-          "hero_ability": "The Hero Dark Prince activates its Destructive Dismount ability by spending 3 Elixir. When activated, the unit dismounts and charges buildings while dealing damage on foot.",
-          "ability_timing": "The ability is best used when the team needs immediate, focused damage against structures. Using it defensively, or against troops, may be wasted, as the ability focuses damage on buildings.",
-          "hero_slot_value": "This Hero is strong for maximizing structural pressure, making it valuable when the opponent has robust defenses. It might not be the optimal choice if the immediate threat is troop overwhelming, as the ability's focus is building damage.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The counters for the Hero version remain consistent with the base card.",
+          "hero_ability": "The Hero ability, Destructive Dismount, costs 3 Elixir and allows the Prince to dismount doing damage and attacking on foot while Rhino charges buildings.",
+          "ability_timing": "The ability is optimal when the Prince is positioned to break through towers or skeletons, utilizing the combined unit's full destructive power.",
+          "hero_slot_value": "It is valuable for decks needing a powerful, ranged burst capable of destroying structures. However, slot priority may shift if the deck requires a more reliable, high-sustain, or direct counter-attack capability.",
+          "how_to_use": "Use Hero Dark Prince like the base card until you see a high-value Destructive Dismount window. Because the ability costs 3 Elixir, activate it only when splitting into Dark Prince plus a charging Rhino will force the opponent to answer both threats at once; the Rhino behaves almost like a Hog Rider, sprinting straight to the nearest building or tower.",
+          "counters": "The Hero version's ability does not change how the card is countered, but the opponent also need to deal with the Rhino if ability is used.",
           "tips": [
-            "Use the charging nature of the Hero form specifically to break through enemy towers under heavy fire.",
-            "Timing the ability to activate as the opponent commits defensive resources to their towers ensures maximum damage efficiency."
+            "Use the Destructive Dismount ability to force the opponent to commit defensive spells or units while the Rhino attacks the building.",
+            "Position the Prince so that the Rhino's charge can be used to destroy structures without placing the unit in immediate danger."
           ]
         }
       },
@@ -1657,7 +1720,16 @@
         "Mini P.E.K.K.A",
         "Golem"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Dark Prince/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 383,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000040,
@@ -1707,7 +1779,7 @@
         "evolution": {
           "what_changes": "When attacking a target, the Evolved Dart Goblin leaves behind an area of effect poison that remains until the unit is defeated. This poison effect becomes deadlier the more times the unit attacks a target.",
           "evo_slot_value": "The persistent poison adds significant area denial and passive damage, making it useful against high-HP units or long defensive engagements. However, dedicating an evo slot might be better spent on Evolutions that provide more consistent immediate offensive pressure.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base long-range chip unit, but protect it once the poison starts stacking because repeated shots make the zone much harder to ignore. The Evolution is strongest when it can stay locked on one target or area instead of being used as a one-shot snipe.",
           "counters": "The core counters remain similar, but the lasting poison effect forces opponents to address a persistent threat even after initial damage is dealt.",
           "tips": [
             "Utilize high-hitpoint units (such as the Golem or Giant) to launch attacks, ensuring the poison persists for a prolonged period of damage over time.",
@@ -1746,7 +1818,8 @@
         "Boss Bandit",
         "Giant Skeleton"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000014,
@@ -1801,7 +1874,8 @@
         "Golem",
         "The Log"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000063,
@@ -1898,7 +1972,8 @@
         "X-Bow",
         "Mortar"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000085,
@@ -1958,7 +2033,8 @@
         "Minion Horde",
         "Sparky"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000084,
@@ -2020,7 +2096,8 @@
         "Skeleton Barrel",
         "Balloon"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000042,
@@ -2029,7 +2106,7 @@
       "type": "troop",
       "elixir": 4,
       "hit_speed": 1800,
-      "range": 5000,
+      "range": 3000,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "both",
@@ -2094,7 +2171,8 @@
         "Graveyard",
         "Balloon"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000043,
@@ -2170,7 +2248,8 @@
         "Guards",
         "Skeleton King"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000007,
@@ -2219,7 +2298,8 @@
       "synergies": [
         "Graveyard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000067,
@@ -2286,7 +2366,8 @@
         "Tesla",
         "Ice Golem"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000045,
@@ -2338,7 +2419,7 @@
         "evolution": {
           "what_changes": "The axe now deals extra damage to enemies within 3.5 tiles of the start of the attack, which also triggers extra damage on the return phase; moreover, it knocks back all affected troops.",
           "evo_slot_value": "The pushback effect allows the Evolved Executioner to stall several win conditions and tanks, providing defensive value beyond the original unit's capabilities. However, the Evo slot should be conserved for cards whose abilities offer unique counter-meta responses or superior synergy with the current deck archetype.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base line-splash defender, but favor placements where enemies are hit close to the start of the throw and again on the return. The Evolution is strongest when clustered troops stay in his line long enough to take both the extra close-range damage and the knockback.",
           "counters": "The general counters still apply, though ranged troops with moderate hitpoints (such as the Musketeer or Wizard) and building damage remain effective against this version.",
           "tips": [
             "Tornado can be used both offensively to group enemies in the range of the axe, or defensively to pull the Executioner away from its pushback range.",
@@ -2372,7 +2453,8 @@
         "Giant",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000031,
@@ -2430,7 +2512,8 @@
         "P.E.K.K.A",
         "Zap"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000000,
@@ -2482,7 +2565,8 @@
         "Skeleton King",
         "Goblin Machine"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000064,
@@ -2557,7 +2641,8 @@
         "Wall Breakers",
         "Executioner"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000061,
@@ -2623,7 +2708,8 @@
       "synergies": [
         "Miner"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000057,
@@ -2689,7 +2775,8 @@
         "Giant",
         "Royal Recruits"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000005,
@@ -2747,7 +2834,8 @@
         "Witch",
         "Bomber"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000010,
@@ -2772,7 +2860,8 @@
         "source": "official_api",
         "max_evolution_level": 1,
         "mechanics": {
-          "spawn_speed_sec": 7
+          "spawn_speed_sec": 7,
+          "first_hit_sec": 1
         }
       },
       "hero": null,
@@ -2793,7 +2882,7 @@
         "evolution": {
           "what_changes": "When the Furnace attacks, the spawn speed for Fire Spirits is decreased to 2.4 seconds, and the spawned Fire Spirits now appear to the side, alternating between the left and right.",
           "evo_slot_value": "This Evolution is valuable because the side-spawning ability allows the Furnace's attacks to lure enemy units away from the main push or tower. However, the slot might be better used for an Evolution that provides consistent defensive synergy or utility for card cycling.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base Furnace for lane pressure, but place it where the faster alternating positioned spirits will keep forcing awkward responses instead of marching into one easy clear. The Evolution is strongest in longer board states where the improved spawn pattern generates repeated chip and distraction.",
           "counters": "The description of the Evolution suggests similar vulnerability to single-target damage, making general counters applicable.",
           "tips": [
             "Utilize the side-spawning pattern to draw unit attention away from your primary attack path.",
@@ -2839,7 +2928,8 @@
         "Goblin Barrel",
         "Skeleton King"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000003,
@@ -2868,8 +2958,10 @@
         "max_evolution_level": 2,
         "mechanics": {
           "first_hit_sec": 0.5,
+          "stun_duration_sec": 2,
+          "ability_cost_elixir": 2,
           "ability_cooldown_sec": 14,
-          "cast_delay_sec": 1
+          "cast_delay_sec": 0.933
         }
       },
       "mechanics": {
@@ -2887,15 +2979,15 @@
           "tips": "Position the Giant slightly staggered—a little off the main path—to force enemies to react to your support units first, wasting valuable elixir on defending the backline. Use him as a controlled diversion when playing a strong offensive push; your goal is not just to push, but to force the opponent to save their best single-target counter for the Giant, leaving their defenses thin for your support units. Since he moves slowly, baiting enemy defensive spells (like Tornado) with him can sometimes allow your units to regroup or reposition in a safer spot."
         },
         "hero": {
-          "what_changes": "The Hero Giant is a single-target, ground-targeting, melee, and ground troop with high hitpoints and moderate damage, similar to the base card.",
-          "hero_ability": "The Heroic Hurl costs 2 Elixir to activate, allowing the Hero Giant to grab the highest HP enemy troop within 2 tiles and throw it horizontally across the Arena, dealing damage upon landing. This ability has a 14-second cooldown after its duration ends.",
-          "ability_timing": "Optimal timing involves using it to eliminate major threats or reposition key enemy units. Using it poorly can result in the throw hitting an unusable target, such as a building, or failing to prevent a crucial unit from advancing.",
-          "hero_slot_value": "Its primary value is the burst utility of its throw, allowing players to control enemy positioning and deny progress. It may not be the best choice when the game requires sustained, continuous pressure rather than single, powerful disruption.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The Heroic Hurl's utility remains vulnerable to swarms of units and buildings, which the ability cannot directly counter.",
+          "what_changes": "The Hero Giant has the same stats as the base card.",
+          "hero_ability": "The Heroic Hurl ability costs 2 Elixir to activate. After a 1-second delay and when a unit is in range, the Hero Giant grabs the highest HP enemy troop within 2 tiles and throws them horizontally, dealing damage upon landing. This ability has a 14-second cooldown.",
+          "ability_timing": "Activating when the opponent places a major threat in the targeted lane is ideal, forcing them to deal with a sudden displacement. Do not activate if the enemy has no high-HP troops in range, as the ability will be wasted.",
+          "hero_slot_value": "Placing it in a Hero slot adds the value of crowd control and reliable battlefield manipulation, making it useful for ensuring key offensive cards remain in play. However, its limited ability utility means it might not be the best choice when your deck already possesses strong area-denial or instant removal tools.",
+          "how_to_use": "Use Hero Giant like the base tank, but hold Heroic Hurl until a defender walks close enough to be thrown out of the fight or away from your support. The Hero version is strongest when the throw opens the lane for your push instead of being spent on a target that was already easy to ignore.",
+          "counters": "The Heroic Giant remains ineffective against swarms, as it cannot attack them directly. Furthermore, the ability does nothing against buildings.",
           "tips": [
-            "When using the Fisherman, position him near the edge of the Arena to trigger the throw and pull the Heroic Giant to the opposite lane.",
-            "Always attack the same lane as the opponent to force their offensive card into the other lane, making it unsupported and easier to defeat while dealing with their support troops."
+            "When using the Fisherman, place him near the edge of the Arena to maximize the chance of pulling the Giant across lanes while keeping him in range.",
+            "It is crucial to always attack the same lane as your opponent to send their offensive cards across the arena, where they will be unsupported and easier to defeat."
           ]
         }
       },
@@ -2957,7 +3049,16 @@
         "Goblin Demolisher",
         "Bowler"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Giant/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 3545,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000020,
@@ -3037,7 +3138,8 @@
         "Balloon",
         "Fisherman"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000017,
@@ -3085,7 +3187,7 @@
         "evolution": {
           "what_changes": "The Evolution increases the slow duration by one second, and after the initial hit, affected troops are pulled into the snowball and the card rolls forward for 4.5 tiles, similar to the Barbarian Barrel. The troops remain grouped together while rolling and are freed when the roll ends.",
           "evo_slot_value": "This Evolution is valuable for grouping enemy troops together, which can allow supporting cards to consistently hit them after the roll completes. However, the slot might be better used for an Evolution that provides sustained area damage or a more reliable counter to specific high-threat cards.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base control spell, but cast it where the pull and forward (towards enemy towers) roll will drag defenders into tower fire or into another splash card's damage zone. The Evolution is strongest when the reposition matters more than the initial hit.",
           "counters": "The wiki text does not provide information on whether the Evolution changes how it is countered, suggesting the general countering methods remain applicable.",
           "tips": [
             "Use the grouped troops to push opponent units away from your main tower, allowing cards to easily re-target the tower.",
@@ -3103,7 +3205,8 @@
         "Rage",
         "Dart Goblin"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 28000004,
@@ -3190,7 +3293,8 @@
         "Bowler",
         "Freeze"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000012,
@@ -3216,7 +3320,7 @@
         "max_evolution_level": 1,
         "mechanics": {
           "lifetime_sec": 20,
-          "first_hit_sec": 0.2
+          "first_hit_sec": 1
         }
       },
       "hero": null,
@@ -3240,7 +3344,7 @@
         "evolution": {
           "what_changes": "The Evolved Goblin Cage now pulls any ground troop within 3 tiles to the building, attacking them directly until the troop or the cage is destroyed, and then freeing the unit. The resulting Goblin Brawler also has higher hitpoints and can withstand one additional attack from powerful single-target cards like Prince or Mini P.E.K.K.A.",
           "evo_slot_value": "The Evolved Goblin Cage provides significant area control and separation of units by pulling enemies into the cage, which is highly useful for isolating specific win conditions. However, it might be less valuable if the current deck already has another card that provides superior area-denial or unit separation.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base defensive building, but center it where the pull can drag the key ground threat off its path and pin it onto the cage. The Evolution is strongest against one, single, important ground unit, not when the pressure is spread out or airborne.",
           "counters": "The general counters remain, but the Evolved Goblin Cage is specifically noted as an amazing counter to the Electro Giant, which can be fully destroyed for a large Elixir advantage.",
           "tips": [
             "Because of the extended 3-tile pull range, the Evolved Goblin Cage can pull charged troops (like Ram Rider or Dark Prince) while they are charging, completely countering them.",
@@ -3277,7 +3381,8 @@
         "Bomber",
         "Mother Witch"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 28000024,
@@ -3300,7 +3405,6 @@
       "hero": null,
       "mechanics": {
         "area_radius": 3,
-        "first_hit_sec": 0.4,
         "ability_duration_sec": 6
       },
       "coaching": {
@@ -3334,7 +3438,8 @@
         "Skeleton Army",
         "Goblins"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000095,
@@ -3357,9 +3462,7 @@
       "hero": null,
       "mechanics": {
         "area_radius": 2.5,
-        "lifetime_sec": 10,
-        "first_hit_sec": 0.5,
-        "ability_duration_sec": 10
+        "lifetime_sec": 10
       },
       "coaching": {
         "source": "ollama",
@@ -3393,7 +3496,8 @@
         "Goblin Hut",
         "Barbarian Hut"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 27000013,
@@ -3421,7 +3525,7 @@
           "spawn_count": 2,
           "spawn_speed_sec": 3,
           "lifetime_sec": 10,
-          "first_hit_sec": 0.4
+          "first_hit_sec": 0.8
         }
       },
       "hero": null,
@@ -3429,7 +3533,7 @@
         "spawn_count": 2,
         "spawn_speed_sec": 3,
         "lifetime_sec": 10,
-        "first_hit_sec": 0.4
+        "first_hit_sec": 1
       },
       "coaching": {
         "source": "ollama",
@@ -3495,7 +3599,8 @@
         "Zap",
         "Goblin Gang"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000041,
@@ -3558,7 +3663,8 @@
       "synergies": [
         "Hog Rider"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000060,
@@ -3655,7 +3761,8 @@
         "Lumberjack",
         "Graveyard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000001,
@@ -3722,7 +3829,8 @@
         "Earthquake",
         "Poison"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000096,
@@ -3787,7 +3895,8 @@
       "synergies": [
         "Void"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000002,
@@ -3816,7 +3925,11 @@
         "max_evolution_level": 2,
         "mechanics": {
           "spawn_count": 3,
-          "first_hit_sec": 0.6
+          "first_hit_sec": 0.6,
+          "ability_cost_elixir": 1,
+          "ability_max_uses": 1,
+          "ability_activation_window_sec": 5,
+          "ability_spawned_object_lifetime_sec": 5
         }
       },
       "mechanics": {
@@ -3835,14 +3948,14 @@
         },
         "hero": {
           "what_changes": "The Hero Goblins has the same stats as the base card.",
-          "hero_ability": "Using the ability, Banner Brigade, requires no specified activation cost, and triggers when the last Goblin standing drops a banner to call in reinforcements.",
-          "ability_timing": "Activate when Goblins are under heavy attack or have few remaining units to maximize the sudden surge of allied troops. Activating prematurely when the Goblins are still healthy or when the opponent is prepared might not yield enough benefit.",
-          "hero_slot_value": "It is highly valuable when the deck needs sudden, overwhelming defensive or offensive numerical parity. It may not be the best choice if the deck already has strong, self-sustaining, or continuous pressure tools.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The counters remain the same, as the hero version's primary function is tied to unit swarms and disruption.",
+          "hero_ability": "The ability, Banner Brigade, costs 1 Elixir. When the last surviving Goblin drops its banner, it calls in a second wave of three reinforcements. This can only happen once, so the Hero version gets one extra follow-up swarm instead of a repeatable activated ability.",
+          "ability_timing": "Use it when the first Goblin wave is likely to draw the opponent's initial answer, so the reinforcements arrive after some of their splash or cheap control has already been committed. Because Banner Brigade only triggers once, you get the most value when the banner drop forces a second answer rather than spawning into the same clear.",
+          "hero_slot_value": "It adds sticky swarm pressure to a cheap cycle troop, making it better at forcing a second defensive response instead of trading away in one clean interaction. It is less valuable when the matchup is full of easy splash clears that can erase both waves without giving up much Elixir or tempo.",
+          "how_to_use": "Use Hero Goblins like the base card for cheap DPS, distraction, and punish pressure, but try to place them where one Goblin can survive long enough for Banner Brigade to matter. The Hero value comes from making the opponent handle the first wave and then immediately answer three more Goblins.",
+          "counters": "Splash spells and splash troops still counter the Hero version well, especially if the opponent can hold the clear for the banner drop or catch both waves in the same area. The Hero version is more punishing against single-target or slow answers that clear the first Goblins one by one and leave the reinforcements unchecked.",
           "tips": [
-            "Reserve the ability for clearing defensive pushes that have just enough remaining units to keep the threat alive.",
-            "Use the Hero version to bridge a major gap in unit density, ensuring immediate follow-up damage or defense."
+            "Banner Brigade is strongest after the opponent has already spent their first cheap answer on the opening Goblins.",
+            "Do not force the ability into obvious splash if the reinforcements will spawn into the same losing spot."
           ]
         }
       },
@@ -3888,7 +4001,16 @@
         "Spear Goblins",
         "Goblin Gang"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Goblins/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 423,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000099,
@@ -3913,9 +4035,10 @@
         "area_radius": 2,
         "first_hit_sec": 0.5,
         "stun_duration_sec": 0.5,
+        "ability_cost_elixir": 2,
         "ability_cooldown_sec": 17,
         "ability_duration_sec": 4,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.933
       },
       "coaching": {
         "source": "ollama",
@@ -3940,7 +4063,8 @@
         "Zappies",
         "Royal Hogs"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000074,
@@ -3966,9 +4090,11 @@
       "evolution": null,
       "hero": null,
       "mechanics": {
+        "area_radius": 5.5,
         "first_hit_sec": 0.2,
+        "ability_cost_elixir": 1,
         "ability_cooldown_sec": 12,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.766
       },
       "coaching": {
         "source": "ollama",
@@ -3998,7 +4124,8 @@
         "Minions",
         "Bats"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000009,
@@ -4060,7 +4187,8 @@
         "Monk",
         "Hog Rider"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000010,
@@ -4084,7 +4212,7 @@
       "mechanics": {
         "area_radius": 4,
         "spawn_speed_sec": 0.5,
-        "first_hit_sec": 0.5,
+        "first_hit_sec": 2.2,
         "ability_duration_sec": 9
       },
       "coaching": {
@@ -4155,7 +4283,8 @@
         "Electro Giant",
         "Inferno Tower"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000025,
@@ -4226,7 +4355,8 @@
         "Golem",
         "Ice Wizard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000016,
@@ -4286,7 +4416,8 @@
         "Poison",
         "Skeleton Barrel"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000021,
@@ -4361,7 +4492,8 @@
         "Skeleton Dragons",
         "Hunter"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000044,
@@ -4411,7 +4543,7 @@
         "evolution": {
           "what_changes": "The Evolved Hunter now throws a net every 5 seconds that freezes the closest troop, preventing it from moving or attacking and allowing ground units to hit it for 3 seconds.",
           "evo_slot_value": "The Evolved Hunter is valuable for its capacity to stun a single target, which can be used to significantly counter combined push strategies. However, its strategic value might diminish in meta-games where reliable, long-duration control or multiple simultaneous stuns are required.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base close-range burst defender, but place him where the net will catch the main threat and buy a clean damage window for your tower or support troops. The Evolution is strongest when one frozen target matters more than raw spread damage and also to let ground troops be able to attack an otherwise flying unit.",
           "counters": "The strategic nature of the Evolution may introduce new vulnerability points, but general counters like ranged units and swarms remain effective.",
           "tips": [
             "Against Graveyard, the Evolved Hunter performs slightly worse than the regular Hunter due to the net animation, which also slows down its attack animation.",
@@ -4459,7 +4591,8 @@
         "Ram Rider",
         "Dark Prince"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000038,
@@ -4487,15 +4620,15 @@
         "source": "official_api",
         "max_evolution_level": 2,
         "mechanics": {
-          "area_radius": 2,
-          "first_hit_sec": 1.5,
+          "area_radius": 4,
+          "first_hit_sec": 1,
+          "ability_cost_elixir": 2,
           "ability_cooldown_sec": 17,
           "cast_delay_sec": 1
         }
       },
       "mechanics": {
-        "area_radius": 2,
-        "first_hit_sec": 1
+        "area_radius": 2
       },
       "coaching": {
         "source": "ollama",
@@ -4514,14 +4647,14 @@
         },
         "hero": {
           "what_changes": "The Hero Ice Golem has the same stats as the base card.",
-          "hero_ability": "The Hero Ice Golem activates 'Snowstorm' by paying an additional 2 Elixir. This ability generates a 4-tile aura radius with three pulses, each slowing enemy troops and dealing damage. If an enemy troop remains in the aura for all three pulses, it is frozen for 2-3 seconds, and the ability has a 14-second cooldown.",
-          "ability_timing": "Optimal timing is to use the Hero Ice Golem to distract enemy troops before activating Snowstorm to freeze defensive cards near the tower. Activating it at the wrong moment wastes the potential to secure a critical defensive freeze, which is often more valuable than the immediate damage.",
-          "hero_slot_value": "Its ability provides significant crowd control by slowing and freezing multiple enemies, making it valuable for stabilizing the backline. However, relying on its ability means that a player might lose the critical advantage of having another versatile Hero or Champion active.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The general counters remain similar, focusing on overwhelming unit damage or spells that bypass minor crowd control.",
+          "hero_ability": "The Hero Ice Golem has a special ability called Snowstorm which costs 2 Elixir to activate. After a 1-second delay, it generates a 4-tile aura radius that damages and slows enemy troops, and the second pulse causes 1 tile knockback, and the third pulse freezes enemy troops for 2-3 seconds. The ability has a 14 second cooldown after the duration ends.",
+          "ability_timing": "The wiki suggests using Ice Golem to distract enemy troops, then activating the ability to freeze any defensive cards once they are at the tower. Timing it poorly means you miss the opportunity to freeze critical defensive units.",
+          "hero_slot_value": "Its potential to lock down an area with multiple debuffs and hard CC makes it highly valuable for defensive control. However, it might not be the best choice if the current meta demands pure single-target burst damage.",
+          "how_to_use": "Use Hero Ice Golem like the base kite and distraction tank, but activate Snowstorm once key defenders are trapped inside the aura and forced to eat the later pulses. The Hero version is strongest when the slow, knockback, and freeze all land on the same fight instead of letting enemies walk out after the first pulse.",
+          "counters": "The wiki does not specify how the Hero version changes its counterplay, suggesting general application of counter strategies.",
           "tips": [
-            "Use the initial deployment to draw aggression and soak damage, setting up the area for the subsequent Snowstorm activation.",
-            "Coordinate the ability activation with heavy enemy pushes, ensuring the frozen state helps eliminate high-value attackers or troops."
+            "Consider positioning the Golem to maximize the 4-tile aura radius effect around high-value, defensive enemy units.",
+            "Wait until enemy troops are grouped up before activating Snowstorm to maximize the chance of freezing multiple targets."
           ]
         }
       },
@@ -4565,7 +4698,16 @@
         "Elite Barbarians",
         "Golem"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Ice Golem/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 1964,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000030,
@@ -4611,7 +4753,7 @@
         "evolution": {
           "what_changes": "The Evolution infuses a target with an 'Ice Blast' spell, which deals freezing Area Damage over time. Furthermore, after the initial hit, it deals the same stun and damage to the target for 1.1 seconds after a 3-second delay.",
           "evo_slot_value": "The extended stun and damage from Ice Blast make it highly valuable for consistently interrupting high-value threats like Inferno Dragons or Mega Knights, or for supporting Hog Riders and Ram Riders. However, using the evo slot might be wasteful if the opponent has strong preventative cycle cards, as the card is still susceptible to being destroyed by the opponent's immediate 1-Elixir cycle troops.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base cycle reset, but throw it at a target that will still matter when the delayed follow-up damage and freeze arrive. The Evolution is strongest when the second hit stalls a committed threat instead of landing on a unit that already left the fight.",
           "counters": "The core counter mechanics remain similar, requiring immediate low-cost troops, but the increased utility means players must be wary of it even when general counters like The Log are used.",
           "tips": [
             "Use it with Goblin Drill to tank shots from the Tower Princess while simultaneously stalling enemy units meant to defend the Drill.",
@@ -4660,7 +4802,8 @@
         "Skeleton King",
         "Monk"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000023,
@@ -4669,7 +4812,7 @@
       "type": "troop",
       "elixir": 3,
       "hit_speed": 1700,
-      "range": 5500,
+      "range": 3000,
       "deploy_time": 1000,
       "movement_domain": "ground",
       "attack_targets": "both",
@@ -4682,8 +4825,7 @@
       "evolution": null,
       "hero": null,
       "mechanics": {
-        "area_radius": 1.5,
-        "first_hit_sec": 0.5
+        "area_radius": 3
       },
       "coaching": {
         "source": "ollama",
@@ -4727,7 +4869,8 @@
         "Minions",
         "Graveyard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000037,
@@ -4785,7 +4928,7 @@
         "evolution": {
           "what_changes": "Once defeated, the Evolved Inferno Dragon retains its damage state for up to 9 seconds if it does not hit a target, or until stunned; furthermore, after 20 seconds of continuous damage, it reaches a 4th damage stage that deals twice the damage of the 3rd stage.",
           "evo_slot_value": "The ability to maintain its charge and damage state even when pulled or knocked back makes it highly versatile for clearing complex pushes. However, dedicating an Evo slot might be less valuable if the deck's strategy relies primarily on clearing multiple, quickly appearing small groups of troops.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base tank melter, but protect its beam state and chain it from one target to the next because the Evolution keeps that ramped damage alive longer. The Evolution is strongest in long defensive sequences or counterpushes where the stored charge reaches more than the first target.",
           "counters": "Counters remain similar, but the extended duration and ability to maintain charge make it vulnerable to cheap stun cards or spells that prevent it from fully charging.",
           "tips": [
             "Use the Evolved Inferno Dragon to clear the multiple stages of high-HP tanks (like Golem or Elixir Golem) by bypassing their individual health pools.",
@@ -4825,7 +4968,8 @@
         "Mega Knight",
         "Rune Giant"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000003,
@@ -4922,7 +5066,8 @@
         "Zap",
         "P.E.K.K.A"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000000,
@@ -4957,9 +5102,10 @@
         "max_evolution_level": 3,
         "mechanics": {
           "first_hit_sec": 0.5,
+          "ability_cost_elixir": 2,
           "ability_cooldown_sec": 25,
           "ability_duration_sec": 5,
-          "cast_delay_sec": 1
+          "cast_delay_sec": 0.933
         }
       },
       "mechanics": {
@@ -4987,15 +5133,15 @@
           ]
         },
         "hero": {
-          "what_changes": "The Hero Knight has the same general troop characteristics as the base card (high hitpoints and moderate damage), but unlike its Evolution, it no longer possesses the 65% damage reduction when not attacking.",
-          "hero_ability": "The Hero Knight has the 'Triumphant Taunt' ability, which costs 2 Elixir to activate. After a 1-second delay, it taunts every enemy troop and building in a 7.5-tiles range, forcing them to attack the Knight. The shield and taunt effect lasts for 5 seconds, and the ability has a 25-second cooldown after the duration ends.",
-          "ability_timing": "It is highly effective when activating during a coordinated attack, as it can force enemy troops to refocus on the Knight, allowing other units to deal sustained chip damage to the tower. Activating it defensively can pull enemy units away from the tower, or move the focus of opposing ranged or building units to another area of the map.",
-          "hero_slot_value": "It is valuable for controlling enemy attention and redirecting damage, which is crucial for facilitating massive pushes. However, slot usage must be considered against other high-utility units, as both Hero and Champion slots are limited and highly contested resources.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The core counter concepts remain the same, but the Knight’s lack of damage reduction when not attacking means it is less resilient to certain types of incoming damage compared to its Evolution.",
+          "what_changes": "The Hero Knight loses the 65% damage reduction when not attacking, making him potentially more vulnerable to ranged damage.",
+          "hero_ability": "The Hero Knight uses 2 Elixir to activate Triumphant Taunt, which grants him a shield and forces all nearby enemy troops and buildings within a 7.5-tile range to attack him. This effect lasts for 5 seconds and has a 25-second cooldown after the duration ends.",
+          "ability_timing": "The ability is strongest when the opponent has multiple targets, allowing the Hero Knight to draw focus and absorb damage from different directions. Conversely, if used when the enemy only has one primary threat, the focus drawing might be less impactful.",
+          "hero_slot_value": "Placing him in Slot 1 or Slot 2 provides the defensive ability to redirect opponent focus, which is invaluable during major offensive pushes. However, using the slot for a card with stronger sustained defensive utility or greater range may be a better trade-off.",
+          "how_to_use": "Use Hero Knight like the base mini-tank, but place him where Triumphant Taunt can pull fire away from your support or win condition before you spend the extra Elixir. The Hero version is strongest when he is already near multiple defenders or a tower, turning one placement into a protected push.",
+          "counters": "While the ability is potent, the Hero Knight is still susceptible to continuous area damage or large-scale spells, particularly if the initial shield is quickly bypassed by spawning troops.",
           "tips": [
-            "Using the Hero's ability defensively can pull multiple enemy troops, such as the two barrels of an Evolved Goblin Barrel, away from the main target for a potential negative Elixir trade.",
-            "By placing the Knight at the front line, he can absorb initial tower damage, and the ability can then be used when the remaining enemy forces are focused on the central towers, maximizing strategic impact."
+            "Use Triumphant Taunt during a major push to distract enemy defensive buildings or units in an adjacent lane, allowing your primary win condition to break through.",
+            "On defense, activate the ability to pull enemy forces (like Goblin Barrels) away from the King Tower, maximizing the chip damage potential of the attacker."
           ]
         }
       },
@@ -5039,7 +5185,16 @@
         "Furnace",
         "Rascals"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Knight/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 4746,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000029,
@@ -5117,7 +5272,8 @@
         "Giant Snowball",
         "Flying Machine"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000007,
@@ -5140,8 +5296,7 @@
       "hero": null,
       "mechanics": {
         "area_radius": 3.5,
-        "stun_duration_sec": 0.5,
-        "ability_duration_sec": 1.5
+        "stun_duration_sec": 0.5
       },
       "coaching": {
         "source": "ollama",
@@ -5183,7 +5338,8 @@
         "Bomber",
         "Elixir Collector"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000093,
@@ -5209,8 +5365,9 @@
       "mechanics": {
         "first_hit_sec": 0.4,
         "dash_distance": 4,
+        "ability_cost_elixir": 3,
         "ability_cooldown_sec": 30,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.944
       },
       "coaching": {
         "source": "ollama",
@@ -5243,7 +5400,8 @@
         "Goblin Gang",
         "Dart Goblin"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000035,
@@ -5271,15 +5429,15 @@
         "max_evolution_level": 1,
         "mechanics": {
           "area_radius": 3,
-          "first_hit_sec": 0.4,
-          "ability_duration_sec": 4.5
+          "lifetime_sec": 4.5,
+          "first_hit_sec": 0.4
         }
       },
       "hero": null,
       "mechanics": {
         "area_radius": 3,
-        "first_hit_sec": 0.4,
-        "ability_duration_sec": 4.5
+        "lifetime_sec": 4.5,
+        "first_hit_sec": 0.4
       },
       "coaching": {
         "source": "ollama",
@@ -5295,7 +5453,7 @@
         "evolution": {
           "what_changes": "When destroyed, the Evolution spawns an invisible Ghost that has unlimited health, cannot be targeted by troops, buildings, or towers, but can be affected by spells and disappears after a short time outside the initial Rage Spell's radius.",
           "evo_slot_value": "The Ghost provides an extremely versatile defensive asset that can deal damage and support the clearing of moderate pushes, making it valuable for defense. However, the Evo slot might be better used for an Evolution that offers unique synergy or a more consistent win-closing threat, as the Ghost's invulnerability is tied to its initial Rage radius.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base pressure card, but pay attention to where he dies because the spawned Ghost only matters if the fight stays inside the Rage area. The Evolution is strongest when his death leaves unavoidable follow-up pressure on the same lane instead of away from the real fight.",
           "counters": "The general counters still apply, but the Ghost's invulnerability to targeting by troops, buildings, or towers means it requires spell or slowdown effects to neutralize.",
           "tips": [
             "When Ghost locks on, log the ghost then play a distraction to disrupt its focus.",
@@ -5327,7 +5485,8 @@
         "Wizard",
         "Ice Wizard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000062,
@@ -5355,8 +5514,13 @@
         "mechanics": {
           "projectile_width": 0.5,
           "first_hit_sec": 0.7,
+          "ability_cost_elixir": 2,
+          "ability_activation_window_sec": 7,
+          "ability_spawned_object_lifetime_sec": 7,
           "ability_cooldown_sec": 25,
-          "cast_delay_sec": 1
+          "cast_delay_sec": 1,
+          "triple_threat_dash_back_distance_tiles": 5,
+          "triple_shot_projectile_range_tiles": 15.5
         }
       },
       "mechanics": {
@@ -5376,14 +5540,14 @@
         },
         "hero": {
           "what_changes": "The Hero Magic Archer has the same stats as the base card.",
-          "hero_ability": "With a 2 Elixir ability cost, the player activates Triple Threat to summon a decoy while darting back, and the unit fires a triple shot on its next attack.",
-          "ability_timing": "This ability is best used when the Magic Archer needs burst damage or distraction, such as when facing a heavy defensive push. Activating it prematurely or when damage is not immediately needed wastes the potential defensive value of the ability.",
-          "hero_slot_value": "Its high utility in applying burst damage and drawing defensive fire makes it excellent in the Wild slot. However, dedicating a slot to it might be suboptimal if the deck needs reliable direct pressure or needs a dedicated frontline unit.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The counters for the base card still apply to the Hero version.",
+          "hero_ability": "The ability, Triple Threat, costs 2 Elixir. After a 1-second cast, Hero Magic Archer darts backward, summons a decoy, and turns his next attack into a triple shot. The ability then goes on a 25-second cooldown.",
+          "ability_timing": "Use it when the backward dart and decoy will keep Magic Archer alive long enough to deliver a high-value next shot, especially if the triple attack can punish a lined-up defender or tower angle. Activating it when no important target is about to be hit wastes both the reposition and the long cooldown.",
+          "hero_slot_value": "It adds self-peel and burst follow-up to a fragile backline sniper, making him more dangerous when the deck can create strong lineups for piercing damage. It is less valuable when the matchup removes fragile ranged troops too easily or when the deck needs a sturdier slot investment.",
+          "how_to_use": "Use Hero Magic Archer like the base card for line pressure, but save Triple Threat for moments when the retreat and decoy will protect him while setting up the next burst shot. The Hero version rewards more patient placement because one ability can turn a threatened Magic Archer into a safer burst threat.",
+          "counters": "The usual spell and fast punish counters still work if they catch him before or after the retreat, but the decoy and backward dart can punish opponents who rely on one precise response. He is still fragile, so broad removal and quick pressure remain strong answers. Good opponents can position a troop so the Triple Threat activates their King Tower.",
           "tips": [
-            "Use the decoy element of the ability to pull attention away from your main win condition.",
-            "Position the Magic Archer to maximize the triple shot damage potential against clustered enemy troops."
+            "Do not spend Triple Threat just for the retreat if the next shot will not hit something important.",
+            "Use the backward dart to reopen a better piercing line on troops hiding behind a tank or building."
           ]
         }
       },
@@ -5427,7 +5591,16 @@
         "Three Musketeers",
         "Musketeer"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Magic Archer/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 430,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000055,
@@ -5454,13 +5627,13 @@
         "source": "official_api",
         "max_evolution_level": 1,
         "mechanics": {
-          "area_radius": 1.3,
+          "area_radius": 2.2,
           "first_hit_sec": 0.5
         }
       },
       "hero": null,
       "mechanics": {
-        "area_radius": 1.3,
+        "area_radius": 2.2,
         "first_hit_sec": 0.5
       },
       "coaching": {
@@ -5532,7 +5705,8 @@
         "Tombstone",
         "Fisherman"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000039,
@@ -5559,7 +5733,9 @@
         "max_evolution_level": 2,
         "mechanics": {
           "first_hit_sec": 0.4,
-          "cast_delay_sec": 1
+          "ability_cost_elixir": 2,
+          "ability_max_uses": 1,
+          "cast_delay_sec": 0.933
         }
       },
       "mechanics": {
@@ -5582,14 +5758,14 @@
         },
         "hero": {
           "what_changes": "The Hero Mega Minion has the same stats as the base card.",
-          "hero_ability": "The ability is called Wounding Warp and costs 2 Elixir. Upon activation, the Mega Minion warps to the lowest-Hitpoint enemy, dealing damage upon arrival.",
-          "ability_timing": "It is strategically optimal to activate Wounding Warp when an immediate, high-priority threat needs to be neutralized. Failing to use the ability can mean wasting the activation cost on a unit that was already eliminated or was not the lowest-Hitpoint target.",
-          "hero_slot_value": "This version gains significant tactical value when the opponent commits multiple threats in different locations, allowing it to surgically target the weakest link. However, it may not be the best choice if the primary goal is generalized crowd control or sustained area damage.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The counters for the Hero version remain similar to the base card, focusing on cheap, air-targeting, and ranged troops.",
+          "hero_ability": "The ability, Wounding Warp, costs 2 Elixir. After a short cast, Hero Mega Minion warps to the lowest-Hitpoint enemy anywhere on the map and deals damage on arrival. This lets it instantly reposition onto the weakest target instead of flying there normally.",
+          "ability_timing": "Use it when the lowest-Hitpoint enemy is also the unit you actually want removed, such as a damaged support troop or weakened defender behind the front line. Activating while cheap distractions are lower on health can pull the warp onto the wrong target and waste 2 Elixir. Wounding Warp can be tactically used to 'teleport' around the map, for example at an enemy tower if the lowest-Hitpoint enemy is there.",
+          "hero_slot_value": "It adds targeted reach to a compact air bruiser, giving the deck a way to punish weakened backline units without waiting for normal pathing. It is less valuable when the matchup calls for broader splash control or when the opponent rarely leaves vulnerable low-HP targets exposed.",
+          "how_to_use": "Deploy it like the base Mega Minion for defense and support, but hold Wounding Warp until the weakest enemy is in a high-value position. The main upgrade is skipping travel time to finish a damaged support unit or punish a low-HP target hiding behind the front line.",
+          "counters": "The usual ranged anti-air counters still handle it once it lands, but the Hero version is harder to protect against if a weak support unit is left exposed. Cheap low-HP distractions can also manipulate the warp target if they become the weakest enemy at the wrong time.",
           "tips": [
-            "Utilize Wounding Warp to correct immediate positioning errors, allowing the unit to bypass an opponent's initial formation and strike deep.",
-            "Because the ability targets the lowest-Hitpoint enemy, use it when the opponent clusters several small, low-HP threats simultaneously."
+            "Hold Wounding Warp until the intended target is actually the lowest-Hitpoint enemy on the board.",
+            "Use the warp to bypass front-line clutter when a damaged backline unit is the real priority."
           ]
         }
       },
@@ -5620,7 +5796,16 @@
         "Skeletons",
         "Little Prince"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Mega Minion/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 416,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000065,
@@ -5646,8 +5831,10 @@
       "evolution": null,
       "hero": null,
       "mechanics": {
+        "first_hit_sec": 1,
+        "ability_cost_elixir": 1,
         "ability_cooldown_sec": 13,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.933
       },
       "coaching": {
         "source": "ollama",
@@ -5695,7 +5882,8 @@
         "Wall Breakers",
         "Battle Ram"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000032,
@@ -5763,7 +5951,8 @@
         "Goblin Barrel",
         "Ice Spirit"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000018,
@@ -5791,7 +5980,13 @@
         "source": "official_api",
         "max_evolution_level": 2,
         "mechanics": {
-          "first_hit_sec": 0.5
+          "first_hit_sec": 0.5,
+          "ability_cost_elixir": 1,
+          "ability_max_uses": 1,
+          "cast_delay_sec": 0.933,
+          "ability_charge_meter_max": 4,
+          "ability_bonus_levels_max": 5,
+          "ability_heal_percent": 30
         }
       },
       "mechanics": {
@@ -5809,16 +6004,25 @@
           "tips": "Do not focus it solely on the main tank; prioritizing the support troops (like Wizards or Bowlers) is key to winning the Elixir trade. Because of its speed, position it slightly ahead of your main troop to engage the enemy push immediately and maintain initiative. Be wary of abilities that can knock it back, as it can be vulnerable when recovering from being pushed away."
         },
         "hero": {
-          "what_changes": "The Hero Mini P.E.K.K.A has the same core troop stats as the base card.",
-          "hero_ability": "After a 1-second delay, the player activates 'Breakfast Boost' for an additional 1 Elixir. This ability grants the Mini P.E.K.K.A extra Levels based on accumulated pancake meters (up to 5 Levels) and heals him for 30% of his hitpoints. The ability can only be activated once.",
-          "ability_timing": "The ideal time to use the ability is after the initial powerful strike, maximizing damage on the counterattack and providing a heal. However, if the opponent anticipates it, using the ability might result in the healing being wasted by an immediate spell.",
-          "hero_slot_value": "The Hero is valuable for maximizing Elixir trades against high-HP anti-tank cards or taking down a Tower on its own. It may not be the best choice if the primary strategic goal is sustained chip damage rather than burst damage.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The counters remain similar, focusing on targeting the Mini P.E.K.K.A before it can use its powerful self-boost ability.",
+          "what_changes": "The Hero Mini P.E.K.K.A has the same stats as the base card.",
+          "hero_ability": "The ability costs an additional 1 Elixir to activate. After a 1-second delay, the hero immediately consumes stored pancakes, granting extra Levels (ranging from 1 to 5) and healing the card for 30%.",
+          "ability_timing": "Optimal timing is generally used to take out anti-tank cards, providing a better counterattack after healing. Activating the ability when predicting an opponent's spell may waste the healing effect.",
+          "hero_slot_value": "Its ability allows it to significantly boost its survivability and damage output, making it valuable when needing substantial resilience. However, placing it in the Hero slot might be suboptimal if the immediate threat requires quick, unenhanced burst damage.",
+          "how_to_use": "Use Hero Mini P.E.K.K.A like the base tank killer, but save Breakfast Boost until he is in a high-value fight and has enough stored pancakes to make the heal and level spike matter. The Hero version is strongest when the one-time boost flips a key tower or tank interaction instead of being spent on cleanup.",
+          "counters": "The general counterplay remains the same, but timing your attack before the hero activates its ability is crucial.",
           "tips": [
-            "Consider generating the ability meter using support units like the Royal Chef to safely accumulate meters and maximize Levels.",
-            "Manipulating the Hero by using other effects, such as Mirror, can further increase the Levels gained, enhancing the card's total damage and HP output."
+            "Pairing it with low damage units, such as the Royal Chef, can force more attacks and help accumulate the ability meters safely.",
+            "Consider activating the ability immediately after a powerful opposing hit to maximize survivability and counterdamage."
           ]
+        }
+      },
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Mini_P.E.K.K.A./Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 4911,
+          "generated_at": "2026-05-15"
         }
       }
     },
@@ -5864,13 +6068,13 @@
           "tips": "Wait to play Minion Horde until the immediate threat has passed, allowing you to leverage its high surprise factor. Because it is so vulnerable to splash damage, be prepared to defend it with inexpensive spells or units rather than letting it be easily eliminated. Always aim for tactical placement to ensure the Minions target support troops first, saving the bulk of the swarm for the primary tank."
         },
         "evolution": {
-          "what_changes": "The Evolution grants the Minion Horde a brief period of invincibility after taking its first strike, suggesting a defensive capability improvement over the base version.",
-          "evo_slot_value": "The ability to become briefly invincible after taking first damage offers surprising resilience, making it valuable for surprise pushes or defending against targeted bursts of damage. However, dedicating this slot might be less impactful than using it for an Evolution that provides continuous utility or superior damage potential.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The general counters remain applicable, but the temporary invincibility might allow it to survive otherwise devastating initial hits.",
+          "what_changes": "Each Evolved Minion gets a brief invincibility window (untargetable/invisible to enemy units during the window) after taking its first hit, so the Horde can survive one initial strike per unit before normal damage starts landing.",
+          "evo_slot_value": "That first-hit protection makes the Horde much harder to erase with a single immediate answer, giving the swarm more chances to stay on the board and punish bad timing. It is less valuable when the opponent has repeated splash or sustained area control that can keep damaging the Horde after the invincibility has already been spent.",
+          "how_to_use": "Use it like the base Minion Horde for punish pressure, tank support, or counterpushes, but try to make the opponent's first answer only burn the invincibility instead of deleting the swarm outright. The Evolution is strongest when the Horde can keep attacking after that first protected contact instead of staying inside the same damage zone.",
+          "counters": "The same splash counters still apply, but a single opening hit is less reliable because each Minion can ignore its first strike briefly. Repeated splash, fast follow-up damage, or area control that keeps covering the Horde remain the cleanest answers.",
           "tips": [
-            "Consider timing the deployment to trigger the invulnerability shield from a minor attack, allowing the Minions to safely re-establish their formation.",
-            "Use the defensive invulnerability not just against burst damage, but also to bypass enemy spell timings or initial push setup."
+            "Try to force the opponent's first answer to only trigger the invincibility, then punish while the Horde is still intact.",
+            "Do not deploy it where the first protected hit is immediately followed by the same splash source finishing the whole swarm."
           ]
         }
       },
@@ -5905,7 +6109,8 @@
         "Flying Machine",
         "Little Prince"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000005,
@@ -6014,7 +6219,8 @@
         "Lightning",
         "Battle Ram"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000006,
@@ -6061,7 +6267,8 @@
         "Bomber",
         "The Log"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000077,
@@ -6088,8 +6295,9 @@
       "hero": null,
       "mechanics": {
         "first_hit_sec": 0.2,
+        "ability_cost_elixir": 1,
         "ability_cooldown_sec": 17,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.933
       },
       "coaching": {
         "source": "ollama",
@@ -6121,7 +6329,8 @@
         "Royal Delivery",
         "Sparky"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000002,
@@ -6195,7 +6404,8 @@
         "Battle Healer",
         "Rune Giant"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000083,
@@ -6258,7 +6468,8 @@
         "Zap",
         "Giant Snowball"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000014,
@@ -6291,8 +6502,13 @@
         "max_evolution_level": 3,
         "mechanics": {
           "first_hit_sec": 0.7,
+          "ability_cost_elixir": 3,
+          "ability_spawned_object_lifetime_sec": 10,
           "ability_cooldown_sec": 22,
-          "cast_delay_sec": 1
+          "cast_delay_sec": 1,
+          "trusty_turret_spawn_offset_tiles": 3,
+          "trusty_turret_hit_speed_sec": 0.5,
+          "trusty_turret_range_tiles": 4
         }
       },
       "mechanics": {
@@ -6320,15 +6536,15 @@
           ]
         },
         "hero": {
-          "what_changes": "The Hero Musketeer is a single-target, air-targeting, long-ranged, and ground troop with moderate hitpoints and moderate damage.",
-          "hero_ability": "For an additional 3 Elixir, the Hero Musketeer activates 'Trusty Turret', which spawns a short-range auto-turret 3 tiles forward of the Musketeer. This turret has a 10-second lifetime and an ability cooldown of 22 seconds after the duration ends.",
-          "ability_timing": "The ability is best used reactively, such as to distract regular troops or act as a building to attract win conditions. It must be used at a distance to prevent the opponent from luring the Hero Musketeer into the turret's range, which could lead to the Hero Musketeer taking damage.",
-          "hero_slot_value": "The ability provides significant zone control and defensive utility, making it highly valuable in mid-game skirmishes. However, the reliance on proper range management means its overall value is reduced if the opponent can consistently bait it into danger.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The Hero Musketeer maintains vulnerability to large air troops and focused, heavy damage, similar to the base card.",
+          "what_changes": "The Hero Musketeer has the same stats as the base card.",
+          "hero_ability": "The Hero Musketeer's special ability, 'Trusty Turret,' costs 3 Elixir to activate and spawns a short-range, auto-targeting turret 3 tiles in front of the Musketeer. This turret lasts for 10 seconds, acting as a distraction for troops and a building to attract win conditions. The ability has a 22-second cooldown after the duration ends.",
+          "ability_timing": "The ability is best used reactively, as it is not meant to last a long time. Opponents should be avoided, particularly the Electro Giant, as activating the ability against him will lure him toward the Turret, causing the Musketeer to take damage and eventually destroy herself through his Zap Pack.",
+          "hero_slot_value": "The Hero Musketeer provides reliable zone control through its deployable turret, allowing the player to create temporary structural hazards or distractions. The utility of the turret makes it valuable in defensive compositions where building damage or targeted area denial is needed.",
+          "how_to_use": "Use Hero Musketeer like the base ranged support, but plan placements around where Trusty Turret will create a protected firing lane or pull a win condition off course. The Hero version is strongest when the turret turns one backline troop into a small defended zone instead of being dropped where it can be ignored.",
+          "counters": "The Heroic Musketeer remains susceptible to the general counters applicable to the base card.",
           "tips": [
-            "Use the turret to attract win conditions and force opponent reactions, maximizing the distraction value.",
-            "Due to the high combined Elixir cost (4 + 3 = 7), save the ability for critical moments where the turret's zone control is necessary."
+            "Use the turret to force enemy win conditions to interact with it, thereby drawing out their focus and attention.",
+            "Consider using the Hero's range to fight threats while simultaneously drawing the opponent's focus by activating the turret in an advantageous spot."
           ]
         }
       },
@@ -6366,7 +6582,16 @@
         "The Log",
         "Poison"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Musketeer/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 2762,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 26000048,
@@ -6448,7 +6673,8 @@
         "Miner",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000004,
@@ -6503,7 +6729,8 @@
             "Due to its slow attack rate, use supportive long-range troops (like Musketeer or Dart Goblin) to distract it, preventing it from healing while the main threat is removed."
           ]
         }
-      }
+      },
+      "coaching_meta": null
     },
     {
       "id": 26000087,
@@ -6530,7 +6757,6 @@
       "hero": null,
       "mechanics": {
         "area_radius": 1.5,
-        "spawn_speed_sec": 4.3,
         "lifetime_sec": 3.8,
         "first_hit_sec": 0.5
       },
@@ -6571,7 +6797,8 @@
       "synergies": [
         "Electro Giant"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000009,
@@ -6617,7 +6844,8 @@
       "synergies": [
         "Graveyard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000016,
@@ -6643,7 +6871,6 @@
       "evolution": null,
       "hero": null,
       "mechanics": {
-        "first_hit_sec": 0.5,
         "charge_distance": 2.5
       },
       "coaching": {
@@ -6711,7 +6938,8 @@
         "Ice Golem",
         "Executioner"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000026,
@@ -6772,7 +7000,8 @@
         "Arrows",
         "Skeleton Barrel"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000002,
@@ -6818,7 +7047,8 @@
         "Giant Snowball",
         "Zap"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000051,
@@ -6913,7 +7143,8 @@
         "Battle Healer",
         "Freeze"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000053,
@@ -6978,7 +7209,8 @@
         "Goblin Barrel",
         "Goblins"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 28000003,
@@ -7042,7 +7274,8 @@
         "Clone",
         "Goblin Barrel"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000018,
@@ -7102,7 +7335,8 @@
         "Giant Snowball",
         "Poison"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000050,
@@ -7150,7 +7384,7 @@
         "evolution": {
           "what_changes": "Upon deployment, the Evolved Royal Ghost summons two Souldiers that remain active after the Royal Ghost retreats, contributing to continuous battlefield presence and area damage. Additionally, the Souldiers' spawn damage provides extreme total damage when attacking while the Royal Ghost is invisible.",
           "evo_slot_value": "This Evolution offers powerful synergy, particularly against predictable or cycle-dependent enemy setups, allowing it to counter multiple waves of units or defend effectively with lingering Souldiers. However, dedicating an evo slot might be less crucial if the deck already possesses other reliable, synergistic counter-push or area-clearing elements.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base sneaky pressure card, but choose moments where the Souldiers can survive after his retreat and keep the lane alive on their own. The Evolution is strongest when one deploy creates two separate defensive problems instead of one clean answer.",
           "counters": "It is countered by units that can quickly eliminate clustered troops or spells that can instantly remove the Souldiers, though its overall combat profile remains similar to the base card.",
           "tips": [
             "Use the invisible state to maximize the Souldiers' spawn damage by having the Royal Ghost attack, triggering the damage while the King Tower or opponent's troops cannot target it.",
@@ -7184,7 +7418,8 @@
         "Electro Giant",
         "Electro Wizard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000024,
@@ -7294,7 +7529,8 @@
         "Giant Skeleton",
         "Inferno Tower"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000059,
@@ -7389,7 +7625,8 @@
         "Freeze",
         "Elixir Collector"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000047,
@@ -7467,7 +7704,8 @@
         "Skeleton Dragons",
         "Valkyrie"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000101,
@@ -7507,7 +7745,8 @@
       "synergies": [
         "Lava Hound"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000012,
@@ -7594,7 +7833,8 @@
         "Witch",
         "Skeletons"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000056,
@@ -7620,13 +7860,13 @@
         "max_evolution_level": 1,
         "mechanics": {
           "area_radius": 2,
-          "first_hit_sec": 0.5
+          "first_hit_sec": 1
         }
       },
       "hero": null,
       "mechanics": {
         "area_radius": 2,
-        "first_hit_sec": 0.5
+        "first_hit_sec": 0.6
       },
       "coaching": {
         "source": "ollama",
@@ -7646,7 +7886,7 @@
         "evolution": {
           "what_changes": "The Evolved Skeleton Barrel is significantly stronger, spawning two barrels instead of one, and these barrels drop their Skeletons both when the barrel reaches 75% hitpoints and when the barrel is finally defeated.",
           "evo_slot_value": "The added secondary barrel and the earlier drop mechanic make this Evolution far more dangerous, forcing opponents to commit more resources or risk two separate damage phases. It might be less valuable when the current meta lacks strong anti-air AoE spells, as this card relies heavily on overwhelming damage output.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base air pressure card, but lean into awkward anti-air timing because the skeleton waves now arrive in multiple stages from two barrels. The Evolution is strongest when the opponent's first answer only handles part of the payload and still leaves later drops to solve.",
           "counters": "General anti-air troops with high hit speed or AoE attacks remain the primary counters; however, the second barrel's delayed damage makes careful timing against both drop points essential.",
           "tips": [
             "Due to its significantly increased combined death damage, this barrel can deal more damage than a Rocket, making it ideal for initiating or extending a major push.",
@@ -7693,7 +7933,8 @@
         "Knight",
         "Balloon"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000080,
@@ -7765,7 +8006,8 @@
         "Wall Breakers",
         "Electro Giant"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000069,
@@ -7794,8 +8036,9 @@
         "area_radius": 1.3,
         "spawn_count": 6,
         "first_hit_sec": 0.3,
+        "ability_cost_elixir": 2,
         "ability_cooldown_sec": 20,
-        "cast_delay_sec": 1
+        "cast_delay_sec": 0.933
       },
       "coaching": {
         "source": "ollama",
@@ -7847,7 +8090,8 @@
         "Mega Minion",
         "Graveyard"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000010,
@@ -7932,7 +8176,8 @@
         "Ice Golem",
         "Flying Machine"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000033,
@@ -8002,7 +8247,8 @@
         "Royal Giant",
         "Rocket"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000019,
@@ -8073,7 +8319,8 @@
         "Poison",
         "Goblin Gang"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000025,
@@ -8095,6 +8342,7 @@
       "evolution": null,
       "hero": null,
       "mechanics": {
+        "first_hit_sec": 1,
         "air_form_elixir": 6,
         "ground_form_elixir": 3,
         "air_form_hit_speed_sec": 1.4,
@@ -8125,7 +8373,8 @@
         }
       },
       "targets": "Air & Ground (form-dependent)",
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000097,
@@ -8170,7 +8419,8 @@
       "synergies": [
         "Miner"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000006,
@@ -8243,7 +8493,8 @@
         "Giant",
         "Golem"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000011,
@@ -8301,7 +8552,8 @@
         "Three Musketeers",
         "Musketeer"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000028,
@@ -8381,7 +8633,8 @@
         "Guards",
         "Magic Archer"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 27000009,
@@ -8452,7 +8705,8 @@
         "Ram Rider",
         "Mega Knight"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 28000012,
@@ -8512,7 +8766,8 @@
         "Spear Goblins",
         "Minions"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000011,
@@ -8539,9 +8794,9 @@
         "source": "official_api",
         "max_evolution_level": 1,
         "mechanics": {
-          "area_radius": 2,
-          "first_hit_sec": 0.1,
-          "ability_duration_sec": 0.5
+          "area_radius": 5,
+          "lifetime_sec": 0.5,
+          "first_hit_sec": 0.1
         }
       },
       "hero": null,
@@ -8567,7 +8822,7 @@
         "evolution": {
           "what_changes": "In addition to dealing area damage, the Evolved Valkyrie emits a Tornado upon every attack, pulling all surrounding units towards her and dealing damage within a 5.5 tile radius.",
           "evo_slot_value": "The Evolved Valkyrie's powerful pull effect and increased health make it an invaluable defensive wall that can pull large tanks or multiple troops towards the King Tower for high defensive value. However, if the current deck already has dedicated cards for specific tank or swarm countering roles, the evo slot might be better used on a different utility Evolution.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base splash tank, but play her where repeated attacks will keep dragging units back into her spin or into your supporting damage. The Evolution is strongest in dense ground fights where the pull keeps enemies clumped instead of letting them spread out, or re-positioning enemy ground based win conditions.",
           "counters": "High-damage air cards, such as Minions or Bats, are optimal counters, as her attacks cannot hit air, and their high DPS can quickly dispose of her high hitpoints.",
           "tips": [
             "Utilize the Tornado effect offensively by placing the Valkyrie near the King Tower to pull enemy support units like Magic Archer or Bowler and potentially activate the tower.",
@@ -8619,7 +8874,8 @@
         "Balloon",
         "X-Bow"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000026,
@@ -8660,7 +8916,8 @@
       "counters": [
         "Arrows"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 28000023,
@@ -8683,6 +8940,7 @@
       "hero": null,
       "mechanics": {
         "area_radius": 2.5,
+        "first_hit_sec": 1,
         "ability_duration_sec": 4
       },
       "coaching": {
@@ -8715,7 +8973,8 @@
         "Goblin Barrel",
         "Minions"
       ],
-      "knowledge_status": "partial"
+      "knowledge_status": "partial",
+      "coaching_meta": null
     },
     {
       "id": 26000058,
@@ -8740,7 +8999,8 @@
         "source": "official_api",
         "max_evolution_level": 1,
         "mechanics": {
-          "area_radius": 1.5
+          "area_radius": 1.5,
+          "first_hit_sec": 1
         }
       },
       "hero": null,
@@ -8765,7 +9025,7 @@
         "evolution": {
           "what_changes": "When the Evolved Wall Breakers are defeated, they explode, dealing high damage and spawning a Runner—an area-damage, building-targeting, melee, ground troop—for each Wall Breaker, in addition to dropping dynamite at their target and destroying themselves on impact.",
           "evo_slot_value": "Its incredibly high damage output on Crown Towers and potential synergy with supporting troops makes it a powerful offensive threat that can apply immense pressure. However, if the opponent has strong building or direct tower damage resources, the Evo slot might be better used elsewhere.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base bridge punish or split-lane threat, but remember value can still come after they are stopped because the death effect leaves a Runner behind. The Evolution is strongest when the opponent's normal stop happens close enough to the tower or lane to let the follow-up threat matter.",
           "counters": "The core countering strategies remain similar, though specific interactions are changed by the addition of the Runner and death damage.",
           "tips": [
             "Avoid placing any units directly next to a building the Evolved Wall Breakers are targeting, as this will result in them being instantly destroyed or taking large amounts of unnecessary damage.",
@@ -8785,7 +9045,8 @@
         "Golem",
         "Rune Giant"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000007,
@@ -8839,7 +9100,7 @@
         "evolution": {
           "what_changes": "After the Evolved Witch spawns a Skeleton, the Evolved Witch heals herself upon the Skeleton's defeat, allowing her to reach 24% more maximum hitpoints. This effect is triggered by every Skeleton spawned by the Evolved Witch.",
           "evo_slot_value": "The Evolved Witch provides a strong defensive tool that gains sustain and increased survivability from the opponent's spell-based damage, making her valuable in defensive compositions. However, she might not be the best slot usage if the deck requires a more immediate burst of utility, as her core value is tied to sustained skirmishing.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base Witch for lane control and spawn pressure, but favor longer fights where her own Skeletons will die gradually and keep feeding her self-heal. The Evolution is strongest when she survives the first exchange and stays on the board, not when she is spell-removed immediately.",
           "counters": "While light spells are still effective, the healing mechanic complicates basic removal, as destroying the spawned Skeletons can sustain her health greatly.",
           "tips": [
             "Positioning her behind slow-moving tanks (like a Golem or P.E.K.K.A.) allows her to heal while supporting the slow push, as the spawned Skeletons move faster than the tank.",
@@ -8872,7 +9133,8 @@
         "Miner",
         "Tornado"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000017,
@@ -8905,9 +9167,11 @@
         "source": "official_api",
         "max_evolution_level": 3,
         "mechanics": {
-          "area_radius": 1.5,
+          "area_radius": 4,
           "first_hit_sec": 0.4,
+          "ability_cost_elixir": 1,
           "ability_cooldown_sec": 20,
+          "ability_duration_sec": 5,
           "cast_delay_sec": 1
         }
       },
@@ -8929,7 +9193,7 @@
         "evolution": {
           "what_changes": "Upon deployment, the Evolved Wizard gains a Fire Shield that prevents him from dying in a single attack. When this shield is destroyed, all pushback capable troops within 3 tiles of the Wizard are pushed back by 3 tiles and take high damage.",
           "evo_slot_value": "The Evolved Wizard is excellent for defending against swarms due to his high splash damage and the defensive shield that protects him from instant kills. However, if the deck needs a card with superior anti-air or exceptional defensive utility, dedicating this slot might be a sub-optimal choice.",
-          "how_to_use": "Deployed the same way as the base card.",
+          "how_to_use": "Use it like the base splash support, but place him where the Fire Shield breaking will disrupt the main engage instead of popping harmlessly away from the fight. The Evolution is strongest when the opponent has to trigger the shield inside a enemy crowded push.",
           "counters": "The shield makes him resistant to most high-damage spells, making the counters to the base card largely irrelevant until the shield is destroyed.",
           "tips": [
             "Small spells, like The Log, Giant Snowball, or Zap, are ideal for safely destroying the shield and taking out the Evolved Wizard.",
@@ -8937,15 +9201,15 @@
           ]
         },
         "hero": {
-          "what_changes": "The Hero Wizard has the same base troop stats as the regular Wizard.",
-          "hero_ability": "The Hero Wizard's special ability, Fiery Flight, costs 1 Elixir to activate and sends him flying for 5 seconds. While flying, he gains a 50% movement speed increase, and his fireballs also create 3 tile radius tornadoes that deal damage.",
-          "ability_timing": "Optimal use involves activating Fiery Flight while he is already attacking enemy troops, which prevents wasting the ability's timing. The ability can also be used to dodge ground-targeting units or mitigate damage from cards that decrease attack speed.",
-          "hero_slot_value": "Its mobility and area denial potential make it highly valuable for creating tempo and controlling opponent pushes. However, the limited slot space means prioritizing it over other powerful deployable cards must be carefully considered.",
-          "how_to_use": "Deployed the same way as the base card.",
-          "counters": "The Hero Wizard remains susceptible to high-damage spells and focused burst damage from anti-air/anti-ground units.",
+          "what_changes": "The Hero Wizard has the same stats as the base card.",
+          "hero_ability": "The Hero Wizard's special ability, Fiery Flight, costs 1 Elixir to activate. It launches the Hero Wizard into the air for 5 seconds, granting him a 50% movement speed increase and causing his fireballs to create 3 tile radius tornadoes.",
+          "ability_timing": "It is optimal to activate the ability when the Hero Wizard is already engaged in attacking enemy troops to avoid wasting ability time. Activating it when under threat can pull back win conditions or evade opposing ground-targeting units, but care must be taken to distract the attacker to prevent damage to the tower.",
+          "hero_slot_value": "The ability makes the Hero Wizard excellent at engaging and pulling back large, expensive win conditions or crippling supporting units, adding immense strategic depth. However, the Hero Wizard's utility is diminished by cards that negate air travel or drag him to the ground.",
+          "how_to_use": "Use Hero Wizard like the base splash support, but activate Fiery Flight when the reposition and tornado fireballs will punish clustered defenders or help him cross ground blockers safely. The Hero version is strongest when the flight changes his angle and keeps enemies trapped in the tornado pull instead of being spent for movement alone.",
+          "counters": "The Hero Wizard remains vulnerable to dedicated air damage, and its overall utility against anti-air/ground-targeting cards remains relevant.",
           "tips": [
-            "Use the ability to pull back major win conditions like Golem, Giant, and Elixir Golem while simultaneously distracting their support units.",
-            "Be aware that certain cards can prevent the ability from working, such as those that drag the Wizard to the ground or negate air attacks."
+            "Use Fiery Flight to dodge attacks from ground-targeting units that cannot target air troops, enhancing his survivability.",
+            "Be careful not to assume the ability's utility; opponents can use cards that prevent air movement or drag him to the ground to negate his flight."
           ]
         }
       },
@@ -8971,7 +9235,16 @@
         "Barbarian Barrel",
         "Three Musketeers"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": {
+        "hero": {
+          "source_page_name": "Wizard/Hero",
+          "grounding_status": "grounded",
+          "coaching_source": "ollama",
+          "wiki_text_chars": 2644,
+          "generated_at": "2026-05-15"
+        }
+      }
     },
     {
       "id": 27000008,
@@ -9044,7 +9317,8 @@
         "Battle Healer",
         "Rune Giant"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 28000008,
@@ -9067,7 +9341,7 @@
         "source": "official_api",
         "max_evolution_level": 1,
         "mechanics": {
-          "area_radius": 2.5,
+          "area_radius": 3,
           "stun_duration_sec": 0.5
         }
       },
@@ -9118,7 +9392,8 @@
         "Fire Spirit",
         "Wall Breakers"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     },
     {
       "id": 26000052,
@@ -9194,7 +9469,8 @@
         "Royal Delivery",
         "Mega Knight"
       ],
-      "knowledge_status": "full"
+      "knowledge_status": "full",
+      "coaching_meta": null
     }
   ]
 }
