@@ -8,7 +8,7 @@
     { "trophy_floor": 0, "min_level": 10, "label": "Low ladder (0–4999)" },
     { "trophy_floor": 5000, "min_level": 11, "label": "Mid ladder (5000–7999)" },
     { "trophy_floor": 8000, "min_level": 12, "label": "High-mid ladder (8000–9999)" },
-    { "trophy_floor": 10000, "min_level": 14, "label": "High ladder (10000–11999)" },
-    { "trophy_floor": 12000, "min_level": 15, "label": "Top ladder (12000+)" }
+    { "trophy_floor": 10000, "min_level": 13, "label": "High ladder (10000–11999)" },
+    { "trophy_floor": 12000, "min_level": 14, "label": "Top ladder (12000+)" }
   ]
 }
