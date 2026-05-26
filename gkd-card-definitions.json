@@ -6,9 +6,9 @@
     "build_notes": "Base + mechanics + coaching layers, including coaching metadata, merged locally and saved under the ready-to-publish path.",
     "recommended_path": "scripts/gkd/ready-to-publish/gkd-card-definitions.json"
   },
-  "gkd_version": "2026-05-24",
-  "generated_at": "2026-05-24T12:48:21.471Z",
-  "patch_label": "2026-05-24",
+  "gkd_version": "2026-05-26",
+  "generated_at": "2026-05-26T17:02:10.560Z",
+  "patch_label": "2026-05-26",
   "game_constants": {
     "damage_scale_per_level": 10,
     "hp_scale_per_level": 10,
@@ -22,16 +22,14 @@
       "rarity": "champion",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1200,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          391
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -64,16 +62,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 900,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          119
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -156,16 +152,14 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1500,
-      "range": 3500,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "fast",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          450
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -211,19 +205,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 2000,
-      "range": 100,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "medium",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          655
-        ],
-        "damage": [
-          250
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -283,19 +273,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1000,
-      "range": 750,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          354
-        ],
-        "damage": [
-          76
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -387,16 +373,14 @@
       "rarity": "rare",
       "type": "building",
       "elixir": 6,
-      "hit_speed": 10000,
+      "hit_speed": null,
       "range": null,
-      "deploy_time": 1000,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          455
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -431,19 +415,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1400,
-      "range": 700,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          270
-        ],
-        "damage": [
-          75
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -486,19 +466,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 2,
-      "hit_speed": 1200,
-      "range": 1200,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "very_fast",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          32
-        ],
-        "damage": [
-          32
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -545,19 +521,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1500,
-      "range": 1600,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          671
-        ],
-        "damage": [
-          58
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -589,19 +561,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 400,
-      "range": 500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          378
-        ],
-        "damage": [
-          112
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -681,16 +649,14 @@
       "rarity": "rare",
       "type": "building",
       "elixir": 4,
-      "hit_speed": 1800,
-      "range": 6000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          530
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -724,16 +690,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 2,
-      "hit_speed": 1800,
-      "range": 4500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          119
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -832,16 +796,14 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 2500,
-      "range": 4000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          813
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -909,16 +871,14 @@
       "rarity": "common",
       "type": "building",
       "elixir": 3,
-      "hit_speed": 1000,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          322
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1040,19 +1000,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1300,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          469
-        ],
-        "damage": [
-          104
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -1115,16 +1071,14 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 800,
-      "range": 6500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          102
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1208,16 +1162,14 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 2100,
-      "range": 3500,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          390
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1267,19 +1219,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 7,
-      "hit_speed": 2100,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1506
-        ],
-        "damage": [
-          64
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -1308,16 +1256,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 1,
-      "hit_speed": 300,
-      "range": 2500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          90
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1348,19 +1294,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1800,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          279
-        ],
-        "damage": [
-          46
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -1393,19 +1335,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 6,
-      "hit_speed": 1400,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          524
-        ],
-        "damage": [
-          150
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -1438,14 +1376,12 @@
       "elixir": 6,
       "hit_speed": null,
       "range": null,
-      "deploy_time": 1000,
+      "deploy_time": null,
       "movement_domain": null,
       "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          418
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1477,19 +1413,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1100,
-      "range": 800,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          613
-        ],
-        "damage": [
-          99
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -1520,16 +1452,14 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 900,
-      "range": 4500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          500
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1579,16 +1509,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 1,
-      "hit_speed": 300,
-      "range": 2500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          90
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1651,16 +1579,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 3000,
-      "range": 6000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          119
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1711,19 +1637,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1300,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          340
-        ],
-        "damage": [
-          76
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -1754,16 +1676,14 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1100,
-      "range": 6000,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "fast",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          240
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -1884,19 +1804,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1500,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1550
-        ],
-        "damage": [
-          99
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -1953,19 +1869,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 6,
-      "hit_speed": 1300,
-      "range": 800,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1413
-        ],
-        "damage": [
-          108
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2105,16 +2017,14 @@
       "rarity": "rare",
       "type": "building",
       "elixir": 4,
-      "hit_speed": 10000,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          305
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -2238,16 +2148,14 @@
       "rarity": "epic",
       "type": "building",
       "elixir": 4,
-      "hit_speed": 1100,
-      "range": 2000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          513
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -2301,19 +2209,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1100,
-      "range": 500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          79
-        ],
-        "damage": [
-          47
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2344,19 +2248,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 6,
-      "hit_speed": 1500,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1180
-        ],
-        "damage": [
-          69
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -2485,19 +2385,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 2,
-      "hit_speed": 1100,
-      "range": 500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          79
-        ],
-        "damage": [
-          47
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2594,19 +2490,15 @@
       "rarity": "champion",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 900,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          703
-        ],
-        "damage": [
-          63
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2638,19 +2530,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 8,
-      "hit_speed": 2500,
-      "range": 750,
-      "deploy_time": 3000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          2000
-        ],
-        "damage": [
-          122
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2720,19 +2608,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1000,
-      "range": 1600,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          32
-        ],
-        "damage": [
-          46
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2763,16 +2647,14 @@
       "rarity": "rare",
       "type": "spell",
       "elixir": 1,
-      "hit_speed": 300,
-      "range": 2500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "both",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          90
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -2804,19 +2686,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1600,
-      "range": 800,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          663
-        ],
-        "damage": [
-          124
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2847,16 +2725,14 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 2200,
-      "range": 4000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          346
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -2904,19 +2780,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 2,
-      "hit_speed": 2500,
-      "range": 750,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          514
-        ],
-        "damage": [
-          33
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -2977,16 +2849,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 1,
-      "hit_speed": 300,
-      "range": 2500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          90
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3030,16 +2900,14 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1700,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          269
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3067,19 +2935,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 400,
-      "range": 3500,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          506
-        ],
-        "damage": [
-          14
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -3132,19 +2996,15 @@
       "rarity": "rare",
       "type": "building",
       "elixir": 5,
-      "hit_speed": 400,
-      "range": 6000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "both",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          683
-        ],
-        "damage": [
-          17
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -3175,19 +3035,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1200,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          690
-        ],
-        "damage": [
-          79
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -3260,16 +3116,14 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 7,
-      "hit_speed": 1300,
-      "range": 3500,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "slow",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1399
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3341,16 +3195,14 @@
       "rarity": "champion",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1200,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          273
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3392,19 +3244,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 800,
-      "range": 700,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          501
-        ],
-        "damage": [
-          100
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -3451,16 +3299,14 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1100,
-      "range": 7000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          207
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3521,19 +3367,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 7,
-      "hit_speed": 1700,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1560
-        ],
-        "damage": [
-          105
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -3582,16 +3424,14 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1500,
-      "range": 1600,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          327
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3651,19 +3491,15 @@
       "rarity": "champion",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 400,
-      "range": 1600,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          879
-        ],
-        "damage": [
-          16
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -3698,19 +3534,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1300,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          473
-        ],
-        "damage": [
-          76
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -3737,19 +3569,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1600,
-      "range": 800,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          543
-        ],
-        "damage": [
-          295
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -3815,16 +3643,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1200,
-      "range": 2500,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "fast",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          90
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3884,16 +3710,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1200,
-      "range": 2500,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "fast",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          90
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -3958,19 +3782,15 @@
       "rarity": "champion",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 800,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          865
-        ],
-        "damage": [
-          55
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -4001,16 +3821,14 @@
       "rarity": "common",
       "type": "building",
       "elixir": 4,
-      "hit_speed": 5000,
-      "range": 11500,
-      "deploy_time": 3500,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          535
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -4062,16 +3880,14 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1000,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          207
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -4099,16 +3915,14 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1000,
-      "range": 6000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          282
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -4184,19 +3998,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1300,
-      "range": 1600,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          354
-        ],
-        "damage": [
-          123
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -4229,19 +4039,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 7,
-      "hit_speed": 1800,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1469
-        ],
-        "damage": [
-          319
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -4304,19 +4110,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1000,
-      "range": 1600,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          411
-        ],
-        "damage": [
-          85
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -4385,19 +4187,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1400,
-      "range": 1600,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          750
-        ],
-        "damage": [
-          153
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -4424,16 +4222,14 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 3000,
-      "range": 9000,
-      "deploy_time": 1200,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          102
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -4468,7 +4264,7 @@
       "elixir": 2,
       "hit_speed": null,
       "range": null,
-      "deploy_time": 500,
+      "deploy_time": null,
       "movement_domain": null,
       "attack_targets": null,
       "movement_speed_tier": null,
@@ -4502,19 +4298,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1700,
-      "range": 800,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          663
-        ],
-        "damage": [
-          98
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -4546,19 +4338,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1500,
-      "range": 800,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          758
-        ],
-        "damage": [
-          85
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -4660,19 +4448,15 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1800,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          473
-        ],
-        "damage": [
-          102
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -4715,16 +4499,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 6,
-      "hit_speed": 1800,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          1236
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -4768,19 +4550,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1200,
-      "range": 750,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          327
-        ],
-        "damage": [
-          29
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -4827,19 +4605,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 7,
-      "hit_speed": 1300,
-      "range": 1600,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          214
-        ],
-        "damage": [
-          52
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -4918,19 +4692,15 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 1100,
-      "range": 500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          32
-        ],
-        "damage": [
-          32
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -4977,16 +4747,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 3,
-      "hit_speed": 300,
-      "range": 350,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "fast",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          208
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5036,16 +4804,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 2000,
-      "range": 3500,
-      "deploy_time": 1000,
-      "movement_domain": "air",
-      "attack_targets": "both",
-      "movement_speed_tier": "fast",
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
+      "movement_domain": "ground",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          219
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5078,19 +4844,15 @@
       "rarity": "champion",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1600,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          898
-        ],
-        "damage": [
-          80
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
@@ -5123,19 +4885,15 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 1,
-      "hit_speed": 1100,
-      "range": 500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          32
-        ],
-        "damage": [
-          32
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -5179,16 +4937,14 @@
       "rarity": "legendary",
       "type": "troop",
       "elixir": 6,
-      "hit_speed": 4000,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "slow",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          567
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5221,16 +4977,14 @@
       "rarity": "common",
       "type": "troop",
       "elixir": 2,
-      "hit_speed": 1700,
-      "range": 5000,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          52
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5357,19 +5111,15 @@
       "rarity": "common",
       "type": "building",
       "elixir": 4,
-      "hit_speed": 1100,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "both",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          450
-        ],
-        "damage": [
-          86
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -5488,16 +5238,14 @@
       "rarity": "rare",
       "type": "building",
       "elixir": 3,
-      "hit_speed": 10000,
+      "hit_speed": null,
       "range": null,
-      "deploy_time": 1000,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          207
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5572,19 +5320,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 1500,
-      "range": 1200,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "ground",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          745
-        ],
-        "damage": [
-          104
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": {
@@ -5711,16 +5455,14 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 2,
-      "hit_speed": 1200,
-      "range": 500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "buildings",
-      "movement_speed_tier": "very_fast",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          129
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5769,16 +5511,14 @@
       "rarity": "epic",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1100,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          328
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5830,16 +5570,14 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 5,
-      "hit_speed": 1400,
-      "range": 5500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          295
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -5916,16 +5654,14 @@
       "rarity": "epic",
       "type": "building",
       "elixir": 6,
-      "hit_speed": 300,
-      "range": 11500,
-      "deploy_time": 3500,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": null,
-      "attack_targets": "ground",
+      "attack_targets": null,
       "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          625
-        ],
+        "hp": null,
         "damage": null,
         "dps": null
       },
@@ -6015,19 +5751,15 @@
       "rarity": "rare",
       "type": "troop",
       "elixir": 4,
-      "hit_speed": 2100,
-      "range": 4500,
-      "deploy_time": 1000,
+      "hit_speed": null,
+      "range": null,
+      "deploy_time": null,
       "movement_domain": "ground",
-      "attack_targets": "both",
-      "movement_speed_tier": "medium",
+      "attack_targets": null,
+      "movement_speed_tier": null,
       "stats": {
-        "hp": [
-          207
-        ],
-        "damage": [
-          46
-        ],
+        "hp": null,
+        "damage": null,
         "dps": null
       },
       "evolution": null,
