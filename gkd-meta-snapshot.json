@@ -4,9 +4,9 @@
     "generated_by": "internal"
   },
   "gkd_version": "2026-05-03",
-  "generated_at": "2026-05-26T17:43:44.384Z",
-  "patch_date": "2026-05-03",
-  "balance_summary": "NEW HEROES\n\nHero Dark Prince\n\nAbility: Destructive Dismount\n\nWhat’s better than a charging horse? A charging Rhino!\n\nLike his rider, Rhino has endured many a battle. Now that he and Dark Prince have found each other, they can break through any tower, or Skelly, together.\n\nFun fact: Dark Prince tried to lead the charge on his own. It was a bold move with an unfortunate outcome…\n\n\nHero Bowler\n\nAbility: Stone Swish\n\nFrom clean strikes to flawless three-pointers, a true legend of the Arena.\n\nAfter baseball broke the bleachers and football flattened all the Goblins, they found their way onto the court. With his ability, Hero Bowler plants his feet and sinks three-pointers across the Arena. Keep his range in mind and make every shot count!\n\nBalance Update – May 4th\n“Bring balance to the Arena, don’t leave it in darkness!” - Blue King\n\nNERFS ⬇️\n\nHero Barbarian Barrel\n\nReroll Range: 4 tiles → 3 tiles (-25%)\n\nHero Barbarian Barrel has been too focused on rolling to Crown Towers for chip damage. This change shifts power back toward its defensive role, making it more reliable for clearing troops but less likely to reach towers.\n\n\nHero Mega Minion\n\nWarp Damage: 412 → 373 (-9%)\n\nHero Mega Minion now takes an extra swipe to finish off some mid-hitpoint troops, reducing how often he turns his attention to Crown Towers.\n\n\nGoblin Drill Evolution\n\nGoblins Spawned on Second Submerge: 2 → 1 (-50%)\n\nThe latest buff to Evolved Goblin Drill made it pop up right at the top of the Ranked meta. We're reverting this change and will monitor its performance before deciding on an alternate balance direction.\n\n\nRoyal Hogs Evolution\n\nLanding Damage: 84 → 43 (-48%)\n\nThese guys really knew how to pork a punch! Going airborne proved too valuable for this win condition, so it’ll now take the landing of two Evolved Royal Hogs to take out Skeletons.\n\n\nGiant Snowball Evolution\n\nSlowdown Duration: 4s → 3s (-25%)\n\nEvolved Giant Snowball is too effective at defensive stalling, so we're standardizing the slow duration with its unevolved form.\n\n\nTesla Evolution\n\nPulse Damage: 174 → 148 (-15%)\n\nEvolved Tesla provides too much utility with its high area damage and stun. We’re shifting power out of the damage, so that this Evolution is better defined by its stun mechanic.\n\n\nDark Prince\n\nHit Speed: 1.3s → 1.4s (+8%)\n\nDark Prince charged into the meta after his buff last year. We're toning down his hit speed to make him less intimidating on offense.\n\n\nSkeleton Dragons\n\nDamage: 161 → 151 (-6%)\n\nAfter increasing their splash radius to match other AoE options, swarm troops have definitely had a bone to pick with the Skeleton Dragons. A damage nerf will keep their versatility in check.\n\n\nSpirit Empress (Ground)\n\nHit Speed: 1.1s → 1.2s (+9%)\n\nHitpoints: 1152 → 1121 (-3%)\n\n\nSpirit Empress (Air)\n\nHitpoints: 1177 → 1121 (-5%)\n\nSpirit Empress has been riding a bit too high across the skies and the turf. We’re trimming down her hit speed and hitpoints without shaking up key interactions.\n\nBUFFS ⬆️\n\nElectro Giant\n\nHit Speed: 2.1s → 1.8 (-14%)\n\nFirst Hit Speed: 1.5s → 1s (-33%)\n\nReflected Tower Damage: 50 → 38 (-24%)\n\n\n\nElectro Giant is shockingly effective when he gets to a Crown Tower, but buildings have been cutting his power. This rework keeps his damage output against Crown Towers relatively the same while helping him break through buildings.\n\nREWORKS 🔄\n\nGiant Skeleton\n\nHitpoints: 1413 → 1313 (-7%)\n\nCollision Radius: 1 tile → 0.75 tiles (-25%)\n\nDeath Bomb Damage: 209 → 269 (+29%)\n\nDeath Bomb Tower Damage: 418 → 269 (-36%)\n\nGiant Skeleton has historically been inconsistent, since the Death Bomb rarely decides battles unless it reaches a Crown Tower. We’re adjusting his stats so the bomb pays off defensively more often, while preserving most of its Crown Tower threat.\n\nRemember! Cards are scaled at Level 11 and, most of the time, base form changes also affect a card’s Evolution and Hero forms.",
+  "generated_at": "2026-06-06T18:08:47.374Z",
+  "patch_date": "2026-06-02",
+  "balance_summary": "NEW EVOLUTION & HERO\n\nPrincess Evolution\n\nThere’s nothing like the frozen tundra of the deep North to awaken the Evolution within a worthy royal.\n\nEvolved Princess’ first shot, and every third after, fires an icy arrow that slows nearby enemies. When she’s defeated, her arrows are dropped, leaving behind an area of ice to slow down enemy troops.\n\nYou can unlock Princess Evolution with Evolution Shards or through the Upgraded Pass Royale.\n\n\nHero Tombstone\n\nAbility: Regal Revival\n\nEver wonder what sort of femme fatale could convince the dead to battle once again?\n\nTap Hero Tombstone’s ability button to raise Tomb Queen from the earth and target buildings and look scary doing it. Keep in mind that summoning her destroys your Tombstone, so make sure you’re ready to lose the building before activating this 6-Elixir ability.\n\nYou can unlock Hero Tombstone for free, along with other items from the Undead Bazaar coming next season.\n\nBalance Update – June 1st\nNERFS ⬇️\n\nHero Balloon\n\nSkeletrooper Landing Damage: 307 → 263 (-14%)\n\nSkeletroopers' intense military training made them overly effective at getting in behind enemy lines. It’ll now take an extra hit for them to finish off certain mid-hitpoint troops.\n\n\nHero Bowler\n\nAbility Duration: 9s → 7.3s (-19%)\n\nHero Bowler has been balling way too hard. With this nerf, he’ll only be able to get in three shots instead of four.\n\n\nHero Dark Prince\n\nDeploy Time: 2s → 1s (-50%)\n\nTiles Needed for First Charge: 0 → 2.5 tiles\n\nRhino’s Crown Tower Spawn Damage: 307 → 0 (-100%)\n\nWe're reworking Rhino’s dismount to fix an unforeseeable interaction which prevented the reset of its charge during the deploy phase. Rhino’s spawn damage will also no longer guarantee Crown Tower Damage.\n\n\nInferno Dragon Evolution\n\nCharge Duration: 9s → 7s (-22%)\n\nEvolved Inferno Dragon can be extremely difficult to defend when fully heated up. After this change, he won't carry his radioactive rage from defense to offense as often.\n\n\nLumberjack Evolution\n\nCrown Tower Damage: 256 → 128 (-50%)\n\nWhile we are happy with Lumberjack Evolution's defensive utility, his Ghost often comes back to haunt the poor Princess Towers. A tower damage reduction will leave his defensive strength untouched, but make him less oppressive on offense.\n\n\nMortar Evolution\n\nDeploy Time: 0.2s → 0.5s (+150%)\n\nGoblins launched from Evolved Mortar are impossible to catch before they get a stab at the Crown Tower. Nerfing the deploy time for the Goblins will make a single Evolved Mortar lock less devastating.\n\n\nMega Knight Evolution\n\nHeavy Troop Knockback: 4 tiles → 2.5 tiles (-38%)\n\nEvolved Mega Knight is too oppressive when defending most win conditions, giving them no chance to break through. He’ll now deal reduced knockback to 'heavy' troops such as Prince, Bowler, and Golem.\n\n\nFurnace\n\nRange: 6 tiles → 5.5 tiles (-8%)\n\nFurnace is an awkward card to defend against due to its long range, combined with a constant stream of Fire Spirits. It will no longer be able to roast enemy troops from such a safe distance.\n\n\nGraveyard\n\nSkeleton Count: 13 → 12 (-8%)\n\nAfter the rework, guaranteeing tower damage became too simple, so we're removing one of the Skeletons that rises right on the Crown Tower to keep the Skellies in check.\n\n\nRascals (Boy)\n\nHitpoints: 1940 → 1832 (-6%)\n\nWhile we're content with the latest buff to Rascal Boy that made him less reliant on his sisters, it made the card as a whole slightly too difficult to break through.\n\n\nTesla\n\nLifetime: 30s → 25s (-17%)\n\nHitpoints: 1152 → 1182 (+3%)\n\nDue to being untouchable by spells while underground, Tesla often spends too long on the field, leaving players unable to play in that lane.\n\nCrown Tower Damage Reduction for Spells\nMany games, especially in the Ranked and competitive scene, are decided by overly passive play styles and spell cycling. We're implementing a blanket nerf to almost all spells to promote more aggressive gameplay.\n\nArrows: 93 → 75 (-19%)\n\nEarthquake: 159 → 147 (-8%)\n\nFireball: 207 → 172 (-17%)\n\nFreeze: 45 → 37 (-18%)\n\nGiant Snowball: 54 → 45 (-17%)\n\nLightning: 286 → 265 (-7%)\n\nPoison: 184 → 168 (-9%)\n\nRage: 54 → 45  (-17%)\n\nRocket: 371 → 343 (-8%)\n\nThe Log: 41 → 37 (-15%)\n\nVines: 76 → 70 (-8%)\n\nZap: 58 → 48 (-17%)\n\nBUFFS ⬆️\n\nDart Goblin Evolution\n\nPoison Damage\n\nStage 1: 51 → 64 (+25%)\n\nStage 2: 115 → 128 (+11%)\n\nWhile the latest nerf to Evolved Dart Goblin, which mitigated his crowd control abilities, felt like the right direction, it hit a little harder than intended. We're increasing the damage of his first and second Poison stages, but leaving the third untouched.\n\n\nElectro Dragon\n\nHitpoints: 998 → 1049 (+5%)\n\nElectro Dragon continues to be too squishy for a 5-Elixir card. While Lightning will still defeat him, he won't be so easy to take out with smaller spells.\n\n\nGoblin Giant\n\nHitpoints: 3020 → 3110 (+3%)\n\nDon't worry, we didn't forget the P.E.K.K.A Goblin Giant meta! We're reverting a small chunk of the previous nerf and will continue monitoring its performance, ready to look into a rework if necessary.\n\n\nRune Giant\n\nDamage: 120 → 153 (+28%)\n\nWhile we would like to rework Rune Giant at some point in the future, for now, we think she deserves some love. She'll now be more effective at taking down buildings and Crown Towers.\n\nRemember! Cards are scaled at Level 11 and, most of the time, base form changes also affect a card’s Evolution and Hero forms.",
   "archetypes": [
     {
       "id": "cycle",
@@ -2832,6 +2832,48 @@
           "usage_pct": 0.8,
           "win_rate": 53,
           "notes": "Imported from RoyaleAPI — 28000015,26000034,28000000,26000005 … — https://royaleapi.com/decks/stats/barbarian-barrel,bowler-hero,fireball,minions,mortar-ev1,rascals,skeleton-barrel-ev1,skeletons"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000056,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000054,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000002,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000102,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000023,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000041,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000015,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Evo Mortar Skeleton Barrel Cannon Cart Royal Chef",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-skeleton-barrel,cannon-cart,evo-mortar,berserker,ice-wizard,goblin-gang,fireball,barbarian-barrel",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Evo Mortar Skeleton Barrel Cannon Cart Royal Chef — https://deckshop.pro/deck/detail/evo-skeleton-barrel,cannon-cart,evo-mortar,berserker,ice-wizard,goblin-gang,fireball,barbarian-barrel"
         }
       ],
       "notes": "Established siege-bait subtype. Use this when Mortar pressure and a sticky bait package are both central. If the bait package disappears and the deck mostly wins through clean Mortar chip or Miner control, prefer a different Siege or Cycle subtype."
@@ -3196,6 +3238,48 @@
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — Sparkyard — https://deckshop.pro/deck/detail/graveyard,giant,sparky,wizard,ice-wizard,inferno-tower,the-log,zap"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000007,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 28000010,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000017,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000034,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000005,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000025,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000001,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Evo Witch Giant Graveyard Snowball",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-witch,graveyard,evo-giant-snowball,giant,bowler,minions,guards,arrows",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Evo Witch Giant Graveyard Snowball — https://deckshop.pro/deck/detail/evo-witch,graveyard,evo-giant-snowball,giant,bowler,minions,guards,arrows"
         }
       ],
       "notes": "One of the clearest Giant subtypes. Use this when Giant plus Graveyard is the defining payoff pair and the support package is built to turn defense into one heavy counter-push. If Giant is absent, fall back to another Graveyard subtype; if Graveyard is secondary and Giant beatdown is the real plan, prefer a broader Giant or Beatdown label."
@@ -5621,6 +5705,48 @@
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — Triple Elixir eBarbs Fireball bait — https://deckshop.pro/deck/detail/elite-barbarians,cannon-cart,mother-witch,furnace,flying-machine,goblin-hut,fireball,barbarian-barrel"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000055,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000054,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000083,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000010,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000057,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000001,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000015,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Double Elixir Mega Knight Spawn",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/mega-knight,cannon-cart,mother-witch,furnace,flying-machine,goblin-hut,fireball,barbarian-barrel",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Double Elixir Mega Knight Spawn — https://deckshop.pro/deck/detail/mega-knight,cannon-cart,mother-witch,furnace,flying-machine,goblin-hut,fireball,barbarian-barrel"
         }
       ],
       "notes": "Narrow hut-control subtype. Use this when the hut engine still drives the game plan and the heavier punish card is secondary. If the bait finisher becomes more important than the hut engine, prefer Spawner Bait; if Graveyard or another named win condition clearly defines the deck, prefer that more specific subtype."
@@ -5860,6 +5986,132 @@
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — LavaLoon Mighty Miner — https://deckshop.pro/deck/detail/mighty-miner,balloon,lava-hound,skeleton-dragons,mega-minion,tombstone,fireball,zap"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000011,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000006,
+              "evolutionLevel": 2
+            },
+            {
+              "id": 28000008,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000029,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000025,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000080,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000009,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "26000006,28000000,26000029,26000080 …",
+          "source": "RoyaleAPI",
+          "source_url": "https://royaleapi.com/decks/stats/balloon-hero,fireball,lava-hound,skeleton-dragons,spirit-empress,tombstone,valkyrie-ev1,zap-ev1",
+          "usage_pct": 0.2,
+          "win_rate": 57.4,
+          "notes": "Imported from RoyaleAPI — 26000006,28000000,26000029,26000080 … — https://royaleapi.com/decks/stats/balloon-hero,fireball,lava-hound,skeleton-dragons,spirit-empress,tombstone,valkyrie-ev1,zap-ev1"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000008,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000006,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000029,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000080,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000039,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000009,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000008,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "LavaLoon Skeleton Dragons",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-barbarians,balloon,lava-hound,skeleton-dragons,mega-minion,tombstone,fireball,zap",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — LavaLoon Skeleton Dragons — https://deckshop.pro/deck/detail/evo-barbarians,balloon,lava-hound,skeleton-dragons,mega-minion,tombstone,fireball,zap"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000008,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000006,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000008,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000029,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000080,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000039,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000009,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000000,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "LavaLoon Skeleton Dragons",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-barbarians,balloon,evo-zap,lava-hound,skeleton-dragons,mega-minion,tombstone,fireball",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — LavaLoon Skeleton Dragons — https://deckshop.pro/deck/detail/evo-barbarians,balloon,evo-zap,lava-hound,skeleton-dragons,mega-minion,tombstone,fireball"
         }
       ],
       "notes": "Primary named Lava Hound plus Balloon subtype. Use this when both cards are explicit core payoffs. Do not use it as the fallback for every air deck: if Balloon is absent, prefer Air Beatdown; if Lava Hound is absent, move to another Balloon subtype such as LumberLoon Freeze or Balloon cycle and control."
@@ -7089,6 +7341,48 @@
           "usage_pct": 0.5,
           "win_rate": 50.9,
           "notes": "Imported from RoyaleAPI — 26000034,27000010,28000010,26000030 … — https://royaleapi.com/decks/stats/bowler-hero,furnace-ev1,graveyard,ice-spirit,knight-ev1,poison,skeletons,tesla"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000011,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 28000010,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000023,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000015,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000009,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000009,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000012,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000015,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Splashyard with Valk, Tombstone",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-valkyrie,graveyard,ice-wizard,baby-dragon,tombstone,poison,tornado,barbarian-barrel",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Splashyard with Valk, Tombstone — https://deckshop.pro/deck/detail/evo-valkyrie,graveyard,ice-wizard,baby-dragon,tombstone,poison,tornado,barbarian-barrel"
         }
       ],
       "notes": "Narrow Graveyard subtype. Use this for slower Goblin Hut plus Poison plus Ice Wizard style patience decks. If Goblin Hut is absent and another Graveyard subtype such as Splashyard or Giant Graveyard explains the list better, prefer that more specific label."
@@ -8107,6 +8401,342 @@
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — The Log Bait — https://deckshop.pro/deck/detail/goblin-barrel,knight,princess,goblin-gang,ice-spirit,inferno-tower,rocket,the-log"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000000,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 28000004,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000010,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000041,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000009,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Spell Cauldron Log Bait Poison",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-knight,goblin-barrel,evo-skeletons,princess,goblin-gang,inferno-tower,poison,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Spell Cauldron Log Bait Poison — https://deckshop.pro/deck/detail/evo-knight,goblin-barrel,evo-skeletons,princess,goblin-gang,inferno-tower,poison,the-log"
+        },
+        {
+          "cards": [
+            {
+              "id": 28000004,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000040,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000041,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000031,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000030,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "GobGang Dart Inferno bait",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/goblin-barrel,princess,dart-goblin,goblin-gang,fire-spirit,ice-spirit,inferno-tower,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — GobGang Dart Inferno bait — https://deckshop.pro/deck/detail/goblin-barrel,princess,dart-goblin,goblin-gang,fire-spirit,ice-spirit,inferno-tower,the-log"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000000,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000056,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000004,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000040,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000012,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Princess Skeleton Barrel Evo Knight Bait",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-knight,skeleton-barrel,goblin-barrel,princess,dart-goblin,skeleton-army,inferno-tower,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Princess Skeleton Barrel Evo Knight Bait — https://deckshop.pro/deck/detail/evo-knight,skeleton-barrel,goblin-barrel,princess,dart-goblin,skeleton-army,inferno-tower,the-log"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000000,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 28000004,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000041,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000030,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000006,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Bait with Tesla",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-knight,goblin-barrel,princess,goblin-gang,ice-spirit,tesla,rocket,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Bait with Tesla — https://deckshop.pro/deck/detail/evo-knight,goblin-barrel,princess,goblin-gang,ice-spirit,tesla,rocket,the-log"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000000,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 28000004,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000041,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000084,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000006,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Electro Spirit Log bait",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-knight,goblin-barrel,princess,goblin-gang,electro-spirit,tesla,rocket,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Electro Spirit Log bait — https://deckshop.pro/deck/detail/evo-knight,goblin-barrel,princess,goblin-gang,electro-spirit,tesla,rocket,the-log"
+        },
+        {
+          "cards": [
+            {
+              "id": 28000004,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000040,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000041,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000030,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Evo Dart Goblin 2.6 Bait Cycle",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-goblin-barrel,knight,evo-dart-goblin,princess,goblin-gang,ice-spirit,cannon,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Evo Dart Goblin 2.6 Bait Cycle — https://deckshop.pro/deck/detail/evo-goblin-barrel,knight,evo-dart-goblin,princess,goblin-gang,ice-spirit,cannon,the-log"
+        },
+        {
+          "cards": [
+            {
+              "id": 28000004,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000058,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000011,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000040,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000041,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000030,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000000,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Evo Valk Wall Breakers Log bait",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-goblin-barrel,wall-breakers,evo-valkyrie,princess,dart-goblin,goblin-gang,ice-spirit,cannon",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Evo Valk Wall Breakers Log bait — https://deckshop.pro/deck/detail/evo-goblin-barrel,wall-breakers,evo-valkyrie,princess,dart-goblin,goblin-gang,ice-spirit,cannon"
+        },
+        {
+          "cards": [
+            {
+              "id": 28000004,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000093,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000006,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000010,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Evo Barrel Little Prince Rocket",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-goblin-barrel,little-prince,evo-tesla,knight,princess,skeletons,rocket,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Evo Barrel Little Prince Rocket — https://deckshop.pro/deck/detail/evo-goblin-barrel,little-prince,evo-tesla,knight,princess,skeletons,rocket,the-log"
         }
       ],
       "notes": "Foundational bait subtype. Use this when Goblin Barrel plus Princess and a cheap bait package define the deck. If Goblin Hut or Rascals become the main structural engine, prefer the heavier bait-control shell instead."
@@ -8616,6 +9246,48 @@
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — Evo Goblin Cage Recruits Royal Hogs — https://deckshop.pro/deck/detail/evo-royal-recruits,evo-goblin-cage,royal-hogs,zappies,flying-machine,electro-spirit,arrows,barbarian-barrel"
+        },
+        {
+          "cards": [
+            {
+              "id": 27000012,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 28000015,
+              "evolutionLevel": 2
+            },
+            {
+              "id": 26000047,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000059,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000057,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000052,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000001,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000084,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "28000001,28000015,26000084,26000057 …",
+          "source": "RoyaleAPI",
+          "source_url": "https://royaleapi.com/decks/stats/arrows,barbarian-barrel-hero,electro-spirit,flying-machine,goblin-cage-ev1,royal-hogs,royal-recruits-ev1,zappies",
+          "usage_pct": 0.2,
+          "win_rate": 59,
+          "notes": "Imported from RoyaleAPI — 28000001,28000015,26000084,26000057 … — https://royaleapi.com/decks/stats/arrows,barbarian-barrel-hero,electro-spirit,flying-machine,goblin-cage-ev1,royal-hogs,royal-recruits-ev1,zappies"
         }
       ],
       "notes": "Core Recruits-pigs subtype. Use this when the main pressure pattern is repeated Royal Recruits lane splits into Royal Hogs punish windows with the standard Flying Machine and Zappies support. If Giant Skeleton, Mega Knight, or another heavier centerpiece explains the deck better, prefer that more specific split-lane shell."
@@ -8847,6 +9519,48 @@
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — Evo Royal Giant Archers Skeleton King Fireball — https://deckshop.pro/deck/detail/evo-royal-giant,evo-archers,skeleton-king,fisherman,mother-witch,tombstone,fireball,barbarian-barrel"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000024,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000002,
+              "evolutionLevel": 2
+            },
+            {
+              "id": 26000050,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000061,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000044,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000084,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000015,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Evo Royal Giant Evo Ghost Hero Goblins",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/evo-royal-giant,hero-goblins,evo-royal-ghost,fisherman,hunter,electro-spirit,fireball,barbarian-barrel",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Evo Royal Giant Evo Ghost Hero Goblins — https://deckshop.pro/deck/detail/evo-royal-giant,hero-goblins,evo-royal-ghost,fisherman,hunter,electro-spirit,fireball,barbarian-barrel"
         }
       ],
       "notes": "Recognizable RG control subtype. Use this when Royal Giant is paired specifically with the Hunter plus Fisherman defensive core and a light cycle shell around it. If the deck shifts toward Mother Witch, Tombstone, or a heavier defensive stack, prefer a different Royal Giant or broader Control label."
@@ -9953,6 +10667,48 @@
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — Lava Hound Skeleton King Miner — https://deckshop.pro/deck/detail/skeleton-king,miner,lava-hound,skeleton-dragons,mega-minion,flying-machine,tombstone,arrows"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000032,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000029,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000087,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000008,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000080,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000057,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000009,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000001,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Lavahound Barbarians Miner Phoenix",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/miner,lava-hound,phoenix,barbarians,skeleton-dragons,flying-machine,tombstone,arrows",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Lavahound Barbarians Miner Phoenix — https://deckshop.pro/deck/detail/miner,lava-hound,phoenix,barbarians,skeleton-dragons,flying-machine,tombstone,arrows"
         }
       ],
       "notes": "Recognizable Lava Hound subtype. Use this when Lava Hound plus Miner is the real payoff pair and the supporting air troops exist mainly to make that dual pressure work. If Balloon becomes the explicit second payoff, prefer LavaLoon; if Lava Hound disappears, move to another Miner or Balloon shell instead of using Air Beatdown as a catch-all."
@@ -10967,6 +11723,7 @@
           "title": "Giant Skelly Hog Miner eBarb beatdown",
           "source": "Deckshop",
           "source_url": "https://deckshop.pro/deck/detail/hog-rider,miner,giant-skeleton,elite-barbarians,executioner,minions,goblins,tornado",
+          "rating": null,
           "usage_pct": null,
           "win_rate": null,
           "notes": "Imported from Deckshop — Giant Skelly Hog Miner eBarb beatdown — https://deckshop.pro/deck/detail/hog-rider,miner,giant-skeleton,elite-barbarians,executioner,minions,goblins,tornado"
@@ -11060,6 +11817,48 @@
           "usage_pct": 0.3,
           "win_rate": 50.8,
           "notes": "Imported from RoyaleAPI — 26000049,27000004,26000031,26000062 … — https://royaleapi.com/decks/stats/bats-ev1,bomb-tower,fire-spirit,magic-archer-hero,miner,skeletons,the-log,wall-breakers-ev1"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000058,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000062,
+              "evolutionLevel": 2
+            },
+            {
+              "id": 26000049,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000032,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000102,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000031,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000018,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000004,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "26000049,26000102,27000004,26000031 …",
+          "source": "RoyaleAPI",
+          "source_url": "https://royaleapi.com/decks/stats/bats-ev1,berserker,bomb-tower,fire-spirit,magic-archer-hero,miner,royal-delivery,wall-breakers-ev1",
+          "usage_pct": 0.4,
+          "win_rate": 60,
+          "notes": "Imported from RoyaleAPI — 26000049,26000102,27000004,26000031 … — https://royaleapi.com/decks/stats/bats-ev1,berserker,bomb-tower,fire-spirit,magic-archer-hero,miner,royal-delivery,wall-breakers-ev1"
         }
       ],
       "notes": "The broader generic Miner Wall Breakers shell collides with Mega Knight Wall Breakers under the current family gate, so this draft keeps the distinguishable Magic Archer variant only. Current evidence is real but modest, so keep Little Prince or Mighty Miner support as separate variants unless this broader family is reworked later."
@@ -11710,6 +12509,7 @@
           "title": "28000001,26000013,26000043,26000009 …",
           "source": "RoyaleAPI",
           "source_url": "https://royaleapi.com/decks/stats/arrows,bomber,elite-barbarians,golem,lumberjack-ev1,mega-minion-hero,night-witch,zap-ev1",
+          "rating": null,
           "usage_pct": 0.3,
           "win_rate": 53.8,
           "notes": "Imported from RoyaleAPI — 28000001,26000013,26000043,26000009 … — https://royaleapi.com/decks/stats/arrows,bomber,elite-barbarians,golem,lumberjack-ev1,mega-minion-hero,night-witch,zap-ev1"
@@ -11811,122 +12611,742 @@
           "title": "28000015,26000102,26000084,28000000 …",
           "source": "RoyaleAPI",
           "source_url": "https://royaleapi.com/decks/stats/barbarian-barrel,berserker,electro-spirit,fireball,goblin-cage-ev1,magic-archer-hero,royal-hogs-ev1,skeleton-dragons",
+          "rating": null,
           "usage_pct": 0.2,
           "win_rate": 52.8,
           "notes": "Imported from RoyaleAPI — 28000015,26000102,26000084,28000000 … — https://royaleapi.com/decks/stats/barbarian-barrel,berserker,electro-spirit,fireball,goblin-cage-ev1,magic-archer-hero,royal-hogs-ev1,skeleton-dragons"
         }
       ],
       "notes": "Shell appeared in current meta as of late May 2026. RoyaleAPI auto-labels it 'EvoRHogs Berserker SD'. No Royal Recruits — do not merge with the Royal Recruits Royal Hogs Fireball shell."
+    },
+    {
+      "id": "wall-breakers-hero-goblins-valkyrie-bait",
+      "name": "Wall Breakers Hero Goblins Valkyrie Bait",
+      "kind": "shell",
+      "family_id": "bait",
+      "tier": "B",
+      "description": "Wall Breakers and Goblin Barrel split the pressure while Valkyrie and Hero Goblins keep trades cheap, letting the deck recycle dual-lane bait faster than defenders can hold one answer.",
+      "key_cards": [
+        {
+          "id": 28000004,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000058,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000011,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000002,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000040,
+          "evolutionLevel": 0
+        }
+      ],
+      "identity_cards": [
+        {
+          "id": 28000004,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000058,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000011,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000002,
+          "evolutionLevel": 0
+        }
+      ],
+      "popular_decks": [
+        {
+          "cards": [
+            {
+              "id": 28000004,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000002,
+              "evolutionLevel": 2
+            },
+            {
+              "id": 26000011,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000058,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000040,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000031,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000030,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "26000040,26000031,28000004,26000002 …",
+          "source": "RoyaleAPI",
+          "source_url": "https://royaleapi.com/decks/stats/dart-goblin,fire-spirit,goblin-barrel-ev1,goblins-hero,ice-spirit,rocket,valkyrie-ev1,wall-breakers",
+          "usage_pct": 0.3,
+          "win_rate": 50.8,
+          "notes": "Imported from RoyaleAPI — 26000040,26000031,28000004,26000002 … — https://royaleapi.com/decks/stats/dart-goblin,fire-spirit,goblin-barrel-ev1,goblins-hero,ice-spirit,rocket,valkyrie-ev1,wall-breakers"
+        }
+      ],
+      "notes": "Current RoyaleAPI evidence is repeated and recent. Rocket, Princess, Dart Goblin, Cannon, Log, and spirit slots move around, so keep the shell centered on Barrel plus Wall Breakers plus Valkyrie plus Goblins."
+    },
+    {
+      "id": "mighty-miner-log-bait-2-9-cycle",
+      "name": "Mighty Miner Log Bait 2.9 Cycle",
+      "kind": "shell",
+      "family_id": "bait",
+      "tier": "B",
+      "description": "Modern low-cost Log Bait variant that keeps Goblin Barrel plus Princess plus Rocket pressure but shifts the defense core to Mighty Miner, Cannon, and cycle spirits.",
+      "key_cards": [
+        {
+          "id": 28000004,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000026,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000065,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000003,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 27000000,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000011,
+          "evolutionLevel": 0
+        }
+      ],
+      "identity_cards": [
+        {
+          "id": 28000004,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000065,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 27000000,
+          "evolutionLevel": 0
+        }
+      ],
+      "popular_decks": [
+        {
+          "cards": [
+            {
+              "id": 28000004,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 26000065,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000026,
+              "evolutionLevel": 1
+            },
+            {
+              "id": 28000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000010,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000030,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000000,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "27000000,28000004,26000030,26000065 …",
+          "source": "RoyaleAPI",
+          "source_url": "https://royaleapi.com/decks/stats/cannon,goblin-barrel-ev1,ice-spirit,mighty-miner,princess-ev1,rocket,skeletons,the-log",
+          "usage_pct": 0.4,
+          "win_rate": 49.4,
+          "notes": "Imported from RoyaleAPI — 27000000,28000004,26000030,26000065 … — https://royaleapi.com/decks/stats/cannon,goblin-barrel-ev1,ice-spirit,mighty-miner,princess-ev1,rocket,skeletons,the-log"
+        }
+      ],
+      "notes": "Browsing-backed draft from current RoyaleAPI and Deckshop pages. Current ladder performance is real but not top-tier, so keep this as a focused shell rather than a broad bait replacement."
+    },
+    {
+      "id": "giant-skeleton-archer-queen-hog-cycle",
+      "name": "Giant Skeleton Archer Queen Hog Cycle",
+      "kind": "shell",
+      "family_id": "cycle",
+      "tier": "B",
+      "description": "Low-cost Hog cycle shell that uses Archer Queen and Giant Skeleton as the heavier defensive and counter-push backbone while Cannon, Skeletons, Fire Spirit, Earthquake, and The Log keep the rotation fast enough to return to Hog pressure repeatedly.",
+      "key_cards": [
+        {
+          "id": 26000021,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000072,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000020,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 27000000,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000014,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000031,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000011,
+          "evolutionLevel": 0
+        }
+      ],
+      "identity_cards": [
+        {
+          "id": 26000021,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000072,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000020,
+          "evolutionLevel": 0
+        }
+      ],
+      "popular_decks": [
+        {
+          "cards": [
+            {
+              "id": 26000021,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000072,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000020,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000010,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000031,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 27000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000014,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Giant Skeleton Archer Queen Hog cycle",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/hog-rider,archer-queen,giant-skeleton,skeletons,fire-spirit,cannon,earthquake,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Giant Skeleton Archer Queen Hog cycle — https://deckshop.pro/deck/detail/hog-rider,archer-queen,giant-skeleton,skeletons,fire-spirit,cannon,earthquake,the-log"
+        }
+      ],
+      "notes": "Browsing-backed draft from the exact current RoyaleAPI deck page plus the current Deckshop deck page. The shell looks real and locally missing, but current evidence is still modest, so keep it as a narrow Hog subtype rather than a broad replacement for other Hog cycle shells."
+    },
+    {
+      "id": "iwiz-bats-nado-control",
+      "name": "IWiz Bats Nado Control",
+      "kind": "shell",
+      "family_id": "control",
+      "tier": "B",
+      "description": "Defensive spell-cycle shell that trades efficiently, keeps the board stable with Tornado, and closes games through repeated Rocket, Poison, and Log chip.",
+      "key_cards": [
+        {
+          "id": 26000000,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000023,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000049,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000030,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000003,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000009,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000012,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000011,
+          "evolutionLevel": 0
+        }
+      ],
+      "identity_cards": [
+        {
+          "id": 26000000,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000023,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000049,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000012,
+          "evolutionLevel": 0
+        }
+      ],
+      "popular_decks": [
+        {
+          "cards": [
+            {
+              "id": 26000000,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000023,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000049,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000030,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000003,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000009,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000012,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000011,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "IceWiz spell cycle",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/knight,ice-wizard,bats,ice-spirit,rocket,poison,tornado,the-log",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — IceWiz spell cycle — https://deckshop.pro/deck/detail/knight,ice-wizard,bats,ice-spirit,rocket,poison,tornado,the-log"
+        }
+      ],
+      "notes": "Browsing-backed draft from current RoyaleAPI and Deckshop pages; not found in the local saved shell catalogue."
+    },
+    {
+      "id": "archer-queen-bridge-spam",
+      "name": "Archer Queen Bridge Spam",
+      "kind": "shell",
+      "family_id": "bridge-spam",
+      "tier": "C",
+      "description": "Bridge-spam shell that keeps the classic Battle Ram, Bandit, Royal Ghost, and Magic Archer pressure core but swaps the usual heavy anchor for Archer Queen-led control and a sturdier Barbarians defensive stop before counter-pushing at the river.",
+      "key_cards": [
+        {
+          "id": 26000036,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000072,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000050,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000046,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000062,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000008,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 28000016,
+          "evolutionLevel": 0
+        }
+      ],
+      "identity_cards": [
+        {
+          "id": 26000072,
+          "evolutionLevel": 0
+        },
+        {
+          "id": 26000036,
+          "evolutionLevel": 0
+        }
+      ],
+      "popular_decks": [
+        {
+          "cards": [
+            {
+              "id": 26000036,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000072,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000050,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000046,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000062,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000008,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000016,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000001,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Bridge spam Archer Queen Barbarians",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/battle-ram,archer-queen,royal-ghost,bandit,magic-archer,barbarians,heal-spirit,arrows",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Bridge spam Archer Queen Barbarians — https://deckshop.pro/deck/detail/battle-ram,archer-queen,royal-ghost,bandit,magic-archer,barbarians,heal-spirit,arrows"
+        },
+        {
+          "cards": [
+            {
+              "id": 26000036,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000072,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000043,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000050,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000046,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 26000062,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000016,
+              "evolutionLevel": 0
+            },
+            {
+              "id": 28000015,
+              "evolutionLevel": 0
+            }
+          ],
+          "title": "Archer Queen bridge spam",
+          "source": "Deckshop",
+          "source_url": "https://deckshop.pro/deck/detail/battle-ram,archer-queen,elite-barbarians,royal-ghost,bandit,magic-archer,heal-spirit,barbarian-barrel",
+          "usage_pct": null,
+          "win_rate": null,
+          "notes": "Imported from Deckshop — Archer Queen bridge spam — https://deckshop.pro/deck/detail/battle-ram,archer-queen,elite-barbarians,royal-ghost,bandit,magic-archer,heal-spirit,barbarian-barrel"
+        }
+      ],
+      "notes": "Browsing-backed draft from current Deckshop and RoyaleAPI deck pages. RoyaleAPI currently shows the deck page with no tracked match sample, so treat this as a narrow AQ bridge-spam subtype and keep confidence moderate until stronger repeated live samples appear."
     }
   ],
   "balance_changes": [
     {
-      "date": "2026-05-15",
-      "card": "Hero Barbarian Barrel",
-      "change": "Reroll Range: 4 tiles → 3 tiles (-25%)",
-      "summary": "Reroll Range decreased from 4 tiles to 3 tiles (-25%)."
+      "date": "2026-06-02",
+      "card": "Hero Tombstone",
+      "change": "Tap Hero Tombstone’s ability button to raise Tomb Queen: the earth and target buildings and look scary doing it. Keep in mind that summoning her destroys your Tombstone, so make sure you’re ready → lose the building before activating this 6-Elixir ability.",
+      "summary": "Tap Hero Tombstone’s ability button to raise Tomb Queen changed from the earth and target buildings and look scary doing it. Keep in mind that summoning her destroys your Tombstone, so make sure you’re ready to lose the building before activating this 6-Elixir ability.."
     },
     {
-      "date": "2026-05-15",
-      "card": "Hero Mega Minion",
-      "change": "Warp Damage: 412 → 373 (-9%)",
-      "summary": "Warp Damage decreased from 412 to 373 (-9%)."
+      "date": "2026-06-02",
+      "card": "Hero Balloon",
+      "change": "Skeletrooper Landing Damage: 307 → 263 (-14%)",
+      "summary": "Skeletrooper Landing Damage decreased from 307 to 263 (-14%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Goblin Drill Evolution",
-      "change": "Goblins Spawned on Second Submerge: 2 → 1 (-50%)",
-      "summary": "Goblins Spawned on Second Submerge decreased from 2 to 1 (-50%)."
+      "date": "2026-06-02",
+      "card": "Hero Bowler",
+      "change": "Ability Duration: 9s → 7.3s (-19%)",
+      "summary": "Ability Duration decreased from 9s to 7.3s (-19%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Royal Hogs Evolution",
-      "change": "Landing Damage: 84 → 43 (-48%)",
-      "summary": "Landing Damage decreased from 84 to 43 (-48%)."
+      "date": "2026-06-02",
+      "card": "Hero Dark Prince",
+      "change": "Deploy Time: 2s → 1s (-50%)",
+      "summary": "Deploy Time decreased from 2s to 1s (-50%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Giant Snowball Evolution",
-      "change": "Slowdown Duration: 4s → 3s (-25%)",
-      "summary": "Slowdown Duration decreased from 4s to 3s (-25%)."
+      "date": "2026-06-02",
+      "card": "Hero Dark Prince",
+      "change": "Tiles Needed for First Charge: 0 → 2.5 tiles",
+      "summary": "Tiles Needed for First Charge changed from 0 to 2.5 tiles."
     },
     {
-      "date": "2026-05-15",
-      "card": "Tesla Evolution",
-      "change": "Pulse Damage: 174 → 148 (-15%)",
-      "summary": "Pulse Damage decreased from 174 to 148 (-15%)."
+      "date": "2026-06-02",
+      "card": "Hero Dark Prince",
+      "change": "Rhino’s Crown Tower Spawn Damage: 307 → 0 (-100%)",
+      "summary": "Rhino’s Crown Tower Spawn Damage decreased from 307 to 0 (-100%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Dark Prince",
-      "change": "Hit Speed: 1.3s → 1.4s (+8%)",
-      "summary": "Hit Speed increased from 1.3s to 1.4s (+8%)."
+      "date": "2026-06-02",
+      "card": "Inferno Dragon Evolution",
+      "change": "Charge Duration: 9s → 7s (-22%)",
+      "summary": "Charge Duration decreased from 9s to 7s (-22%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Skeleton Dragons",
-      "change": "Damage: 161 → 151 (-6%)",
-      "summary": "Damage decreased from 161 to 151 (-6%)."
+      "date": "2026-06-02",
+      "card": "Inferno Dragon Evolution",
+      "change": "Evolved Inferno Dragon can be extremely difficult to defend when fully heated up. After this change, he won't carry his radioactive rage: defense → offense as often.",
+      "summary": "Evolved Inferno Dragon can be extremely difficult to defend when fully heated up. After this change, he won't carry his radioactive rage changed from defense to offense as often.."
     },
     {
-      "date": "2026-05-15",
-      "card": "Spirit Empress (Ground)",
-      "change": "Hit Speed: 1.1s → 1.2s (+9%)",
-      "summary": "Hit Speed increased from 1.1s to 1.2s (+9%)."
+      "date": "2026-06-02",
+      "card": "Lumberjack Evolution",
+      "change": "Crown Tower Damage: 256 → 128 (-50%)",
+      "summary": "Crown Tower Damage decreased from 256 to 128 (-50%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Spirit Empress (Ground)",
-      "change": "Hitpoints: 1152 → 1121 (-3%)",
-      "summary": "Hitpoints decreased from 1152 to 1121 (-3%)."
+      "date": "2026-06-02",
+      "card": "Mortar Evolution",
+      "change": "Deploy Time: 0.2s → 0.5s (+150%)",
+      "summary": "Deploy Time increased from 0.2s to 0.5s (+150%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Spirit Empress (Air)",
-      "change": "Hitpoints: 1177 → 1121 (-5%)",
-      "summary": "Hitpoints decreased from 1177 to 1121 (-5%)."
+      "date": "2026-06-02",
+      "card": "Mortar Evolution",
+      "change": "Goblins launched: Evolved Mortar are impossible → catch before they get a stab at the Crown Tower. Nerfing the deploy time for the Goblins will make a single Evolved Mortar lock less devastating.",
+      "summary": "Goblins launched changed from Evolved Mortar are impossible to catch before they get a stab at the Crown Tower. Nerfing the deploy time for the Goblins will make a single Evolved Mortar lock less devastating.."
     },
     {
-      "date": "2026-05-15",
-      "card": "Electro Giant",
-      "change": "Hit Speed: 2.1s → 1.8 (-14%)",
-      "summary": "Hit Speed decreased from 2.1s to 1.8 (-14%)."
+      "date": "2026-06-02",
+      "card": "Mega Knight Evolution",
+      "change": "Heavy Troop Knockback: 4 tiles → 2.5 tiles (-38%)",
+      "summary": "Heavy Troop Knockback decreased from 4 tiles to 2.5 tiles (-38%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Electro Giant",
-      "change": "First Hit Speed: 1.5s → 1s (-33%)",
-      "summary": "First Hit Speed decreased from 1.5s to 1s (-33%)."
+      "date": "2026-06-02",
+      "card": "Furnace",
+      "change": "Range: 6 tiles → 5.5 tiles (-8%)",
+      "summary": "Range decreased from 6 tiles to 5.5 tiles (-8%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Electro Giant",
-      "change": "Reflected Tower Damage: 50 → 38 (-24%)",
-      "summary": "Reflected Tower Damage decreased from 50 to 38 (-24%)."
+      "date": "2026-06-02",
+      "card": "Graveyard",
+      "change": "Skeleton Count: 13 → 12 (-8%)",
+      "summary": "Skeleton Count decreased from 13 to 12 (-8%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Giant Skeleton",
-      "change": "Hitpoints: 1413 → 1313 (-7%)",
-      "summary": "Hitpoints decreased from 1413 to 1313 (-7%)."
+      "date": "2026-06-02",
+      "card": "Graveyard",
+      "change": "Hitpoints: 1940 → 1832 (-6%)",
+      "summary": "Hitpoints decreased from 1940 to 1832 (-6%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Giant Skeleton",
-      "change": "Collision Radius: 1 tile → 0.75 tiles (-25%)",
-      "summary": "Collision Radius decreased from 1 tile to 0.75 tiles (-25%)."
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Lifetime: 30s → 25s (-17%)",
+      "summary": "Lifetime decreased from 30s to 25s (-17%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Giant Skeleton",
-      "change": "Death Bomb Damage: 209 → 269 (+29%)",
-      "summary": "Death Bomb Damage increased from 209 to 269 (+29%)."
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Hitpoints: 1152 → 1182 (+3%)",
+      "summary": "Hitpoints increased from 1152 to 1182 (+3%)."
     },
     {
-      "date": "2026-05-15",
-      "card": "Giant Skeleton",
-      "change": "Death Bomb Tower Damage: 418 → 269 (-36%)",
-      "summary": "Death Bomb Tower Damage decreased from 418 to 269 (-36%)."
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Arrows: 93 → 75 (-19%)",
+      "summary": "Arrows decreased from 93 to 75 (-19%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Earthquake: 159 → 147 (-8%)",
+      "summary": "Earthquake decreased from 159 to 147 (-8%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Fireball: 207 → 172 (-17%)",
+      "summary": "Fireball decreased from 207 to 172 (-17%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Freeze: 45 → 37 (-18%)",
+      "summary": "Freeze decreased from 45 to 37 (-18%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Giant Snowball: 54 → 45 (-17%)",
+      "summary": "Giant Snowball decreased from 54 to 45 (-17%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Lightning: 286 → 265 (-7%)",
+      "summary": "Lightning decreased from 286 to 265 (-7%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Poison: 184 → 168 (-9%)",
+      "summary": "Poison decreased from 184 to 168 (-9%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Rage: 54 → 45 (-17%)",
+      "summary": "Rage decreased from 54 to 45 (-17%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Rocket: 371 → 343 (-8%)",
+      "summary": "Rocket decreased from 371 to 343 (-8%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "The Log: 41 → 37 (-15%)",
+      "summary": "The Log decreased from 41 to 37 (-15%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Vines: 76 → 70 (-8%)",
+      "summary": "Vines decreased from 76 to 70 (-8%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Tesla",
+      "change": "Zap: 58 → 48 (-17%)",
+      "summary": "Zap decreased from 58 to 48 (-17%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Dart Goblin Evolution",
+      "change": "Stage 1: 51 → 64 (+25%)",
+      "summary": "Stage 1 increased from 51 to 64 (+25%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Dart Goblin Evolution",
+      "change": "Stage 2: 115 → 128 (+11%)",
+      "summary": "Stage 2 increased from 115 to 128 (+11%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Electro Dragon",
+      "change": "Hitpoints: 998 → 1049 (+5%)",
+      "summary": "Hitpoints increased from 998 to 1049 (+5%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Goblin Giant",
+      "change": "Hitpoints: 3020 → 3110 (+3%)",
+      "summary": "Hitpoints increased from 3020 to 3110 (+3%)."
+    },
+    {
+      "date": "2026-06-02",
+      "card": "Rune Giant",
+      "change": "Damage: 120 → 153 (+28%)",
+      "summary": "Damage increased from 120 to 153 (+28%)."
     }
   ]
 }
